@@ -206,13 +206,13 @@
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
       "LiveSharp.Runtime.dll": "sha256-wvI4VNKRtEXl3uMTKeTQTHh+K31mZWb+67hruAsatwY=",
       "LiveSharp.Support.BlazorWASM.dll": "sha256-1lpeyiLQF5kny0HxWAUwOftdaokrefBR8bfVk8o4igk=",
-      "adaptTerrariaWiki.dll": "sha256-lA7iUsuwFWKI2+Cp+byH50t0WZN3R9JfqytkNABFbJo="
+      "adaptTerrariaWiki.dll": "sha256-UD6\/lBIf7PsEGZwwN1S6fBHb21BTpq7KTv2loedtGVQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "adaptTerrariaWiki.pdb": "sha256-ULl0cbfMIHzz29T3cKtL17Cf+lGTUSXTaGm\/tij8rUM="
+      "adaptTerrariaWiki.pdb": "sha256-187FQy8vkTfjyNX+EysZRdYEKYFGweZUlnwpLN7kJXA="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

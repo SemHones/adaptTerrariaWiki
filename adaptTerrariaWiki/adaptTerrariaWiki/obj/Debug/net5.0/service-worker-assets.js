@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-XQHMv2QC431Opd70h2GoDu00Q3\/ZfmsEG2xlj5Ct0hE=",
+      "hash": "sha256-n99I8gKO\/PCs2\/z4D7BAORLK1FLtfA9Ee4Zf+8U83Bc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -829,11 +829,11 @@
       "url": "_framework\/LiveSharp.Support.BlazorWASM.dll"
     },
     {
-      "hash": "sha256-lA7iUsuwFWKI2+Cp+byH50t0WZN3R9JfqytkNABFbJo=",
+      "hash": "sha256-UD6\/lBIf7PsEGZwwN1S6fBHb21BTpq7KTv2loedtGVQ=",
       "url": "_framework\/adaptTerrariaWiki.dll"
     },
     {
-      "hash": "sha256-ULl0cbfMIHzz29T3cKtL17Cf+lGTUSXTaGm\/tij8rUM=",
+      "hash": "sha256-187FQy8vkTfjyNX+EysZRdYEKYFGweZUlnwpLN7kJXA=",
       "url": "_framework\/adaptTerrariaWiki.pdb"
     },
     {
@@ -1741,5 +1741,5 @@
       "url": "adaptTerrariaWiki.bundle.scp.css"
     }
   ],
-  "version": "wV1xsUI2"
+  "version": "cVZlmAKA"
 };
