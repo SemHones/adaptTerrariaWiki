@@ -99,7 +99,7 @@ class ScrapeData:
         row_data['head'] = cells[3].get_text(strip=True)
         row_data['chest'] = cells[4].get_text(strip=True)
         row_data['legs'] = cells[5].get_text(strip=True)
-        row_data['sum'] = cells[6].get_text(strip=True)
+        row_data['summary'] = cells[6].get_text(strip=True)
         row_data['bonus'] = self.filterString(cells[7].get_text())
 
         # Append the row data to the list

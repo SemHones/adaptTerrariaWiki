@@ -10,7 +10,7 @@
                 "head": "4",
                 "chest": "5",
                 "legs": "4",
-                "sum": "13",
+                "summary": "13",
                 "bonus": " +9% critical strike chance +8% critical strike chance, +5% damageSet Bonus: 20% chance to save ammo"
             },
             {
@@ -21,7 +21,7 @@
                 "head": "6",
                 "chest": "7",
                 "legs": "6",
-                "sum": "19",
+                "summary": "19",
                 "bonus": "+15% ranged damageSet Bonus: 10% increased ranged critical strike chance"
             },
             {
@@ -32,7 +32,7 @@
                 "head": "5",
                 "chest": "10",
                 "legs": "8",
-                "sum": "23",
+                "summary": "23",
                 "bonus": "+10% movement speed+13% /  +10% ranged damage+15% /  +9% ranged critical strike chanceSet Bonus: 20% chance to save ammo"
             },
             {
@@ -43,7 +43,7 @@
                 "head": "5",
                 "chest": "10",
                 "legs": "8",
-                "sum": "23",
+                "summary": "23",
                 "bonus": "+14% ranged damage+12% ranged critical strike chanceSet Bonus: Greatly increases life regeneration after striking an enemy"
             },
             {
@@ -54,7 +54,7 @@
                 "head": "6",
                 "chest": "12",
                 "legs": "9",
-                "sum": "27",
+                "summary": "27",
                 "bonus": " +19% /  +17% ranged damage +17% /  +10% ranged critical strike chanceSet Bonus: 20% chance to save ammo"
             },
             {
@@ -65,7 +65,7 @@
                 "head": "7",
                 "chest": "13",
                 "legs": "10",
-                "sum": "30",
+                "summary": "30",
                 "bonus": "+21% ranged critical strike chance+19% movement speedSet Bonus: Flower petals will fall on your target for extra damage"
             },
             {
@@ -76,7 +76,7 @@
                 "head": "8",
                 "chest": "16",
                 "legs": "12",
-                "sum": "36",
+                "summary": "36",
                 "bonus": "+5% movement speed +22% /  +20% ranged damage +17% /  +12% ranged critical strike chanceSet Bonus: 25% chance to save ammo"
             },
             {
@@ -87,7 +87,7 @@
                 "head": "8",
                 "chest": "15",
                 "legs": "11",
-                "sum": "34",
+                "summary": "34",
                 "bonus": "+6% movement speed+23% ranged damage+13% ranged critical strike chanceSet Bonus: Attacking generates a defensive barrier of titanium shards"
             },
             {
@@ -98,7 +98,7 @@
                 "head": "7",
                 "chest": "17",
                 "legs": "12",
-                "sum": "36",
+                "summary": "36",
                 "bonus": "+1 sentry capacity+30% minion damage+20% ranged damage+10% ranged critical strike chance+20% movement speed 10% chance to not consume ammoSet Bonus: Increases your max number of sentriesExplosive Traps recharge faster and oil enemiesSet oiled enemies on fire for extra damage"
             },
             {
@@ -109,7 +109,7 @@
                 "head": "9",
                 "chest": "15",
                 "legs": "11",
-                "sum": "35",
+                "summary": "35",
                 "bonus": "+8% movement speed+22% ranged damage+15% ranged critical strike chanceSet Bonus:  Become immune after striking an enemy   25% chance to not consume ammo"
             },
             {
@@ -120,7 +120,7 @@
                 "head": "10",
                 "chest": "20",
                 "legs": "13",
-                "sum": "43",
+                "summary": "43",
                 "bonus": "+16% melee and ranged damage+11% melee and ranged critical strike chance+8% movement speed+7% melee speedSet Bonus: Melee and ranged attacks cause frostburnIncreases melee and ranged damage by 10%"
             },
             {
@@ -131,7 +131,7 @@
                 "head": "13",
                 "chest": "18",
                 "legs": "13",
-                "sum": "44",
+                "summary": "44",
                 "bonus": "+21% ranged damage+20% critical strike chance+5% movement speed20% chance to not consume ammoSet Bonus: Summons a powerful leaf crystal to shoot at nearby enemies"
             },
             {
@@ -142,7 +142,7 @@
                 "head": "11",
                 "chest": "24",
                 "legs": "16",
-                "sum": "51",
+                "summary": "51",
                 "bonus": "+13% ranged damage+25% ranged critical strike chance+12% movement speed20% chance to not consume ammoShroomite Headgear: \u00d71.15 arrow damageShroomite Mask: \u00d71.15 bullet damageShroomite Helmet: \u00d71.15 rocket damageSet Bonus: Not moving puts you in stealth,increasing ranged ability and reducing chance for enemies to target you"
             },
             {
@@ -153,7 +153,7 @@
                 "head": "8",
                 "chest": "24",
                 "legs": "16",
-                "sum": "48",
+                "summary": "48",
                 "bonus": "+2 sentry capacity+60% minion damage+25% ranged damage +20% /  +10% ranged critical strike chance+20% movement speed 20% chance to not consume ammoSet Bonus: Increases your max number of sentriesGreatly enhances Explosive Traps effectiveness"
             },
             {
@@ -164,7 +164,7 @@
                 "head": "14",
                 "chest": "18",
                 "legs": "13",
-                "sum": "45",
+                "summary": "45",
                 "bonus": "+30% ranged damage20% chance to not consume ammo+10% movement speed+20% ranged critical strike chanceSet Bonus: 28% chance to not consume ammo (48% total)"
             },
             {
@@ -175,7 +175,7 @@
                 "head": "14",
                 "chest": "28",
                 "legs": "20",
-                "sum": "62",
+                "summary": "62",
                 "bonus": "+36% ranged damage+27% ranged critical strike chance+10% movement speed25% chance to not consume ammoSet Bonus: Double tap \u25bc Down to toggle stealth,increasing ranged ability and reducing chance for enemies to target you but slowing movement speed"
             }
         ]

@@ -10,7 +10,7 @@
                 "head": "7",
                 "chest": "6",
                 "legs": "19",
-                "sum": "+21% meleeattack speedEach piece is interchangeable betweenShadow armorandAncient Shadow armorpiecesSet Bonus:+15% movement speedSet Effect:After-image when moving and flames ofrocket bootsbecome purple",
+                "summary": "+21% meleeattack speedEach piece is interchangeable betweenShadow armorandAncient Shadow armorpiecesSet Bonus:+15% movement speedSet Effect:After-image when moving and flames ofrocket bootsbecome purple",
                 "bonus": "60 Demonite Bar45 Shadow ScaleCrafted at Iron Anvil / Lead Anvil"
             },
             {
@@ -21,7 +21,7 @@
                 "head": "9",
                 "chest": "8",
                 "legs": "25",
-                "sum": "+7% melee speed+7% melee damage+7% melee critical hit chanceSet Bonus:+17% melee damageSet Bonus:+10% melee damage (+17% total), cannot be set on fireSet Effect:Flame particles when moving",
+                "summary": "+7% melee speed+7% melee damage+7% melee critical hit chanceSet Bonus:+17% melee damageSet Bonus:+10% melee damage (+17% total), cannot be set on fireSet Effect:Flame particles when moving",
                 "bonus": "45 Hellstone BarCrafted at Iron Anvil / Lead Anvil"
             },
             {
@@ -32,7 +32,7 @@
                 "head": "8",
                 "chest": "7/8",
                 "legs": "26/28",
-                "sum": "+3% critical strike chance+5% critical strike chance+20% movement speed+12% melee speed+15% melee damage+3% damageSet Bonus:+15% melee speed (+27% total)",
+                "summary": "+3% critical strike chance+5% critical strike chance+20% movement speed+12% melee speed+15% melee damage+3% damageSet Bonus:+15% melee speed (+27% total)",
                 "bonus": "45 Cobalt BarCrafted at Iron Anvil / Lead Anvil"
             },
             {
@@ -43,7 +43,7 @@
                 "head": "10",
                 "chest": "8",
                 "legs": "32",
-                "sum": "+5% damage+3% critical strike chance+8% melee damage+12% melee damage+12% melee speedSet Bonus:GivesRapid Healingbuff for 5 seconds when you hit an enemy",
+                "summary": "+5% damage+3% critical strike chance+8% melee damage+12% melee damage+12% melee speedSet Bonus:GivesRapid Healingbuff for 5 seconds when you hit an enemy",
                 "bonus": "54 Palladium BarCrafted at Iron Anvil / Lead Anvil"
             },
             {
@@ -54,7 +54,7 @@
                 "head": "12",
                 "chest": "9",
                 "legs": "37",
-                "sum": "+5% damage+7% damage+3% critical strike chance+10% critical strike chance+5% melee critical strike chance+8% melee critical strike chance+10% melee damageSet Bonus:+5% melee critical strike chance (+13% total)Set Bonus:+10% melee critical strike chance (+18% total)",
+                "summary": "+5% damage+7% damage+3% critical strike chance+10% critical strike chance+5% melee critical strike chance+8% melee critical strike chance+10% melee damageSet Bonus:+5% melee critical strike chance (+13% total)Set Bonus:+10% melee critical strike chance (+18% total)",
                 "bonus": "45 Mythril BarCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -65,7 +65,7 @@
                 "head": "13",
                 "chest": "10",
                 "legs": "42",
-                "sum": "+6% critical strike chance+18% movement speed+7% melee damage+11% melee damage+7% melee speedSet Bonus:Flower petals will fall on your target for extra damage",
+                "summary": "+6% critical strike chance+18% movement speed+7% melee damage+11% melee damage+7% melee speedSet Bonus:Flower petals will fall on your target for extra damage",
                 "bonus": "54 Orichalcum BarCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -76,7 +76,7 @@
                 "head": "16",
                 "chest": "12",
                 "legs": "50",
-                "sum": "+6% damage+8% damage+4% critical strike chance+7% critical strike chance+5% movement speed+7% melee critical strike chance+14% melee damageSet Bonus:+18% melee speed, +18% movement speed (+23% total)Set Bonus:+20% melee speed, +20% movement speed (+23% total)Set Effect:Pulsating outline of player",
+                "summary": "+6% damage+8% damage+4% critical strike chance+7% critical strike chance+5% movement speed+7% melee critical strike chance+14% melee damageSet Bonus:+18% melee speed, +18% movement speed (+23% total)Set Bonus:+20% melee speed, +20% movement speed (+23% total)Set Effect:Pulsating outline of player",
                 "bonus": "54 Adamantite BarCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -87,7 +87,7 @@
                 "head": "15",
                 "chest": "11",
                 "legs": "49",
-                "sum": "+7% damage+6% critical strike chance+6% movement speed+8% melee speed+9% melee speed+8% melee damage+9% melee damage+8% melee critical strike chance+9% melee critical strike chanceSet Bonus:Gives Titanium Barrier buff for 10 seconds when you hit an enemy.Set Bonus:GivesShadow Dodgebuff for 30 seconds when you hit an enemy, or until you take damage.",
+                "summary": "+7% damage+6% critical strike chance+6% movement speed+8% melee speed+9% melee speed+8% melee damage+9% melee damage+8% melee critical strike chance+9% melee critical strike chanceSet Bonus:Gives Titanium Barrier buff for 10 seconds when you hit an enemy.Set Bonus:GivesShadow Dodgebuff for 30 seconds when you hit an enemy, or until you take damage.",
                 "bonus": "59 Titanium BarCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -98,7 +98,7 @@
                 "head": "20",
                 "chest": "13",
                 "legs": "43",
-                "sum": "+16% melee and ranged damage+11% melee and ranged critical strike chance+8% movement speed+7% melee speedSet Bonus:Melee and ranged attacks causeFrostburnSet Bonus:+10% melee and ranged damage, melee and ranged attacks causeFrostburnwith 25 damage per secondSet Effect:Snow trail when moving, ice shattering sound effect replaces pain sound",
+                "summary": "+16% melee and ranged damage+11% melee and ranged critical strike chance+8% movement speed+7% melee speedSet Bonus:Melee and ranged attacks causeFrostburnSet Bonus:+10% melee and ranged damage, melee and ranged attacks causeFrostburnwith 25 damage per secondSet Effect:Snow trail when moving, ice shattering sound effect replaces pain sound",
                 "bonus": "46 Titanium Bar or 46 Adamantite Bar ()46 Hallowed Bar ()3 Frost CoreCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -109,7 +109,7 @@
                 "head": "15",
                 "chest": "11",
                 "legs": "50",
-                "sum": "+7% damage+7% critical strike chance+8% movement speed+10% melee damage critical strike chance+10% melee speedSet Bonus:+19% melee speed (+29% total), +19% movement speed (+27% total)Set Bonus:Become immune after striking an enemySet Effect:After-image and pulsating effect",
+                "summary": "+7% damage+7% critical strike chance+8% movement speed+10% melee damage critical strike chance+10% melee speedSet Bonus:+19% melee speed (+29% total), +19% movement speed (+27% total)Set Bonus:Become immune after striking an enemySet Effect:After-image and pulsating effect",
                 "bonus": "54 Hallowed BarCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -120,7 +120,7 @@
                 "head": "027",
                 "chest": "017/18",
                 "legs": "0/58",
-                "sum": "+1 sentry capacity+30% minion damage+15% melee damage+20% melee critical strike chance+15% melee critical strike chance+20% movement speedIncreased life regenerationSet Bonus:+1 sentry capacity (+2 total)Ballista pierces more targets and panics when you take damage",
+                "summary": "+1 sentry capacity+30% minion damage+15% melee damage+20% melee critical strike chance+15% melee critical strike chance+20% movement speedIncreased life regenerationSet Bonus:+1 sentry capacity (+2 total)Ballista pierces more targets and panics when you take damage",
                 "bonus": "Sold by the Tavernkeep for 750000*75  (set)"
             },
             {
@@ -131,7 +131,7 @@
                 "head": "022",
                 "chest": "016",
                 "legs": "046",
-                "sum": "+1 sentry capacity+30% minion damage+20% melee damage+20% melee speed+15% melee critical strike chance+20% movement speedSet Bonus:+1 sentry capacity (+2 total)Lightning Aura can now crit and strikes faster",
+                "summary": "+1 sentry capacity+30% minion damage+20% melee damage+20% melee speed+15% melee critical strike chance+20% movement speedSet Bonus:+1 sentry capacity (+2 total)Lightning Aura can now crit and strikes faster",
                 "bonus": "Sold by the Tavernkeep for 750000*75  (set)"
             },
             {
@@ -142,7 +142,7 @@
                 "head": "18",
                 "chest": "13",
                 "legs": "56/51",
-                "sum": "+5% damage+15% critical strike chance+5% movement speed+16% melee damage+6% melee critical strike chanceSet Bonus:Causes a leaf crystal to permanently appear over the player's head, attacking enemies for ~40 base damageAdditionally grants 5% damage reduction",
+                "summary": "+5% damage+15% critical strike chance+5% movement speed+16% melee damage+6% melee critical strike chanceSet Bonus:Causes a leaf crystal to permanently appear over the player's head, attacking enemies for ~40 base damageAdditionally grants 5% damage reduction",
                 "bonus": "54 Chlorophyte BarCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -153,7 +153,7 @@
                 "head": "27",
                 "chest": "17",
                 "legs": "65",
-                "sum": "+14% melee damage+12% critical strike chanceEnemies are more likely to attack youSet Bonus:Melee attacking enemies receive damage inflicted equal to their damage value before your defense reduction (twice as much damage is dealt inPC version,Console version,Mobile version, andtModLoader version).Additional set bonus of 15% damage reduction",
+                "summary": "+14% melee damage+12% critical strike chanceEnemies are more likely to attack youSet Bonus:Melee attacking enemies receive damage inflicted equal to their damage value before your defense reduction (twice as much damage is dealt inPC version,Console version,Mobile version, andtModLoader version).Additional set bonus of 15% damage reduction",
                 "bonus": "54 Chlorophyte Bar3 Turtle ShellCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -164,7 +164,7 @@
                 "head": "20",
                 "chest": "18",
                 "legs": "61",
-                "sum": "+14% melee damage+8% melee critical strike chance+12% movement and melee speedSet Bonus:Increases melee damage and speed in increments of 10%, up to 30%",
+                "summary": "+14% melee damage+8% melee critical strike chance+12% movement and melee speedSet Bonus:Increases melee damage and speed in increments of 10%, up to 30%",
                 "bonus": "18 Beetle HuskFull Turtle armor setCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -175,7 +175,7 @@
                 "head": "32",
                 "chest": "18",
                 "legs": "73",
-                "sum": "+11% melee damage+6% movement and melee speed+5% melee critical strike chanceSet Bonus:Starts at 15% damage mitigation and goes up to 45%",
+                "summary": "+11% melee damage+6% movement and melee speed+5% melee critical strike chanceSet Bonus:Starts at 15% damage mitigation and goes up to 45%",
                 "bonus": "18 Beetle HuskFull Turtle armor setCrafted at Mythril Anvil / Orichalcum Anvil"
             },
             {
@@ -186,7 +186,7 @@
                 "head": "20",
                 "chest": "14",
                 "legs": "60",
-                "sum": "+15% melee damage+2% melee attack speed+25% critical strike chance+12% movement speedSet Bonus:+21% melee attack speed (+23% total), +21% movement speed (+33% total)",
+                "summary": "+15% melee damage+2% melee attack speed+25% critical strike chance+12% movement speedSet Bonus:+21% melee attack speed (+23% total), +21% movement speed (+33% total)",
                 "bonus": "30 Soul of Might50 Soul of BlightFull Cobalt armor setFull Mythril armor setFull Adamantite armor set () / Full Titanium armor set ()Full Hallowed armor setCrafted at Mythril Anvil / Orichalcum AnvilEach piece has an 11% chance to be dropped by Ocram"
             },
             {
@@ -197,7 +197,7 @@
                 "head": "030/24",
                 "chest": "020/24",
                 "legs": "064/68",
-                "sum": "+2 sentry capacity+60% minion damage+10% melee damage+20% melee critical strike chance+30% movement speedMassively increased life regenerationSet Bonus:+1 sentry capacity (+3 total)Greatly enhances Ballista effectiveness",
+                "summary": "+2 sentry capacity+60% minion damage+10% melee damage+20% melee critical strike chance+30% movement speedMassively increased life regenerationSet Bonus:+1 sentry capacity (+3 total)Greatly enhances Ballista effectiveness",
                 "bonus": "Sold by the Tavernkeep for 2250000*225  (set)"
             },
             {
@@ -208,7 +208,7 @@
                 "head": "026",
                 "chest": "018",
                 "legs": "054",
-                "sum": "+2 sentry capacity+60% minion damage+20% melee damage+20% melee speed+20% melee critical strike chance+25% melee critical strike chance+20% movement speed+30% movement speedSet Bonus:+1 sentry capacity (+3 total)Greatly enhances Lightning Aura effectiveness",
+                "summary": "+2 sentry capacity+60% minion damage+20% melee damage+20% melee speed+20% melee critical strike chance+25% melee critical strike chance+20% movement speed+30% movement speedSet Bonus:+1 sentry capacity (+3 total)Greatly enhances Lightning Aura effectiveness",
                 "bonus": "Sold by the Tavernkeep for 2250000*225  (set)"
             },
             {
@@ -219,7 +219,7 @@
                 "head": "34",
                 "chest": "20",
                 "legs": "78",
-                "sum": "+29% melee damage+26% melee critical hit chanceIncreased life regeneration (+3 HP/sec)+15% movement and melee speedEnemies are more likely to target youSet Bonus:Solar shields generate over time protecting you, consume the shield power to dash, damaging enemiesSet Effect:After-image during motion.",
+                "summary": "+29% melee damage+26% melee critical hit chanceIncreased life regeneration (+3 HP/sec)+15% movement and melee speedEnemies are more likely to target youSet Bonus:Solar shields generate over time protecting you, consume the shield power to dash, damaging enemiesSet Effect:After-image during motion.",
                 "bonus": "45 Solar Fragment36 Luminite BarCrafted at Ancient Manipulator"
             }
         ]
