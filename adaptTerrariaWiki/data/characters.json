@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "stage": 1,
+        "class": "ranged",
+        "items_obtained": [
+            {
+                "type": "weapon",
+                "name": "Molten Fury",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAkCAYAAACE7WrnAAABnElEQVR4nN2WsUtCURSHPzOMtloyLEgaQoemBAWlIVpram+Jhjal+iMkEBoaIgIXJ5eyUSRCsaQmiyREDSooKB0CScLXcLqR8B5oPh068OByz3m/+/G7977zCA+4td8Pf4zBv75oKDQ/8gHAQt3WQpWqNyz9Jdpu3loAwjXx59gl2vvjPqnIprV2yMz36GFGrNkrTAEQCtx+ZwIAOHOnGsDhe1OXzHwip8MhJIWUrHggnm0dvQJQTSxKYSypS2Y+0dzzc0tC7eb86rQG4I3K/A76ZOYTGcVZbQgAT+IFgNGgHYD1uBOAQ0rtCXVMNOufkMHNTUuB8krtYog8AN7MLADnfrTeELUbl/FhIQp2KWQU/0DIs1I3R8gofoTymUfdAtVZQms1AKxBOT8X/iIAvrdSn++a6i7WpTEAqhGZ329UOhPqmOjKLrda3TXljTdqE5KE5DdjSaAfX8jK01MLidqlSMQNwHVOn6R3RJN3stCG6x6A3aJ02pNsGoBUXZ/EfCLliTovy+VPyZQVSb//RtRAdYtUsz0CQ6Fu4wuRhpGjE7JD4AAAAABJRU5ErkJggg==",
+                "href": "/wiki/Molten_Fury",
+                "damage": "31/ 29",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "type": "weapon",
+                "name": "The Bee's Knees",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA4BAMAAAAY61W6AAAAJFBMVEUAAAD+whRXJw02FAF1NBKzUBvUgwv+9iU/J2kYECkiFzyLbb8lI+DlAAAAAXRSTlMAQObYZgAAALNJREFUeNp902sVxSAIAGAqUIEKVKACFahABStYYRVW7qr3JUzdv48jExEBgAjCl0yIdDCru5wdErJbAFNCdGXzOeHhVtGckH2NLelgIENSs7VLL8mUAXBrMhP5BBbuBVWU3/+SB+9vYONyo27M1gPV3wlPgxgW971ZrKCRENDaLNrAQrA2jX7A1I+/r9Gv0O/kduMH136ecN/JcfnDbbM0bxbnEU3PzuMa3wOrHt26BXu/AKF4akF0P2EgAAAAAElFTkSuQmCC",
+                "href": "/wiki/The_Bee%27s_Knees",
+                "damage": "23/ 26",
+                "obtained_by": "Dropped by Queen Bee.",
+                "notes": "Converts Wooden Arrows to bees."
+            },
+            {
+                "type": "armor",
+                "name": "Fossil armor",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAsCAYAAAB2d9g5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHWSURBVFhHzdUxThxBEIXhCQjIQI7I4AAgIYcmQiASS05syYnJHDpzYMeWQw7CAYghQVyExJIPsWib+ph27Y5mMZpmn/Qkqrvq/a1mZrYb0une5myZY/tpP8qXq4bUju3pgLP738UXX46Krd9d/ipW/zzoljrixiWoGZAywAHY+s23rnh2e/joP1fFzwZPBhSc7Sr58sdZ8dABABxg/YAGBQLsbm0U55rzAfTJDUyv5kDS4Aoz2Lo+D0kGs76IX5SGZkDSCCQg1/rYej6A/YhflIbJgPXQ3AbUrhIwgznv539B4BoC/TH2OugTwPaHanPcHkgWgOqmuQWNrQ/1BaaXjcmBFsau1Lo+9nFW6zMXmF7NgQQMlB8C6wL9/PihVeuTF/GLag4UrJG/fv5Q/Gl/u9hBnq4yPt5q++blBqbXqwHfH78rBro+Pyl+u/Om2JVmsFqOeXVgetloBhT49/vHf5yBrhY4vw7AeS4wvWysLZAB1a5w/YCkIdvDVL8yc7vKvG4uYodVQ2pPBsxyRR5zga5yqI7x56sZcAiUP+LWcx0xq6s50CB7obPzvjpiVpdBriG18746YlZXDspX6SHJD0uuI25cBpoDX+qIG9ey4f9xxIW67gHoTTAqYgC0ZAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Fossil_armor",
+                "obtained_by": "Crafted",
+                "head": "4",
+                "chest": "5",
+                "legs": "4",
+                "sum": "13",
+                "bonus": " +9% critical strike chance +8% critical strike chance, +5% damageSet Bonus: 20% chance to save ammo"
+            }
+        ],
+        "items_to_obtain": [
+            {
+                "type": "accessory",
+                "name": "Ranger Emblem",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEUAAABAQEAgICChoaEzIQVUVFTf399gOQnnmRzs1jP/+dFv/xg3AAAAAXRSTlMAQObYZgAAAHpJREFUeNpt0VENBDEIBNBaGAtjAQtYwAIWsHAWaqEqD9i7j91l+vUSQpphrQwqXP/cSLi7iJAT4ezIxBRgGhHtgaaffSa2DHp21LInhWY5nG+mlqCg4Mmc2JHKr9BfTOtJ2aU3WZssWxhYrkCwJkK6OnDir3bcr9D8AjnfRKt4it4FAAAAAElFTkSuQmCC",
+                "href": "/wiki/Ranger_Emblem",
+                "boost": "+15% ranged damage"
+            },
+            {
+                "type": "accessory",
+                "name": "Avenger Emblem",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAJFBMVEUAAAAgICBAQEChoaEyAAhUVFTf399ZAA7tHCS7Dh2IABX/TlUPYjgwAAAAAXRSTlMAQObYZgAAAH9JREFUeNp10UENQzEMA9BSCAVTCAVTCIVQCIVSGIVRGLm53Xb4v5kPkZ5UuWo6hoIVG79caMhMdzfriLQd74isCoXcPvlghEZDFYGTNYlVdqdboF5S/GHUXG3muFMnJFK2PCjzSUBj6aTpkgBbLn+ej9ERvlcH6/hdO66/sPkGls5Jcx+Zu0UAAAAASUVORK5CYII=",
+                "href": "/wiki/Avenger_Emblem",
+                "boost": "+12% damage"
+            }
+        ]
+    }
+]

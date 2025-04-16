@@ -1,0 +1,967 @@
+[
+    {
+        "tableTitle": "Ranged weapon 1",
+        "contents": [
+            {
+                "name": "Wooden Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAbElEQVR42mNggAJzNcn/yJiBVEC2ATAN07O9UTDRBlFsAC4vkO0Ssg0IdjT6D8LoBq6sjQVjggZR3QB0g/b354MxToOGsQFEGzRqwLA2gOhMNQwNILloo9iAgSuVYQqKAi1QMMk2k23AgNfOAD3DqnhPYawEAAAAAElFTkSuQmCC",
+                "href": "/wiki/Wooden_Bow",
+                "damage": "4",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Boreal Wood Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAGFBMVEUAAAAdGBU9MSmKdGVVRDlrVkeGen2ZjY+hVGHGAAAAAXRSTlMAQObYZgAAAExJREFUeNpjYBAUZIAAGENQSUkQlQGUggnBGQyCoYJoDAbBckF0hjE6A8JCZZRjMNIwGOi6wDKojFA0BtStCAa6LwRdXKACMAZGaAAA3GION+Wqtz4AAAAASUVORK5CYII=",
+                "href": "/wiki/Boreal_Wood_Bow",
+                "damage": "6",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Palm Wood Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAElBMVEUAAAAsIhy2jVZiSivGqmiPbT80moRmAAAAAXRSTlMAQObYZgAAAElJREFUeNpl0FsNACAIRmEqnApWoAIV7F9FN0TnD0/fuI1hBpZRIIIfuzQQGI5gD6AYitQPb4gGnWLW5gsXnFsfsvWB6SdRaN9YGSYM40LkTkwAAAAASUVORK5CYII=",
+                "href": "/wiki/Palm_Wood_Bow",
+                "damage": "6",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Rich Mahogany Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAZklEQVR42mNggAIjCan/yJiBVEC2ATANxY4uKJhogyg2AJcXyHYJxQag8ycGhoIxQYOobgC6+I6yGjDGadAwNoBog0YNGNYGEJ2phqEBJBdtVDOA/qUyTEGQviEKJtlmsg0Y8NoZALLAg1Q+FUqpAAAAAElFTkSuQmCC",
+                "href": "/wiki/Rich_Mahogany_Bow",
+                "damage": "6",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Copper Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAc0lEQVR42mPQleT7jw0zEAuoZsA0ZzEUTLRBFBuAyytku4RsA4oCLf6DMLqB2yMkwTjGRA6M6WcADMA0vl7WDsY4DaK5Af8f3QRj+htAtEEjyACc0TmMDSA6U9HNAJwFDNUNILloo9iAgSuVB75mGvDaGQAJxcMcTISL4gAAAABJRU5ErkJggg==",
+                "href": "/wiki/Copper_Bow",
+                "damage": "6",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Tin Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAc0lEQVR42mNwMlX/jw0zEAuoZkBmZiYKJtogig3A5RWyXUK2AZHGpv9BGN3AxtpYMA719wBj+hkAAzCNu5fWgDFOg2huwJPbi8CY/gYQbdAIMgBndA5jA4jOVHQzAGcBQ3UDSC7aKDZg4Erlga+ZBrx2BgAzheTE6yNfHQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Tin_Bow",
+                "damage": "7",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Ebonwood Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAZklEQVR42mNggAJ5Wc3/yJiBVEC2ATANwQEpKJhogyg2AJcXyHYJxQag8zNS6sCYoEFUNwBdvLa0H4xxGjSMDSDaoFEDhrUBRGeqYWgAyUUb1Qygf6kMU2Bj5YGCSbaZbAMGvHYGAICxgpybJmj2AAAAAElFTkSuQmCC",
+                "href": "/wiki/Ebonwood_Bow",
+                "damage": "8",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Shadewood Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAXUlEQVR42mNggAIJeZ3/yJiBVEC2ATANEZllKJhogyg2AJcXyHYJxQag80vbpoIxQYOobgDJBg1jA4g2aNSAYW3ASM4LJBdtVDOA/qUyTIFnWCIKJtlmsg0Y8NoZAOAci7zAkE9dAAAAAElFTkSuQmCC",
+                "href": "/wiki/Shadewood_Bow",
+                "damage": "8",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Iron Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAGFBMVEUAAAAyMjJOTk5yUThpaWm9n4uThHrq5uKoijJuAAAAAXRSTlMAQObYZgAAAERJREFUeNpjEBQUZAADBCPURVAJhQGUcxFEZRgzCKYpoTEYlEKV0Bnl6AwIixAjlCADYisqQxCVAXUrnIHhC0yfYoQGAMoyFlFfoSMbAAAAAElFTkSuQmCC",
+                "href": "/wiki/Iron_Bow",
+                "damage": "8",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Lead Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAFVBMVEUAAAAqKio0Pk5ZMzVojJa1trteXl7jsVTdAAAAAXRSTlMAQObYZgAAAEZJREFUeNpjEBQUZAADBMNFSVAJhQGUUxJEZRgzCCopoTEYlFyU0Bmh6AwIixDDhSBDMA1qIBJDEJUBdSucgeELTJ9ihAYAvpkS/2tOnRcAAAAASUVORK5CYII=",
+                "href": "/wiki/Lead_Bow",
+                "damage": "9",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Silver Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAKlBMVEUAAAA9SElLVl9HAAAaJCiQBwdTPgt6jJCrtrf2+frYDQ15XBL/+bVbamyvCS/dAAAAAXRSTlMAQObYZgAAAEhJREFUeNpjCA01ZgADBGOVcdpuFAaDsfGZNFSGEoNLhyAag0GwXBCdMROdAWERYpQTZEBsRWW4oDJc7rowIDMwfIHpU4zQAADnQSYfPiY2eQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Silver_Bow",
+                "damage": "9",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Ash Wood Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAiBAMAAACkb0T0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAFVBMVEUAAAAiHCQ2Nk51Z3ZLS1WniY3///8xGExLAAAAAXRSTlMAQObYZgAAAAFiS0dEBmFmuH0AAAAHdElNRQfmCw8SIB3KWkwdAAAAT0lEQVQY02MQVGKAAATDWAmd4RKqhMrAIqQkaAxhIRgMUBac4QJUj8kAyyEzIHIEGC7oDDSTQYLGaAyoj+AMQZgXYQxBF5iAC9zzggwoDABCkxc/G1Fy0QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0xMS0xNVQxODozMjoyOSswMDowMOAQxLAAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMTEtMTVUMTg6MzI6MjkrMDA6MDCRTXwMAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDIyLTExLTE1VDE4OjMyOjI5KzAwOjAwxlhd0wAAAABJRU5ErkJggg==",
+                "href": "/wiki/Ash_Wood_Bow",
+                "damage": "10",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Tungsten Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAKlBMVEUAAAAnRihUS18RBzsZGhsfD2QhKzaLr4zK6c/u//FISXJjQ//22OtNdkohNl0tAAAAAXRSTlMAQObYZgAAAEhJREFUeNpjCA01ZgADBGO3cdoqFAaDsfGZNFSGEoNLhyAag0GwXBCdMROdAWERYpQTZEBsRWW4oDJc7rowIDMwfIHpU4zQAADoDSYfq0jXyAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Tungsten_Bow",
+                "damage": "10",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Gold Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAIVBMVEUAAAAmGwNPOwpLVl9HAADLs0n/+bVrAwOQBwfYDQ2TfR6POgrZAAAAAXRSTlMAQObYZgAAAE1JREFUeNpjEAQCBhBAMEI7XFwElZAYDILlM13SBJEZxgzlHWDlSAygBkE0hlKaEhoDwiLEWIXBCEVjCIYqMaAz0GxHdyGGLzB9ihEaAMrbIVfufv2/AAAAAElFTkSuQmCC",
+                "href": "/wiki/Gold_Bow",
+                "damage": "11",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Platinum Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgBAMAAADpp+X/AAAAHlBMVEUAAAAhKzZISXJUS1+cCjpKBRu1wtn22OvgDFGAl7g6mjgHAAAAAXRSTlMAQObYZgAAAE1JREFUeNpjEAQCBhBAMNJcQkMFlZAYDIIuHaHlgsgMYwYXF7ByJAZQgyAaQ6lcCY0BYRFizMRgpKExBNOUGNAZaLajuxDDF5g+xQgNAL1SH3uDyDHvAAAAAElFTkSuQmCC",
+                "href": "/wiki/Platinum_Bow",
+                "damage": "13",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Demon Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAoCAYAAADzL6qcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAeUExURQAAAConUnh1s7636RgWMD45e1dKplw/dUEtVS0jQczthfwAAAFJSURBVEhLY2RAA1rqQf+hTDC4dnMdhhpsgAlKUwzgtsFc4ueXCOZv2jQfTNPfRTCXTJkwHSwQFe8OpmHgxasLdHaRhJgB2EVqyt5gARiQFNQG0wfPdIFpmMtwxSr1Yw3mMhiAufDW3a1gGgaWLdwJpnMKMsE07VwUY18KdtGSg91gMfSwg4XZ5btrwDR6+qKai3AaBIolEH7z7joDCKfnOoMxDIBcjByuVHMRC5RmePruAZSFHezadwrKgoCE+GYwvWBhLdhV1HcRLgCPnU0MYJvRSwdYiqd9rOEC969+BmN0MHAuwgUGziBFbV4wRgdUcxE8Hb359gbKQgW4ahcY/93Ce3RO2TDg5mQGpmEuAuYxME31lA0v5XSVHcF+vXx3P1hswEpIuKmDpxZBDwsYGLiadvC1RqD0IGqxQWk4wBUrhACVXMTAAAB6gZ9+aZG0eQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Demon_Bow",
+                "damage": "14",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Tendon Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAoBAMAAAAI6hfVAAAAIVBMVEUAAAAHBwcQEBBVAA0eHh6IABVpIyPgDBHtHCRfX1+srKwBWVIXAAAAAXRSTlMAQObYZgAAAG1JREFUeNqV0dENgCAMBNBbwRVc4Va4FVjBFVzBFVihUwpqIjbch3yQB4FSWoCk8IzBPMq7PVg1upUNaZPanA0ua1VUZRe0Rd2uU19D0a8n7928s0gGC6dW6JdNnOm7Lk/3L1MHUzdXZ9cX08cTTZRIyZbMnEIAAAAASUVORK5CYII=",
+                "href": "/wiki/Tendon_Bow",
+                "damage": "19",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Blood Rain Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAqBAMAAABB12bjAAAAMFBMVEUAAABlHR1DERGwSwC8NDT/ZGTpRUVeS0GdKSlza07WlVbmrmz+06GSj4O2tav/nZ1QJSYcAAAAAXRSTlMAQObYZgAAAIhJREFUeNpt0FENwzAMBFBTOApHIRRMwRRMIRRCoRRKIRRKYRRKoUvadYqc+OtJ9kknCyApyT0jLR0zaXvFTDUg3cmB3Wk/ECiEVZRIUeiFJzjQBW9woLVSFQtKPvOC2yfSO88tsB0w/29feu//dB+ojb4g3UokqbwYSC3s0UBvS0TK70mBnPgFewtA84AQgcUAAAAASUVORK5CYII=",
+                "href": "/wiki/Blood_Rain_Bow",
+                "damage": "14",
+                "obtained_by": "Dropped by Wandering Eye Fish and Zombie Merman.",
+                "notes": "Converts arrows to blood rain."
+            },
+            {
+                "name": "Molten Fury",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAkCAYAAACE7WrnAAABnElEQVR4nN2WsUtCURSHPzOMtloyLEgaQoemBAWlIVpram+Jhjal+iMkEBoaIgIXJ5eyUSRCsaQmiyREDSooKB0CScLXcLqR8B5oPh068OByz3m/+/G7977zCA+4td8Pf4zBv75oKDQ/8gHAQt3WQpWqNyz9Jdpu3loAwjXx59gl2vvjPqnIprV2yMz36GFGrNkrTAEQCtx+ZwIAOHOnGsDhe1OXzHwip8MhJIWUrHggnm0dvQJQTSxKYSypS2Y+0dzzc0tC7eb86rQG4I3K/A76ZOYTGcVZbQgAT+IFgNGgHYD1uBOAQ0rtCXVMNOufkMHNTUuB8krtYog8AN7MLADnfrTeELUbl/FhIQp2KWQU/0DIs1I3R8gofoTymUfdAtVZQms1AKxBOT8X/iIAvrdSn++a6i7WpTEAqhGZ329UOhPqmOjKLrda3TXljTdqE5KE5DdjSaAfX8jK01MLidqlSMQNwHVOn6R3RJN3stCG6x6A3aJ02pNsGoBUXZ/EfCLliTovy+VPyZQVSb//RtRAdYtUsz0CQ6Fu4wuRhpGjE7JD4AAAAABJRU5ErkJggg==",
+                "href": "/wiki/Molten_Fury",
+                "damage": "31/ 29",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Sharanga",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAoCAYAAADzL6qcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADkSURBVEhL7ZRBCsIwEEV7AlcuXbm1iOBGUHoBXQjiGQQ9R/EYgjfyQkYa5lWcEJomKS70wV9MOv9BILTQrEZj00TGeJJFCJ5laRMtTBZReCwqG2Yia91QyCa6zTYf0WJZ95NNBBQIQn0u6350IVpUn7emiYzOlYOvOpgIKOqHOp9ObGTtTTbRab82TWRs8Ymul52NIxxcBAju9dHGEcBf9NOiQ7U0TWRsQRD8IL8mcgQwmIhC7x9bNhELBIE+l3U/utBbxAJFEnwVyC7SRSJr3VBIFgFF/fDkczjZRJAsgDhRUbwAEPg637Yt/roAAAAASUVORK5CYII=",
+                "href": "/wiki/Sharanga",
+                "damage": "36",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "The Bee's Knees",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA4BAMAAAAY61W6AAAAJFBMVEUAAAD+whRXJw02FAF1NBKzUBvUgwv+9iU/J2kYECkiFzyLbb8lI+DlAAAAAXRSTlMAQObYZgAAALNJREFUeNp902sVxSAIAGAqUIEKVKACFahABStYYRVW7qr3JUzdv48jExEBgAjCl0yIdDCru5wdErJbAFNCdGXzOeHhVtGckH2NLelgIENSs7VLL8mUAXBrMhP5BBbuBVWU3/+SB+9vYONyo27M1gPV3wlPgxgW971ZrKCRENDaLNrAQrA2jX7A1I+/r9Gv0O/kduMH136ecN/JcfnDbbM0bxbnEU3PzuMa3wOrHt26BXu/AKF4akF0P2EgAAAAAElFTkSuQmCC",
+                "href": "/wiki/The_Bee%27s_Knees",
+                "damage": "23/ 26",
+                "obtained_by": "Dropped by Queen Bee.",
+                "notes": "Converts Wooden Arrows to bees."
+            },
+            {
+                "name": "Hellwing Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAuCAYAAAAldkmBAAACXUlEQVR4nL2Wz2tTQRDHP3ktbQVBqAdTDbQ+tSS0XkRoJCWEIpKDIEJOghcRhXiKWK/Fa3rIQRQsIojQUy9CDz2UICGh9Q8QQ9TYwqvVS60o9Afpex5mV/NCaiPZZi6btzs7+bC7852BNi1rRbysFfG62w2krfvWUcurn3jxyw20snG53/YARoOrEsgY0cqexJq7mZCZ2UXvX2SaZKx0FoDpkV7DRMmdMwCkXr0BYMqOALBS/eAB5Ld2A81ItC30fjJM5AzLpeXL8s8okmQsDkAyv+YBXExt+jbm7tX8gYwR7bfgOA4AIdTljXTJ+PGb8jjeYaJQRUjS4VU10w/A9LVd2ZhoMdB/E4VCIflVLgN/303SwgPoGz8GwPazDUUyDMD8UtHnf/hnpG27+AOAmWC0KUnLgdomeui+DwAsfO4R3XG/ADA6aAMw5FR8KmGO6LZtCUHDglbOcFRybvKx+BVSawCcv3FZHJV+de7WxtbXAfieOyUkMRm1fuW3TJ/RQQ5vBwYAiGfkW5+R1vgHxs/oedVtuqDfx0Sp4AE4123f+svZRZ/f4Z9R1op4AOnTokczwZNAfa65Hc41bVqP7hSXZeLSuIxLRV/dM1jXVLXQNnFEsp0d+dZ61HdXNLuWkZd+NeEn60BdUxX4aXkQgPv8BGDydQ8AuVyLgYwR/akuFckt3u3JeOWE8jis2q8rqr6tKfscAI9KBQDyrryT+Jzqj5QKZJ4Iw/wF00S646rTFyFpyKXoRlU6txi+zk13fOaIhrpqPpKD+uxGsnT4q2GiVjv9/ciymxGzufYb6uXgcmn2gxwAAAAASUVORK5CYII=",
+                "href": "/wiki/Hellwing_Bow",
+                "damage": "22",
+                "obtained_by": "Found in Shadow Chests and Obsidian Lock Boxes.",
+                "notes": "Converts Wooden Arrows to flaming bats.Highly inaccurate."
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 2",
+        "contents": [
+            {
+                "name": "Flare Gun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAYBAMAAABtiDI6AAAALVBMVEUAAAA0Kg4qExOZk0DW0Z7Aumt2QUGdV1cvLSru7NckJCS9iIh/f3+bm5vDw8MUXgUGAAAAAXRSTlMAQObYZgAAAIFJREFUeNp10AsNwzAMBNCjcBRMwRRMwRRCoRRKoRRKYRRGYRSGYWd1P7XOKUriF0VWAhwh3yvQiipuVPaaWmGGICL4ZGwTcZXMTD7qsBWRNu7Ou+ZezET+3/0idluWuuOZcTS/SMEY/AQTGWaG/fsxjQiwosZchgTrDxrRI3DKWV4BuzxvwVSw8gAAAABJRU5ErkJggg==",
+                "href": "/wiki/Flare_Gun",
+                "damage": "2",
+                "obtained_by": "Found in Gold Chests underground.",
+                "notes": "Fires Flares and Blue Flares."
+            },
+            {
+                "name": "Minishark",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAUCAMAAADx/z7SAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB+UExURQAAADMlHJFOBkYtGMODMSEgH+nUmD9EQXiAeneAeiwsK3NIAoBSD/i1iV5lYXB4dDIyMiYlJEhJSSUkI6xrHnVIAD4tIjQ0M09RUDw9PD0/PUJEQlNWVS4tK6BoGzw8PGtxcklKSTY3NkNEQ2FCEl5iYkJERFVZWUk6KQAAAPJxgPEAAAAqdFJOU///////////////////////////////////////////////////////ADKo8FwAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADgSURBVDhPrdKJDoIwEEVRZ2jBfR9ABVdQ+f8ftI+pJiYaTfUmUGhySNPSaZ4i8g8f+gcjYo6ib+g/GKAxgLbNT74olEVt+gIQx8YwJ0m32+v1++9wODMmjomAQYAGg+FwNBqPJ5MkmU5nM2vn88UCn7gXynQbAHR5yzZmEXKlaZbl+Wq1Xm82ua8oyjKc6TEzA4lst8y4iHa7vevgOh5PJ4z32kX+wLCkqhKpXCLgIqkry2rX+Xy5YERFUdePRQYwousVvy+2AFihboq1pQsH4HfeF84AcNcUa37qRUGsaW5P52iZY6EoogAAAABJRU5ErkJggg==",
+                "href": "/wiki/Minishark",
+                "damage": "6",
+                "obtained_by": "Purchased from the Arms Dealer (35).",
+                "notes": "Extraordinarily low use time (8)."
+            },
+            {
+                "name": "Blowpipe",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAICAYAAACVm43oAAAAS0lEQVR42mNggAIrb6n/gwEzoINB5zCYwIJNfkThY1fKsGJq6YM7cNA6TNWY5z8IZzZZEYVxWUwtfTD3DF6HwQBMYKAxRq4cbA4DAAglPj9ouK9QAAAAAElFTkSuQmCC",
+                "href": "/wiki/Blowpipe",
+                "damage": "9",
+                "obtained_by": "Found in Chests on the surface or underground.",
+                "notes": "Fires Seeds and darts."
+            },
+            {
+                "name": "Flintlock Pistol",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAWBAMAAABanCMNAAAALVBMVEUAAAAvIRcwLhUyMjJDLyFNSiZyUTiXa0uAgIC/j2+lpaXAumu7u7vW0Z7u7NeJ6S+sAAAAAXRSTlMAQObYZgAAAH9JREFUeNp10EENwDAIBVAsYKEWvoVawEItzAIWaqEWagELtYCGkSw7bLQ9NQ9+AhARgdLLBAPegpxJh0EkCkW8yIEIGOpTTd3XdDkQd0AVrc0VwQPVDrWBfjUu5RkiU40/AK6V3312FAH77p4pchzDfpoyceR+N9wQMac7J7oBfjtMG41XElgAAAAASUVORK5CYII=",
+                "href": "/wiki/Flintlock_Pistol",
+                "damage": "13/ 10",
+                "obtained_by": "Purchased from the Arms Dealer (5).",
+                "notes": ""
+            },
+            {
+                "name": "Snowball Cannon",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAaBAMAAAAH7hLZAAAAJFBMVEUAAAAQICUWMD+DpZ5Xd3He5+SFu8+Ypq+3wcja4ufx9PUpWGmb2vY1AAAAAXRSTlMAQObYZgAAAJhJREFUeNqN0GsNAyEQBGAsjIWxsBawsBawgAUsYAELNdfhcWmatMDs/SB8uWUhhCdUws/8FdbWmogv1bXUKmFmUgXgIP1oJoVgkYHwgzBltUklFbo60eEHQU+BM5esy6qXqbYCdzOtzPq20DBrKwZEM30DEUftxfoU0RFXxkSygwzAynxgbEVb0VfXr+xE82L+fy2fU2/lDWZSVavnX6T9AAAAAElFTkSuQmCC",
+                "href": "/wiki/Snowball_Cannon",
+                "damage": "10/ 5",
+                "obtained_by": "Found in Frozen Chests, Frozen and Boreal Crates.",
+                "notes": "Fires Snowballs."
+            },
+            {
+                "name": "Boomstick",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAQBAMAAACW+SCeAAAAJFBMVEUAAAAyMjIgICBCJRcpFQ1gYGBzRCqYY0O8imsoFQ1/f3/Dw8NgJ+aaAAAAAXRSTlMAQObYZgAAAGRJREFUeNqFz1ENwDAIRdFnoRZqAQtYwAIWsFALs1ALNbfXbh9bVrIbvk5CAsCsvEOGojaqWecMzqgZSgvtpT5KkOZqVtzDW0QTYI/L5s7BhCFFGnju/cbVFpU2/8QvQhXfNngCcn82/QPPneAAAAAASUVORK5CYII=",
+                "href": "/wiki/Boomstick",
+                "damage": "14/ 12",
+                "obtained_by": "Found in Ivy Chests and Jungle and Bramble Crates.",
+                "notes": "Fires a spread of three to four bullets."
+            },
+            {
+                "name": "Revolver",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAMAAAD1Cu7vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAhUExURQAAADIyMqGsrV1na3yNju3x8+7h2mBgYK6oujc3NwAAABeaxv4AAAALdFJOU/////////////8ASk8B8gAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAIxJREFUOE+ljlEOxCAIRHcQbev9D1xHJI3ZbdPF94PAPMOnDoDxeAAN1hUJEOGAY2fuSEqWWpFcA1RFVHNmpwNp5AY3qsCqZIOUVFODEis/mpnO+1sCSmHcNYoe+SYuUREpxWIXPfGDqHQpfNe6bVbviUmu7LsFedZx9N0tMcnOc+UdUclO6t1LAlKtJ2SjGwXeIixsAAAAAElFTkSuQmCC",
+                "href": "/wiki/Revolver",
+                "damage": "20",
+                "obtained_by": "Purchased from the Traveling Merchant (10).",
+                "notes": ""
+            },
+            {
+                "name": "Red Ryder",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAQCAMAAAB0p0x3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAhUExURQAAACYmJkEEAHoMAEE0O1pLUmheX7MZF2EKAEc5QQAAAEH7YSMAAAALdFJOU/////////////8ASk8B8gAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAINJREFUOE+tkdsKAyEMBZtbjf7/BzfHqPRBtnTdATVqRg74ahcQjWLDsyIHdMmzIrOIqtl7YZ2xCcyITkQES7IuBVrC7C6CoVoHK2p3On+JCFYCzJAkwBVRrf21RZ7OLzoRPUB7RnJHE65UZ9OOM3G2o07pO9Se++L8jtxi/aUkN8XWPmlYFuV/zITYAAAAAElFTkSuQmCC",
+                "href": "/wiki/Red_Ryder",
+                "damage": "20",
+                "obtained_by": "Found in Presents, obtained during Christmas.",
+                "notes": ""
+            },
+            {
+                "name": "Sandgun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAYBAMAAABzQQKJAAAAIVBMVEUAAABKMBTamxAxHQfnxHlqSBK0gA4tIBGEXTG9gkJHMhtQKj7TAAAAAXRSTlMAQObYZgAAAHdJREFUeNqN0FENwCAMBNCzcBZqoRZqYRZqAQuzMAuoXGH8jNGFC0mTFzgCwBRVxSJrVhfjcaRMxuihsi2apUyJWI/zvMKiJmd3Gekc44fbHSM64sKMUeJk6zG+3p8wan2Kpm9IuNVUFOyxhpbv5oR7B3YZi4aEbyiOREWIRRPBAAAAAElFTkSuQmCC",
+                "href": "/wiki/Sandgun",
+                "damage": "30",
+                "obtained_by": "Crafted",
+                "notes": "Fires Sand."
+            },
+            {
+                "name": "Musket",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAASBAMAAAD8nwB9AAAAIVBMVEUAAAAyMjIvIRdDLyFyUTiXa0u/j2+lpaVgYGCAgIC7u7u6SIy5AAAAAXRSTlMAQObYZgAAAH5JREFUeNqVkFENBDEIRLEwFrCABSxgAQtYwEItVOVBPzaX3Ibde+0H7UuGZIi+AQ1MEvtY4H+50GRApIeXUpgTsWNFXfPY+0GyNMziyoiFzKxA5pM6SnF3c7NyuRbU6inXqlEa6qhqB1Vcr6FXkrWpT8rf3kdJ3Jy6b/oe5AeDBz8XOa55hAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Musket",
+                "damage": "31/25",
+                "obtained_by": "Dropped by Shadow Orbs and found in Corrupt and Defiled Crates.",
+                "notes": ""
+            },
+            {
+                "name": "The Undertaker",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAYCAMAAACyRD+1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAkUExURQAAAB4eHlUADaysrO0cJGkjI19fXxAQEMPDw4gAFQcHBwAAABA4DfIAAAAMdFJOU///////////////ABLfzs4AAAAJcEhZcwAADsMAAA7DAcdvqGQAAACqSURBVDhPzZKNCsMgDAaX+BNt3/99lyOyBjYGFgY7ENTeJ4n2cSbEWVNHnTV9sauzGdsixRGJHdVaVXOcw/b1WlsjgN57KazNWkPvHSkYQ3VXp6U5zUIOIkZhjDHMGMT3dQIiBOC9mN7nZIzhrd7Qj4PPFEAgF8Mh6179yDt6lrnOXEx+JtjVD8fskq/W5vzwi23ruRRYnTmxztzRs/yd/9J5Jq7vB/p5PgEC7h3hVjyGpQAAAABJRU5ErkJggg==",
+                "href": "/wiki/The_Undertaker",
+                "damage": "19",
+                "obtained_by": "Dropped by Crimson Hearts and found in Crimson and Hematic Crates.",
+                "notes": ""
+            },
+            {
+                "name": "Egg Cannon",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAUCAYAAADY6P5TAAABVklEQVR4nO2WsUoDQRCG8zApRCzi+QrKoSIBbURjuEJiCk8JpEkTrhFT2KRRgoViFQtRkBDsBFGw9oEi/OGH7C/Lnsd5kVwGvmKXGWa+Y+C2UMgoSivLo0my6ptZzKwghQa9hkFaop7njSZJY+ZfxdQFdXVcq+TKJ+ulIuif74G3hwvw8XoH7jsVwDyt18GTkh/Bx+cmaHdODLQx75nvEqTY+/AKfH4NAUVtglEUgSAIAPvGPedPsH1WBQe1Mtje9YEK8555rFOxy9NVQEFdUQozT0X5ISjKD8rBbWfWzQXjooJrS0XA34EKKsxjnWtFObjtzLq5YFJBrtrLTQvoahLeM09XNAxDoILXt11gO7Muf4KLOwsGtntbnnK8Nca1oszT+g3fNzis7wPX+ceTLTeCtida3KeZjfrmmKfukQHvtR8HTNov9mN7ZgT/Ov7dQGnHtAW/ATP1bqfqp15hAAAAAElFTkSuQmCC",
+                "href": "/wiki/Egg_Cannon",
+                "damage": "16",
+                "obtained_by": "Dropped by Lepus.",
+                "notes": ""
+            },
+            {
+                "name": "Star Cannon",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAASCAMAAAAjUw3yAAAARVBMVEUAAAAkJT4/QGsnIyN/dMI1JQBLNAAyLi7/+n9KR0dgYGD2wwCADwz5SwdcWaGooNaedgCAgIClpaX8pyJ+VwBYVZtdExYRWfnVAAAAAXRSTlMAQObYZgAAANNJREFUeNqd09FugzAMheEvwOgG1aa+/1NWC20HhOyigU2adhNbcWRL1h9bJ51/rDf/qZ2sEjoV1gXkkoRyN1ovsk2H2Wg6TmetJNFKB6kxugneRR+uGuGXP7R7UxVp9Kkxguxm9BBx1zqZNHp3vbtXMFWTJgwlRs/8+fbky1lnc7G5WH+aqkiDKOrNZYvBYPEmGk2uBkEWTGWmelKUsckWZzcsZpvNopOEooWTjFmqJmVZMGOxaqzYisaTfPheqZ0pFyXsak8cP+m5zUE0iIdCK0nfVZVWwexf3vAAAAAASUVORK5CYII=",
+                "href": "/wiki/Star_Cannon",
+                "damage": "55/ 62",
+                "obtained_by": "Crafted",
+                "notes": "Fires Fallen Stars."
+            },
+            {
+                "name": "Blowgun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAYCAMAAACLI47uAAAAQlBMVEUAAAAYJQ0yPw+gsk5pgjpWAD6cqBi2xBxZARyJAEubAivG1HY8ABVAADnWAGwqHBFaPyzBFzfhNUL3AHp5Y0tpUDvxE2I9AAAAAXRSTlMAQObYZgAAAKRJREFUeNq10NsOgyAMgGGwsAkUVxi+/6uOgmYX2wyH7L+qNV9AhbgMcV1FT81AlxBjtLaJdAKtnzljtLa2iXQDIbw3ZtuYhBDjHFhyvwlfKoRZACDlFQkBcQ44x2T5SErv66UQz90YAHBOKYB7jmfn6sSblIhS4m19n8kQAFDqlmMGUKe6Idp3ovNJqfx7hgAP33uU3s/HR3eCclB73eA46H/gBW9GDp24tsEbAAAAAElFTkSuQmCC",
+                "href": "/wiki/Blowgun",
+                "damage": "27/ 25",
+                "obtained_by": "Purchased from the Witch Doctor (5).",
+                "notes": "Fires Seeds and darts."
+            },
+            {
+                "name": "Quad-Barrel Shotgun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAASBAMAAADS2iHvAAAAKlBMVEUAAAAyMjIgICA0GQhOLBh+RCCvXi1ERUDThVWIiX+jpptaMxtkZV5VVVC3TxvqAAAAAXRSTlMAQObYZgAAAH9JREFUeNp9kEsNwEAIRLGABSxgAQtYwMJawMJaqIVaWAv10iE99UNnXrLZd4AEonvMilfu2oyvqBf/2sJ5oXMbCSb/aQuevKFj7FlIp9XMInnJRPnYA2BGpyMzw1WWHIKVAbCy084By1IVUS+k0/COEURw9dOCWo1HSz5P/KVPxxNX7RpjN1AAAAAASUVORK5CYII=",
+                "href": "/wiki/Quad-Barrel_Shotgun",
+                "damage": "14",
+                "obtained_by": "Purchased from the Arms Dealer in a Graveyard ( and after Skeletron is defeated). (35).",
+                "notes": "Fires a spread of six inaccurate bullets."
+            },
+            {
+                "name": "Handgun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAeBAMAAACoBpHTAAAAIVBMVEUAAAArKys5OTl/f3/Dw8NRUVEqFQn///9NMSBnQiyHVjhU5GYeAAAAAXRSTlMAQObYZgAAAI5JREFUeNqN0FEVwzAIBVAsYOFZwAIWsBALWJiFWpjKQbN1XQ7s5OUjzU1DSokyTPfwMn9XADF4BjPcqrJGYGLwfHJHp8SiOeKkq0S0V2CqnLHrGwqFy1stAzPJV2uNDvJo9GA2e6FOc0OOx2C61n8U+gxdf2ejngV+izZ6Iq0p9XPXlkpZtlS2fSUeY1NfRSJPj2S3ThYAAAAASUVORK5CYII=",
+                "href": "/wiki/Handgun",
+                "damage": "26/ 15",
+                "obtained_by": "Found in Locked Gold Chests and Golden Lock Boxes.",
+                "notes": ""
+            },
+            {
+                "name": "Pew-matic Horn",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAYAAACkVDyJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAGdYAABnWARjRyu0AAAEASURBVEhL3ZQxCsJAEEXTCWkMgp0iYmNjJUhaSxtzAI9hLcGLeA27XMTKA9jkApEM81DHLBEM2ZAPr4izmTcMawKb+WJZvBNFkaDln3MYT4sqtPxKa0IESZIIcRwLVuwawDa+rrdCfjoL/K7HWxRaUZqmgktM/b15CYLHbi8g6o6QxlYEnLvdcwEBXGarShjAn5BLYMVWBKz0OJp8QEMLA/HcvpBYsYU6K+d5OggF1wCsdhMOBdV5EBIaubAD6GsBYtcA3RG6gohLw2q1/BU7AGi5Pt6E/F3qhH/HmzDLMqG/Qj7eXB5WrMeaizchIlbbHyFBbNFy86mSlWi5JkHwBNOM2Wcil9VgAAAAAElFTkSuQmCC",
+                "href": "/wiki/Pew-matic_Horn",
+                "damage": "20",
+                "obtained_by": "Dropped by Deerclops.",
+                "notes": ""
+            },
+            {
+                "name": "Phoenix Blaster",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAeCAYAAABaKIzgAAAC1klEQVR4nNWXQUiUQRTHf7tramm4tVSrkLtE0NZ6SJI8KOZJoWtd8lQSFR6iFRS6BF47uNDBQyxdCg9hVCehk4RB0YYHMw0STCHNsDYyM2vdDjPv+5hvv1xB0P3+l5n3vTczb//z3pu3sEl0VvpznZX+3GbttwrneSXbdfBWYTl623/cYKt3fdJnfF8ROwy7qT3vAYitHHM9oJD+f2gp/a0mlTM5w9FiR56jPROH1SSumOtO/gAg0HbCsMs+ewdAui8KQENHRq8LqHEiC0B/SjF540vSWL9rsd+Ql8bmAQjVVwPw52A3ALEDCXdHixWWoxKTwmRX7CMAgbZmAF41fQCg8cVRANJ9pYYseobU8DxTBtg3lH1wWSk001mHI0E9LukxVG8y7j1GJbuFyfLmKsCOxbrwVy2vbShXPFI30Kj3lfXCpCA9tBuwmbeQ+qsnc4BdNbzDqDApWem/ecnVUBguJP88NwrA24Ww1pS67idMtgRVvawLLxj7XBn8DMC95XUfeIlRiYFrkbOuBnc7DpkfHLHWn9jrWKHyV2JdMDAVMWQ5d2pNf5jV4+AqYDNpOerqXRGixOm5QDqX1dHvAJz21Rn6i5PqxUqGfwEw/2nGB1BdE1W9gINBYfj6rGLsTm35hnKeo5v9RTuNPEelCvS8Vi9K/HzG0O/br2L2aZOO3elxwGay/lQrAF3TDwE7i1dVMbBiXm5KZMnyl5EGtd+3xRzYN+VdRgXSvcAtAKJHVPc09mbEsBMGI7XqBp48vg/AwIKK0e6rKpYrEs3GvlJdA7qLiqVUtShrbTf2KehosSHvrZcX6mSLO5MSMzZGckqPoe8VdUL+OczJB1dHpK4Oayad53iHUSvLdd8Y10xKdhdCPsMmrD63EJZlnHFVe4dRmWST43qmmK0KhoCNYnN74R1GJdvSQ1EAzlxoNwwkm3ca3mFUuqfhmnVV7xwvQrHAM4z+A/CFBmTuzUDoAAAAAElFTkSuQmCC",
+                "href": "/wiki/Phoenix_Blaster",
+                "damage": "30/ 23",
+                "obtained_by": "Crafted",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 3",
+        "contents": [
+            {
+                "name": "Snowball",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAElBMVEUAAACAtOLj8vfy+Py+3+j///9CFH4FAAAAAXRSTlMAQObYZgAAAAFiS0dEBfhv6ccAAAAHdElNRQfkCBMVLxbP+KwjAAAAAW9yTlQBz6J3mgAAADFJREFUCNdjYGAQFBRkAAEoLahkbCyIoAWVlMAMOO2ipOSCQgMZSggazADrh9Ko5gMAIiYJ921CdREAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDgtMTlUMjE6NDc6MjIrMDA6MDDkp91tAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA4LTE5VDIxOjQ3OjIyKzAwOjAwlfpl0QAAACB0RVh0c29mdHdhcmUAaHR0cHM6Ly9pbWFnZW1hZ2ljay5vcme8zx2dAAAAGHRFWHRUaHVtYjo6RG9jdW1lbnQ6OlBhZ2VzADGn/7svAAAAF3RFWHRUaHVtYjo6SW1hZ2U6OkhlaWdodAAxNPOhP0MAAAAWdEVYdFRodW1iOjpJbWFnZTo6V2lkdGgAMTQLDv/OAAAAGXRFWHRUaHVtYjo6TWltZXR5cGUAaW1hZ2UvcG5nP7JWTgAAABd0RVh0VGh1bWI6Ok1UaW1lADE1OTc4NzM2NDIjQ08KAAAADnRFWHRUaHVtYjo6U2l6ZQAwQslvGO0AAAA2dEVYdFRodW1iOjpVUkkAZmlsZTovLy90bXAvdGh1bWJsci9pbWcxMTc1ODU2MzcyMDc3ODAxMTg5MNea/TsAAAAASUVORK5CYII=",
+                "href": "/wiki/Snowball",
+                "damage": "8/ 4",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Shuriken",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAAAAADh3zPnAAAAAnRSTlMAAHaTzTgAAABSSURBVHjaY2BAAkZGDNgAVmEjo/XrsUhgFSZWLYRjZNTQQFgYotnIKCCgoSEgAMTCJwyRaAACGImkHoswSALZECT1WIVRHYjmehzC1A8/kuIRALdkQ33ieKimAAAAAElFTkSuQmCC",
+                "href": "/wiki/Shuriken",
+                "damage": "10",
+                "obtained_by": "Purchased from the Merchant (15). Found in Pots and Chests.",
+                "notes": ""
+            },
+            {
+                "name": "Rotten Egg",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAaBAMAAABFrWFOAAAAG1BMVEUAAAAyMjKrr6M9R0F5iHfJwMDm5N9SX1eZno902ZMvAAAAAXRSTlMAQObYZgAAAGBJREFUeNplzkkRwEAIRFEsYKEtYKEtYKEtYGFkhySVmiX/9C4sZl2EfU1GIn6M0ufJQEl4vFKhInxjDzEyQd+YkioxDkLiSUeyD/Mgs1dhcGMb5Kj7h4Vt1quV5p1tvACdMzGLGmKAiwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Rotten_Egg",
+                "damage": "13/ 10",
+                "obtained_by": "Obtained from Goodie Bags during Halloween.",
+                "notes": "This is the one of two, the other being the Flymeal, player-wielded weapon in the game that can hurt NPCs without the Guide or Clothier Voodoo Doll."
+            },
+            {
+                "name": "Throwing Knife",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAYCAYAAADDLGwtAAAAbUlEQVR42mNgQAMODg7/QZiBECCoEKZg6dKlYIxTwwAqNDIy+g/CMIUwPuUKGxoawHh4K4QJHJ1ZDcYJCQlgDOPDNRCtEAbM1ST/g/D0bG8whvEx3EiywopQGzCmnsIwOx0wplwhugaCuRCXQgALMAO0Hk0Q7QAAAABJRU5ErkJggg==",
+                "href": "/wiki/Throwing_Knife",
+                "damage": "12",
+                "obtained_by": "Purchased from the Merchant during a Blood Moon (50). Found in Chests.",
+                "notes": ""
+            },
+            {
+                "name": "Poisoned Knife",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAYCAYAAADDLGwtAAAAbUlEQVR42mNgQANynjz/QZiBECCoEKag/7osGOPUMIAKJW25/4MwTCGMT7nC5OnyYDy8FcIEjs6sBmONVF4whvHhGohWCAPmapL/QXh6tjcYw/gYbiRZYUWoDRhTT2GYnQ4YU64QXQPBXIhLIQB2WuldjsLhzAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Poisoned_Knife",
+                "damage": "14/ 13",
+                "obtained_by": "Crafted",
+                "notes": "Has a 50% chance to inflict the Poisoned debuff on enemies."
+            },
+            {
+                "name": "Beenade",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAWBAMAAAAC47AUAAAAJ1BMVEUAAAA/J2kiFzxzRQw7KhP+whQYEClQMYWzUBv+9iXUgwsbFieLbb8OjxsIAAAAAXRSTlMAQObYZgAAAEVJREFUeNpjYGBgSFNiAAMonSZ4RgmZdjE2FtyNoF06QmcaM8DpNEElwXJBJTjtsgooHmoMp8Hi5UpwmpA8uvlgexngNAD7+SUPnNE89AAAAABJRU5ErkJggg==",
+                "href": "/wiki/Beenade",
+                "damage": "12/ 14",
+                "obtained_by": "Crafted",
+                "notes": "Once it explodes, it releases bees that attack nearby enemies."
+            },
+            {
+                "name": "Bone Throwing Knife",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAaBAMAAAB1IXBvAAAAIVBMVEUAAABEIAhzSCvj3cmod0bGv7SMXDuCcmaci3v/44TGqIJ70u2wAAAAAXRSTlMAQObYZgAAAFJJREFUeNp9y0sRwDAIBNC1sBawgAUsxEIsxEIt1EJVliGbNr0UDm+HDwAYZklz+9P8aLYJG9pPmXNugqOQpPdGvp6M7McMV9ShBEP/y/4VorwBBAoUUxGTkLgAAAAASUVORK5CYII=",
+                "href": "/wiki/Bone_Throwing_Knife",
+                "damage": "14",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Star Anise",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWBAMAAAA2mnEIAAAAFVBMVEUAAAAgICBnNhiVYS3Lj1Q8KR6dcE+ZWpbXAAAAAXRSTlMAQObYZgAAAFVJREFUeNp1j1ERwDAIQ2MhFmKhFrCABfxLGPS2teNW+ODdwSUBqCJWPUyCYo3GQwppdIZsNhoz9553/DIV5nSL0t04TebN7bv4qJ/74Jtn8SH//78XOkQXg71m5EwAAAAASUVORK5CYII=",
+                "href": "/wiki/Star_Anise",
+                "damage": "14",
+                "obtained_by": "Obtained from Presents during Christmas.",
+                "notes": "An upgraded, seasonal version of the Shuriken."
+            },
+            {
+                "name": "Spiky Ball",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAZklEQVR42qWQ0QnAQAhDXaUf/e2HEzmKuzmJk1xBmnIE/PEOAhfIC6qY2dol32OvqmuXHIPuXuIiBNnPQR4NBZlZaoEx2AERUeIVrvspzUE+N4IAW2AM8rkRYI/cXzAG8eFROn8MvhGiTKwMBjfcAAAAAElFTkSuQmCC",
+                "href": "/wiki/Spiky_Ball",
+                "damage": "16",
+                "obtained_by": "Purchased from the Goblin Tinkerer (80). Dropped by Goblins.",
+                "notes": "Stays on the ground for a few seconds, dealing damage to enemies that touch it. Pierces indefinitely."
+            },
+            {
+                "name": "Javelin",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoBAMAAAB+0KVeAAAAKlBMVEUAAAAyMjI3Mh9gUzSckk79747FuWVbWz2AHiDCLjKBgV/mWVyysoqZmXUYCKCuAAAAAXRSTlMAQObYZgAAAIZJREFUeNql0kENxUAIBNCxMBawgAUsrAUsrIVaqIVaqIVa+F7+9lomKUk57OFlCIQsUMoMLTQfPbQRjgau3ijdCi1HZAlKHJ6OBlp4hjVw7R1WxyhMF/cRyCmuq5Bz23Y2kAfP/akKeRE8+QgKvG29wBvyx/p7FK510MJ+cKrg/BAEhUn8A72iLfV4x7O+AAAAAElFTkSuQmCC",
+                "href": "/wiki/Javelin",
+                "damage": "17",
+                "obtained_by": "Dropped by Hoplites.",
+                "notes": ""
+            },
+            {
+                "name": "Frost Daggerfish",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiBAMAAADIaRbxAAAAElBMVEUAAAAAZ5MAjcpq0v8cu//B7f/3jmacAAAAAXRSTlMAQObYZgAAAG9JREFUeNqFzkERwDAIRNG1sBawgIW1gH8rJekllKHp8Q3ZfqB8JHERht+EYTe5nuR/PydN6K7PSZV84WYmYpRsl8puE4ZkRv7JGs7ds6YLqFrTZOeJ8llWXo5SMQu4RxlHTRO8+aWmSX0xCBpUeQASICHfov3C6wAAAABJRU5ErkJggg==",
+                "href": "/wiki/Frost_Daggerfish",
+                "damage": "17",
+                "obtained_by": "Fished in the Snow biome.",
+                "notes": ""
+            },
+            {
+                "name": "Bone",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVR4nGNgIBIY6Cv+R8YwcRZiDcAFCBrg5Kj/n4GBgUFLW5GBgYGB4cjhi3AX0ccFMKCrq4nCh7mEdi6A+b2ouJCBgYGBoaa6EUX+wsX7jNR1ASxUhYT4GBgYGBjCI7xQbIbZiNMAsl0As9nGVp+BgQER2tOnrcBrM/VcAGPA4pVsA8h2AcyPsLCAuYSQ36nmAgCXhS7mTSbbRwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Bone",
+                "damage": "20/ 22",
+                "obtained_by": "Dropped by Angry Bones, Dark Casters and Cursed Skulls.",
+                "notes": ""
+            },
+            {
+                "name": "Molotov Cocktail",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkBAMAAAATLoWrAAAAJ1BMVEUAAACtNABTIw+FKAD/0FH/fwAqNkHkRQDyVQCuw9fW4eyLaWCRqsCacrE7AAAAAXRSTlMAQObYZgAAAIpJREFUeNqF0WENAzEIBWAsYAELWHgWsICFWsDCWTgLZ2GitnZdLm3ZlX98ySMBiKYC0ZYiDDtyZ2XbElw5NuSnwcfgSnK+DvfAI0m5Dic8kYgUZSG691lJlPkr8Z+Ei/aY9eRKTSoBBKOcuqi0VyCnLnX672srzZLkGs2S0qcfJaNqOkpG9ci0oTefwEEV3Zi1sAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Molotov_Cocktail",
+                "damage": "23/ 40",
+                "obtained_by": "Crafted",
+                "notes": "Inflicts the On Fire! debuff."
+            },
+            {
+                "name": "Bone Javelin",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqBAMAAAA37dRoAAAAIVBMVEUAAABEIAiMXDvGqIKci3uod0bGv7Tj3cmCcmZULBD/44RFU44HAAAAAXRSTlMAQObYZgAAAIJJREFUeNql01ERACEIBFAqbIWtQAUqWMEKVrCCFUx5+HtwMzjn55sFHVGRuAApKuYoqtuYUlLYsI6C8iD7q0Gq3ERnNxR0KSxgrmgg7H0zH6pwphTUpQG6WdDTQdtK+kY9O8Uxpur1Ekebqp8qey6Znvqi3kQvDnARZRrlv+jF55IHZo0nt0f10m8AAAAASUVORK5CYII=",
+                "href": "/wiki/Bone_Javelin",
+                "damage": "20",
+                "obtained_by": "Crafted",
+                "notes": "Can stick to enemies, dealing additional damage for 15 seconds."
+            },
+            {
+                "name": "Happy Grenade",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUBAMAAABPKxEfAAAAKlBMVEUAAAAoPVPN1t0AOz6Nq8gSXKMqzVjo7esAWkkAiUfSOy7iclGlsFLr20o3gc//AAAAAXRSTlMAQObYZgAAAElJREFUeNpjYGBgMGaAAChtnGaMTBunzUShGQQ7UGhBl7tKggha0EWpfDeQAadDlZTKkWmXVUpKZxA0kOESCtEPoRkEBQUZ4DQAfSIWLwzP6UUAAAAASUVORK5CYII=",
+                "href": "/wiki/Happy_Grenade",
+                "damage": "30",
+                "obtained_by": "Dropped by the Party Girl and sold by her when in inventory (250).",
+                "notes": ""
+            },
+            {
+                "name": "Grenade",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUBAMAAABPKxEfAAAAIVBMVEUAAABKVEJCSFQbIhYhJS8kLR4vOSlwd2lpbneOlaCWoI45CGm6AAAAAXRSTlMAQObYZgAAAEpJREFUeNpjYGBQUmIAAyit1DFTCYl2manU4YJEM7i4KKHQaYLlqwQRdKhgmqCgYBqcNg4Fipcj0WDxUDgNZJSDKDjNYGwMpiA0APBFGise0G8tAAAAAElFTkSuQmCC",
+                "href": "/wiki/Grenade",
+                "damage": "60",
+                "obtained_by": "Purchased from the Demolitionist (75). Found in Pots (in Hardmode) and Chests.",
+                "notes": ""
+            },
+            {
+                "name": "Sticky Grenade",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAAgUlEQVR42mNgwAGMjIz+Y8MMxAKyDYAp7Ju6AAVn5pWDMUGDqGYAugYnjxAwpr0BioaB//FhgoFItgEwBUohO/BinAaRbQC6Rqui/2AcNgOCdYsgGKdBVDMAphCmER2jG0Q7A9ANQhennQEwCXQN6BphfOoZQGxCwqmRagYMWG4EAPRWIasz/adZAAAAAElFTkSuQmCC",
+                "href": "/wiki/Sticky_Grenade",
+                "damage": "60",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Bouncy Grenade",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUBAMAAAB2TKBEAAAAJFBMVEUAAAAyMjLlHsqWAlD+ldLIGXSOlaD5Zb37wOBCSFRpbnf+4ujg5lsFAAAAAXRSTlMAQObYZgAAAE5JREFUeNpjYAACQQYoADMEBRkE0wRRGEB6FSoDyJqJwgAyd3coCSIzBJU6XMqNBZEZLkqhxkooDCWXciVjZAaQFWoMMQfGANoCdSKYAQB/iRNDwwGAHAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Bouncy_Grenade",
+                "damage": "65",
+                "obtained_by": "Crafted",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 4",
+        "contents": [
+            {
+                "name": "Ale Tosser",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaBAMAAABWeiG6AAAAElBMVEUAAAAYFhVORT0sJyR8b2almpG5hiz1AAAAAXRSTlMAQObYZgAAAGZJREFUeNptzoENwCAIBEBX+BV+BVb4Fdh/lT6N0WohmnBCkDEcQJ0VN4mM/XASChFM9CQZXO0nLVF6x3WUlPS4hoigMsVZvEjYRsx/vrRG8Fs8mWUvmfiz7GbUbVhLeoOKjmNnNx94qSWX743ikAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Ale_Tosser",
+                "damage": "20",
+                "obtained_by": "Dropped by the Tavernkeep.",
+                "notes": "Requires and fires Ale, projectiles have a wide area of effect."
+            },
+            {
+                "name": "Bone Glove",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAeBAMAAADN62OsAAAAJFBMVEUAAAAxMTFbWz3MzJ98fF2ysopVVVWWlm9zc3P09Myampq+vr4aRjsmAAAAAXRSTlMAQObYZgAAAIRJREFUeNpt0VENBDEIBFAsjIWxgAUsYKEWsFALtbAW1tyRy3UPNu1H01cmpKEiewFSV2EeofZcdEKZYu4HQoMZdeqRGV1w7HAjGG5cCNiJRnPNPsYjY339a/wil6q57Rc3Ykx60HexMXVfMPsXKwX3NQb4zKkz42PWqXYKZvuAF6Wr8AO1gzYPg818/gAAAABJRU5ErkJggg==",
+                "href": "/wiki/Bone_Glove",
+                "damage": "25",
+                "obtained_by": "Dropped by Skeletron.",
+                "notes": "Old Chinese and tModLoader Legacy only. On the PC version, Console version, Mobile version, and tModLoader version, the Bone Glove is an accessory.Requires and fires Bones, projectiles bounce off the ground once."
+            },
+            {
+                "name": "Paintball Gun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAASBAMAAAC6KaPXAAAAJ1BMVEUAAAAsLDlgYHOTk60OPj4AmZrw8PcLUFAAysvY1+gcHR+3ts8G8PE/jIHbAAAAAXRSTlMAQObYZgAAAGdJREFUeNptzlENwCAMBNCzgIVaqIVaqIVZwEItYAELWJioXbd9DNh9NHlJuYKSkYyJFKxs7WA4XI+NeDb1XV5JK9+gRlRspATJ021jGTr4EcD8j9o0+7t5Vq2kPMKl231nJrLmk4kX8t4w4WCiyr0AAAAASUVORK5CYII=",
+                "href": "/wiki/Paintball_Gun",
+                "damage": "12",
+                "obtained_by": "Dropped by the Painter.",
+                "notes": "Does not require any ammunition.Fires a three-shot burst."
+            },
+            {
+                "name": "Harpoon",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAWBAMAAABAoMODAAAAJ1BMVEUAAAAvHxIyMjJDLh08PDxTU1NyUThgYGCXa0uAgIC/j2+lpaW7u7vxMjJgAAAAAXRSTlMAQObYZgAAAINJREFUeNp90FERBSEIBVAqUOFW2Aq3ghW2AhWsQIWtQAVDPfH9OLO4fOhwVHAQ2YOUd9Q4+IHk9ghBZFqjxyCBPATMV4kS5x4x2lhrhK1eJQoAd2/mHs3dHEfUp88Gg2aE5Q2c8Op3V9DmxwWr3AGv51aVTLcJVZj2nwXkG1X1PewKf4fnV2XXn6kfAAAAAElFTkSuQmCC",
+                "href": "/wiki/Harpoon",
+                "damage": "25",
+                "obtained_by": "Dropped by most Goblins.",
+                "notes": "Does not require any ammunition."
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 5",
+        "contents": [
+            {
+                "name": "Pearlwood Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAAZklEQVR42mNggAIdddn/yJiBVEC2ATAN5TmBKJhogyg2AJcXyHYJxQag86e0JoExQYOobgC6+IENXWCM06BhbADRBo0aMKwNIDpTDUMDSC7aqGYA/UtlmILwAHsUTLLNZBsw4LUzALDknJQV4cQhAAAAAElFTkSuQmCC",
+                "href": "/wiki/Pearlwood_Bow",
+                "damage": "12",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Daedalus Stormbow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA+CAMAAAALQlumAAAAOVBMVEUAAAA8PktdYHF6fZIAKFbT1/Wvs884fr93s/cvAFZWAEmy1PoLN39/C2CBOL/1senS1vVKC3+/OKfvj1QgAAAAAXRSTlMAQObYZgAAANVJREFUeNqlldsSgyAMRLnJHSr+/8eWTNoqM1SE7OtZl4AhMMb4R6yvW8y5EFpvVV3LAKMBJCVYZjEaAEqp9Z/vb7GuAkt3gQE+42GL89gYzrft7+YGGIrD0oTY927tNxjCMRqwqprD5wJKWTuHrcWj4RxwCHMYwrEplTImxjkM4WiAaF+1gpWK0ftXlXPPcQhXmNJxlHIxPMTGeA8wpVJy/hke4m94A4e43VjODXyM8VCda+AQ0/83rdfW+5x2x+j3mzJb1ucabaZS5jnlLaG/Y8tv6BtCjBK5PszHuwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Daedalus_Stormbow",
+                "damage": "38/ 43",
+                "obtained_by": "Dropped by Hallowed Mimics.",
+                "notes": "Rains arrows from the sky."
+            },
+            {
+                "name": "Ice Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAkBAMAAAB2w3fUAAAALVBMVEUAAAAUW3EEIS8jlbJhyOHm3v/W7vX08f/Iv+ec2+sEIDEFKTdwkr4gjagttte+D7oIAAAAAXRSTlMAQObYZgAAAGtJREFUeNpjYBAUZIACOEuwHJO1+8xdIFMJhcXQIZgmqGSshMpiEJwp+A6VFQo0ySUNJI3CAjKhslBWOdBc41UMGKw0JVQWUIfSTDQWNr3Y7MDmFrBLXeBudlHC7rfdZ1zgYQBjYQsrLGEKACeJLW1RCYHXAAAAAElFTkSuQmCC",
+                "href": "/wiki/Ice_Bow",
+                "damage": "39/ 46",
+                "obtained_by": "Dropped by Ice Mimics.",
+                "notes": "Converts arrows to very fast-moving Frost Arrows."
+            },
+            {
+                "name": "Shadowflame Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAoBAMAAAAMH8foAAAAKlBMVEUAAAAvJ0AbFzIoJExFOoBnWYaOoKnEiPvE2+t7WeohRNJcUJ1caad6bb23dvptAAAAAXRSTlMAQObYZgAAAGhJREFUeNpjYBAEAgYIQDAFQzvOYGGmhRozYDAZBI1dlAQxmAyrlEI7BDGYM4FaoWwkZjkDg3GasRIacyYDg5KLy10lVCZQAZANU4vC3E0CE8MEnLZhdRk2X2D1MdbQwR6S2EMdawwBAMEbNSEU7Ya0AAAAAElFTkSuQmCC",
+                "href": "/wiki/Shadowflame_Bow",
+                "damage": "47",
+                "obtained_by": "Dropped by Goblin Summoners.",
+                "notes": "Converts arrows to slow-moving Shadowflame Arrows."
+            },
+            {
+                "name": "Marrow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAkBAMAAAB/KNeuAAAAIVBMVEUAAAAtLRsxAAgkJCRiYmJWVkPDw8OIABV/f3+FhXA+Pi5OUfIHAAAAAXRSTlMAQObYZgAAAGJJREFUeNp10VENwDAIBNCzcBawgAUsYKEWamEWamEqx5I1WSjw9fiB9gCExK6fZd5OhUi20G3ozI6iRoPTBrXKF6JhabqcHu/cb1ky3RdLr9LlnG5v987uX2UOXW5dzs1dHnExLsFIzWNBAAAAAElFTkSuQmCC",
+                "href": "/wiki/Marrow",
+                "damage": "53/ 40",
+                "obtained_by": "Dropped by Skeleton Archers.",
+                "notes": "Converts arrows to very fast-moving projectiles resembling Bone Arrows."
+            },
+            {
+                "name": "Pulse Bow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAuBAMAAADJkWQBAAAAHlBMVEUAAAAyMjJVWf9rdpJUoP4oFOqiorpPVmrMzOMA//8w4CPFAAAAAXRSTlMAQObYZgAAAHxJREFUeNp9kl0NwDAIhLFwFrCAhVnAAhawUAtzO5ZtSdu1R8LDR2iPPxERyGAj4kAfGxAQaHnDEisVDsQSbwYsbIeqnh/NWFJlvsO7Pmh9uEdX2Bv4o+BEtKeNFWZknzyiWXZCM/K3VJfXvO+XzorPme6I75ffBr8repMXNCgzZ6OW5iYAAAAASUVORK5CYII=",
+                "href": "/wiki/Pulse_Bow",
+                "damage": "80/ 65",
+                "obtained_by": "Purchased from the Traveling Merchant after the Mechanical bosses are defeated (45).",
+                "notes": "Converts arrows to very fast-moving, ricocheting bolts."
+            },
+            {
+                "name": "Phantom Phoenix",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA6CAMAAACUJsmNAAAAP1BMVEUAAAAfAgAhEAQnEgQeFQ49CgdQCQUtHBRkBBFRJAp+EwJlLg2rHQCTRhPILwXaRADzQQC9aRj6hwX/3gD/+wDBXwOtAAAAAXRSTlMAQObYZgAAAOVJREFUeNq11EESgyAMBVBRUYpgBLz/WWuMdFRQwqJ/5fhoTGLHZjjS5FJAs8X77AEGAngPkHABtY6MxflIw+ABZMRLawW8tjQMp9YKiEHGSEnXB78iFaZRAIzRel2N4WEsjQe0Bgjh9tsXHEcaAYDWEcKpJQbSOPFF8DFyXEkNCoEgxG35LJRbEJF/62MgMeEpf8ZuTz12nXPTZO2NWWjttKUekRMqYN/HhrD0jRlILT2ULWB28Qw8/01qUKl5Xhalks/jI7Z7lJIyU7SAzuHtec4084Jta+1nC3LSaQEpQiTPe8cv2P8aiX4txYAAAAAASUVORK5CYII=",
+                "href": "/wiki/Phantom_Phoenix",
+                "damage": "32/ 24",
+                "obtained_by": "Dropped by Ogre.",
+                "notes": "Fires a large phoenix projectile every couple of shots."
+            },
+            {
+                "name": "Tsunami",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA6BAMAAABR1iSMAAAAKlBMVEUAAAAyMjIg4JAImFZw+MkTU6MZeLXM6pn/+bcw+KsluLDMtUh3xz6h2GuEidPoAAAAAXRSTlMAQObYZgAAALNJREFUeNp901EVwyAMBdBYeBaehViIhVqohVqYBSzMQi3MQr0MWAdNKeGr95zQhBBE6oK4dSWAN+Yk1jl3cJlzE2QCz3yVn/VcAwXWcz2Q1lI9UAk5czkil1GiFeBAJOwl2Mz0GLmUEDX9KLaRazkcWb/lzmyCCf/Oe+Y4ZUpoTXaswer3dp6J1Odt/BVJX3Mj6wHJZAfkzmtzZOSlsVPGdxTdbzQb8VzFMxnPc/wW5u/oC0TqVDUHDnhHAAAAAElFTkSuQmCC",
+                "href": "/wiki/Tsunami",
+                "damage": "53/ 60",
+                "obtained_by": "Dropped by Duke Fishron.",
+                "notes": "Fires a group of five arrows."
+            },
+            {
+                "name": "Aerial Bane",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA6CAMAAACUJsmNAAAANlBMVEUAAABRDyA5DzibJ0T/y2f//rZ1Fy+JVa7nXBhaLim8PkRxMH+GK2FlFkFUFFOoYWHgjo6jSXktLNIvAAAAAXRSTlMAQObYZgAAAPRJREFUeNqlleEOgyAMhCkUQZio7/+y48KM4IYgux/G8MWjlrMKGSWi5EciVwMag0XvjQkB970wYe9DAL6gBjyKeUU9hUIwC2EtMzBF9UOtcQVWUc4VuBNOk1JV2yoE1hrGRFlZ3ZAI1llRnZAZcJqyom4h8zxjEWZFMQ04R62rUmjBpXVNuG2wStj74shvICyJmGGIxqWwtiEsYeqc1tYSeY/AZftV4WkLy+qeP+H4e/7T2/HzPGKSlhGvItgdEAGTct+XqJ/RbMBlUQrRfALTZ5TwV0ENmEZGUU4D5qMGzeiF53g7Blz23A0cnbfjM374v/IGTW0TbQPkslYAAAAASUVORK5CYII=",
+                "href": "/wiki/Aerial_Bane",
+                "damage": "39",
+                "obtained_by": "Dropped by Betsy.",
+                "notes": "Converts arrows to special projectiles that split into five upon hitting an enemy."
+            },
+            {
+                "name": "Eventide",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABGBAMAAAAtNuk2AAAALVBMVEUAAACvfRH+/90oafDI//gAN5Fxtv9tRgv/+Tv3d+BNLQiEJnb/r/U/AE3DSqz4ybfuAAAAAXRSTlMAQObYZgAAALtJREFUeNqF00ERxCAMBdBvIRZiIRawEAtYwAIWsIAFLGChFqphaQ87hSGht9eBNoR8AInwfVYyOZTZCyNSJoNEhFr+XliZiapF1JRzKaXJlojjResaZMswTnH1orCI6+ZmExffzaCqSi+97QmNQSgT7fla8tvChfwsUQlREvYciyOzGByVSAyvd3w+FhUG3b2n/1o1++c99WrUMPd5on9Hh/ut8zB86c6VO5NpHuCFfhb8HJ0y6OfXyf4PdyOnv0v7VdkAAAAASUVORK5CYII=",
+                "href": "/wiki/Eventide",
+                "damage": "50",
+                "obtained_by": "Dropped by Empress of Light.",
+                "notes": "Converts Wooden Arrows to streams of rainbows."
+            },
+            {
+                "name": "Phantasm",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAA2BAMAAABU24ZBAAAAIVBMVEUAAAAnGC4cK4QYXUJIRk9sbGwAoKqYmJgi3Zen9ePr6/WlB1VYAAAAAXRSTlMAQObYZgAAALlJREFUeNqN02ERwzAIBWAsPAtYwEIsYAELsYCFWKjKsd5tHaRpln/97pKSByGKBVBr9LMKAKo4HgDa0DpoCWI+3JqGyD2QiBhba5Ah9xDLiA08fA0ePz/4+r4DhnamB2A3RG1YwogtXaEsK/Azpvjxp/gJxhlUx1cWEDlK2lKBrroWgKOeMcGujmh5Lj2Bz9evAU0RTiGfbUDtS4K4fO1tgs18bGfsjzl9j7bWWU8Q0cSJ+b0U2Ly5F6E+dDeRQeUKAAAAAElFTkSuQmCC",
+                "href": "/wiki/Phantasm",
+                "damage": "50",
+                "obtained_by": "Crafted",
+                "notes": "Fires a group of four arrows.Increases in fire rate and shoots additional projectiles when used continuously."
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 6",
+        "contents": [
+            {
+                "name": "Cobalt Repeater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAUCAMAAADvNg5hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAqUExURQAAAAIgLCAgIICAgDIyMqysrAAjRAU2SNfX1wBetRuN64Tq/wBGnAAAAFwXwd8AAAAOdFJOU/////////////////8ARcDcyAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAK5JREFUOE+1k0EOwyAMBIvZ1JTA/79bFkwhVaVKIZlLMGakVTCP/BdXkIKVxh0iBcK1iPdA3TauFrswALZtVq8TUXHuaWiFKyAEdthfEWv3AwOFAvAqxILqvqvGyLrt8wSwIqbENg/FCHjPn5AmVNu3RU1JxKIuiC0Ot3xFxJIfaBfSr2lN7HE4yuTXAHDs5hE4L+ZsSUqU4yBTJlbWQR+Pa0UczNrA/K/HfFLM+Q12ESdZwPNgwgAAAABJRU5ErkJggg==",
+                "href": "/wiki/Cobalt_Repeater",
+                "damage": "35",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Palladium Repeater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAiBAMAAAD8ENftAAAAIVBMVEUAAABvJQdSEQf48XhxHg73tzPvWjH4o3q6PR/idAX31sTz4EM7AAAAAXRSTlMAQObYZgAAALFJREFUeNqd09ENwzAIBFBWuBVYwSt4BVZgBa/QFbxCpuw5pK3Vqlgx+YjgRQhjReQrVLJIVZvuq6sAW1oruWxorTWZK9OThCPB8LuW/8oSdARQymCmh+pSz2K3Am+twQqZT2Fy6EKVL3eE+wNmRu0WnRfqrDGuudB7P6eKEy2UwqobYh14r2Ot40Sj/7i2uAaZrzDXGO3VjB9ou6WiU46xjhs6By3hhXJCbKog/YU/+gQoxlYzqcSBrQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Palladium_Repeater",
+                "damage": "37",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Mythril Repeater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAMAAAD1Cu7vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAnUExURQAAAAoqJAU2SAcaKwpUahZ3fQ07HFnCyYK7eZ3SkNT/vmKtgAAAAMNd5gwAAAANdFJOU////////////////wA96CKGAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAnklEQVQ4T62SAQrDIAxFp/Fr7bz/eZffKOnGYJD5IGBqntjEx/hJUrIyU2W3xGLCtUgpru2UVrEjAixtj8RfrpPWPCy3vZgkSkpcWmObchxdOc9aPfiFUu9xCajVSiiUAjCeHwAilICUohJLeD0o5cKuS9j6hUkcRVxa5My2iHwbro2Xe1GJiZHz/VG+P1jC4/+TnLviTFcbYUpIGuMF2tcfgXHmmKYAAAAASUVORK5CYII=",
+                "href": "/wiki/Mythril_Repeater",
+                "damage": "39",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Orichalcum Repeater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAeBAMAAACLXcAGAAAAJFBMVEUAAAA3F0fFo9NKJFwvAzd2Qoyxgsbu4/KwIKv5NPPbxeTxgfmTRR6EAAAAAXRSTlMAQObYZgAAAKBJREFUeNqdk4ENwyAMBFnhV/AKrJAVvIJXYAVWYIWukOX6dpJWaVWX5EEC6aTH+KGUT6EkyiAUN2HN6E9YKRoLLsJasV0EDRfgQtHPJzcNrj8wFix9rKs24dDRCU2E5jmUEOlQidEdqoVtCu1hpmpe0H7EVlCkkEOjh7Db3ro9tqOBKeRd3Brvxk/D8mJHbGjTEOeITmmn8Ot12l04912eaZNIycXu6h8AAAAASUVORK5CYII=",
+                "href": "/wiki/Orichalcum_Repeater",
+                "damage": "40",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Adamantite Repeater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAUBAMAAAAw+gPuAAAAIVBMVEUAAAAyMjIgICAuAAFJBQZuCw2JEBLj4+O6urqtFBfSGRy7oR+9AAAAAXRSTlMAQObYZgAAAIJJREFUeNqV0WsNwzAMBOBQOApHIRRMYRRMwRRMwRSCck7UKd3Wetr5Rx6fZMlJa58BiXadGyKQ13T8QeRr82V3BFAEtmquIhUxb0QIN9MYWBVqGDU5ddAtHqdkQ+0VdXXSQ1X7TlJvNWVinvfIx8wFtdUh5PS8k/iDVuTtK7lbX9MTxNJOfyol4ZQAAAAASUVORK5CYII=",
+                "href": "/wiki/Adamantite_Repeater",
+                "damage": "42",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Titanium Repeater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAcBAMAAADCYLEwAAAAHlBMVEUBAAAyMjJIRk/Avd2Oi5iLfLhkoYnxz/TW//8AAABbGXZ0AAAAAXRSTlMAQObYZgAAAKBJREFUeNqdk4sNwyAMRL3CreAVbgWv4BVYISuwQretDbSVWsUhPUv8nrDwASK/glQ6pwh14B8K15ATtymmVHHgFl0IZDZjuEFHFysaATOSZjG2mb6kM5fBNAJqgXJu4CUFM5k9/F2PQn2cTi5owEimAefpsrJhJdbWiqbto/6XI8rPLdRUlmXLNnX3xmOTft8UW2/n76qiyXvxoGu6/xeeUvE6k2gQPtsAAAAASUVORK5CYII=",
+                "href": "/wiki/Titanium_Repeater",
+                "damage": "43",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Hallowed Repeater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAUBAMAAAAw+gPuAAAAKlBMVEUAAAApKTlYSQM/P1G0tMxQAACIiKDsyBP66Ig+MwBUVGm6AAD/lJTBpjwmkg3iAAAAAXRSTlMAQObYZgAAAItJREFUeNqVkVENwzAMRE3BFI6CKRyFUAgFUwiFUAiFUhiFcZnjj6rd2lR79+cnRc5Z5BtVQK65URqIoOEPNcfJr7tTAMzKK6PhzFZqTswAb40sW4ajgWvlIOFO1qBkRnfUpVJ6vBZiqO1077HgSo1KMhvavyz93WWpslKlHeqVuduDSux8mOMxr9QHEiFQW6mJljQAAAAASUVORK5CYII=",
+                "href": "/wiki/Hallowed_Repeater",
+                "damage": "50/ 43/ 39",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Vulcan Repeater",
+                "image": "data:image/jpeg;base64,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",
+                "href": "/wiki/Vulcan_Repeater",
+                "damage": "56",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "Chlorophyte Shotbow",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAYBAMAAABDzROoAAAAKlBMVEUAAAAZGRkILgpkZGQ/Pz+6Vlhp1AB/f39PICGh7AAOdgCFNjg7lBSl0VkEf8S1AAAAAXRSTlMAQObYZgAAAKFJREFUeNqVklERAzEIRLGAhbWABSxg4SzEQizEQi3EQi3USzdJr9N25ujd8kN4M2QhEflWBCAHOmYRIrhBKVxgMYpG6FYaTjNVdzN33Am3PwxYpmsdBrYZhMyRs7YxqTW6lVLQGAUPTDMpG5fWHvYhsmkmY+rs2Onc9S2yubSU2RyYldfsPHCG6SVjstrsWxt8LHstLWO/j6v7415hpz/aE5YOYRc0LEIsAAAAAElFTkSuQmCC",
+                "href": "/wiki/Chlorophyte_Shotbow",
+                "damage": "34",
+                "obtained_by": "Crafted",
+                "notes": "Fires a group of two to four arrows."
+            },
+            {
+                "name": "Stake Launcher",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAYCAMAAACY9M4aAAAARVBMVEUAAAAIBRIRDhweGjMpJRwsJUowMDBTJVRFPmZNRjRXTYBhWEJeXl5Icn13bFH5UQCAgICUhWKhkGr3iAChoaHAsIrX19dgJZnzAAAAAXRSTlMAQObYZgAAAOlJREFUeNqtlIGOgyAMhvGAgoJdBcb7P+pZO5y7O5MN70sI0fiVpvlRqRPMilLwgnqHTtGYZUE0JkZaqRtEb8idImsphTCO5k/+WxyGUlJCHMcQEMMKl0mJm0dclvv9RO0Qhw3viURpnyK2XUr8Uj8Uhx1rp8l7u1IKj+brgdayx1gry4/zOkVubZqsZcEfICqFS7RnazkCtQLs510Qc5YlbWoNoDeIuDmJW1t76C6It9s8OzfPObPEQ4qxjQuADsR4CPkF0XvncnZONHn3DAWAXC2WXi7VBbENvWk/OflxdIvHyKnP6BO/ARmaHnEiz2tWAAAAAElFTkSuQmCC",
+                "href": "/wiki/Stake_Launcher",
+                "damage": "75",
+                "obtained_by": "Dropped by Mourning Wood.",
+                "notes": "Fires Stakes."
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 7",
+        "contents": [
+            {
+                "name": "Clockwork Assault Rifle",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAUBAMAAAAqxuNgAAAAJ1BMVEUAAAAgICCsagBPHgAyMjJgYGArDACAgICEOgDzryClpaXQjRD/9rfvp9PJAAAAAXRSTlMAQObYZgAAAJZJREFUeNqN0FENwzAMBFBTOApHwRRMwRRCwRRCwRRCoRQGak6qaVulpbt8Rc+yLhGpWJ2f2aEFxkXN/kGEpg58Gvw1vUUBH1l79Mwy1cA9whsthpFHZlJhZqxpu0WFI5jDOit5qMdcO1anHSo74J2B1vryqe4xK+1Qmay97rN6aXHDGbnBziYQnG9uM+9v3KJ8Xa7Z4BNOB1ulxCiMmgAAAABJRU5ErkJggg==",
+                "href": "/wiki/Clockwork_Assault_Rifle",
+                "damage": "17/ 19",
+                "obtained_by": "Dropped by Wall of Flesh.",
+                "notes": "Fires a three-shot burst."
+            },
+            {
+                "name": "Gatligator",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAWBAMAAAB5x3LYAAAAJ1BMVEUAAAAfHx8zJA0wMDBISEiBWR9iYmKmdCh/f3/PkjaioqLcr23i4uKeEAa3AAAAAXRSTlMAQObYZgAAAKxJREFUeNqNkQsNBCEMRLEwFmoBC1iohVqoBSxgoRawUFFXusneJ3dwwwbIPhgGWsqrkFozovKh7yz/wHXM6WtKg/5hMF9uXmtrDjy994wghlZhXaT76sz9wCg0IL1LE+MIY1AMzEz0m9EcyhonEwn6lYXKagemFF+MrJEoY4DT9cA49xPHI0E4whjyDoYDS0edgSBArf1+sx27qkgjWHimcFdux15WlLe6bdkDue957fAAz1cAAAAASUVORK5CYII=",
+                "href": "/wiki/Gatligator",
+                "damage": "21",
+                "obtained_by": "Purchased from the Traveling Merchant (35).",
+                "notes": "Highly inaccurate."
+            },
+            {
+                "name": "Shotgun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAQBAMAAACW+SCeAAAAJ1BMVEUAAAAyMjIgICA0GQhVVVBkZV6vXi1+RCCIiX+jpptERUDThVXAwroVjgn0AAAAAXRSTlMAQObYZgAAAGJJREFUeNqNzFENgDAMRdFn4VmYhVqoBSzMQi3UAhZmAQuIYm3CB9Al3H10OUkL8BNQIk9VHWOo0n2PnDU29y1Ttrsa0ch5IP6UbvMJapSjW25EEmGF3eYgHi2RL6sRefkHXmRdMptIENMzAAAAAElFTkSuQmCC",
+                "href": "/wiki/Shotgun",
+                "damage": "24/ 23",
+                "obtained_by": "Purchased from the Arms Dealer (25).",
+                "notes": "Fires a spread of three to five bullets."
+            },
+            {
+                "name": "Onyx Blaster",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAWCAMAAACi/q9qAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA2UExURQAAABERFykmNK+jvXlwiQwMEicEOg0NE0hIW3Z1jEIHY60A/xsaI0Q+ViMjMY0D0BUVHwAAAHSbtkwAAAASdFJOU///////////////////////AOK/vxIAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADVSURBVDhPpZHBEoMgDERLRFMR0Pz/z5Z1g1MP7UHejICB56zhZSehwZGw+o8REQdFpgljbExTjCHMXywNX16MiV1SFQfrd2M9SWnbUsLM93UdE81UY8xZpJSuliKiWi+WZd/51IoPjooMmhvFyVn1OHAEwTAzLiNfUR+KISAYjotABtA85QnVWlMD6xExhBghqIMmQQO8atTuqI6JbAWahIvp1wCFNVb7z2DE6eeiKkWC4jyj3Wa1utfw7YsxEe1ghK6h3W785Ll4j2GGpgDf/8lD0ewDGrIwEYWQxewAAAAASUVORK5CYII=",
+                "href": "/wiki/Onyx_Blaster",
+                "damage": "24/ 28",
+                "obtained_by": "Crafted",
+                "notes": "Fires a spread of four bullets and a large explosive projectile."
+            },
+            {
+                "name": "Coin Gun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAASBAMAAADmo+DzAAAAJFBMVEUAAAASHyUiNj9MLQhdZ2vC1dd6XApGTVDt8fPMtUiUfhju2nrBVnm0AAAAAXRSTlMAQObYZgAAAI1JREFUeNqNkAEJBFEIRLfCVJgKU8EKVvgVrGCFX+FX+OXO291bODjkFHH0wYAewHEGeYtSvESHDHxHpg+d6Zkc6hETXoO7YWpqVzn3FHvksPKzCOh2NC55skUWnGuTATe3rAoMoY5qEAKQas2a6pIRnye0CNdPonp5LD2kQ8dD3jvtNfU3elykb/IbvQDJ3lI3NIwwNgAAAABJRU5ErkJggg==",
+                "href": "/wiki/Coin_Gun",
+                "damage": "0",
+                "obtained_by": "Dropped by most pirates.",
+                "notes": "Fires coins."
+            },
+            {
+                "name": "Uzi",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAkBAMAAAA9a6Q5AAAAKlBMVEUAAAAWKyUlJSU3NzcsQTNISEhRUVFHZUVqamp/f39tmmuSkpLDw8Ph4eFMTYKKAAAAAXRSTlMAQObYZgAAAKpJREFUeNqd0gERgzAMBdBYiIVY+BZqYRZqAQuzUAu1MAu1gJclGd3YXdOt/OPg+I9CLwdRD0DjjIBZT9JwupsDpyqvwJIq/wBrypHW2g7YAzEApcAKCxx36DEBK5H9s8i+haLvohlY0SOJbes+ogh0Yc7Sw/weyAS0Jrlx2livn5HHkO1G7ga0ADr6rbKc+hiO1Q7ff0IIdBl8uwtAjHEfgzxkFdoyyJ/wBGTUetvMaDdCAAAAAElFTkSuQmCC",
+                "href": "/wiki/Uzi",
+                "damage": "30",
+                "obtained_by": "Dropped by Angry Trappers.",
+                "notes": "Converts Musket Balls and Silver/Tungsten Bullets to High Velocity Bullets."
+            },
+            {
+                "name": "Dart Rifle",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAgBAMAAAC4M9acAAAAJFBMVEUAAAAZGRkvJ1I4ODhCNW9PT09jSrtLcTN/f3+QgNKFv1/Wt+lzxES0AAAAAXRSTlMAQObYZgAAANNJREFUeNqdk2EVwyAMhLFwFmIhFrAQC7EwC7GAhVmouV2A7tdWaMN7pfS7JukVSvkGgHIVCw7DGw+5CLnihTLGHc62xOWMXI15k0PVxNtxNA4X66t2iKHHmluojtwUjAJdIBqGsubBCWacUkB5hHgWlJF/xS14YZdVK587pWYpoES67SueTdQITGvGd+Vt2+LK9I09cgWwAP2iSWmv+w7vHliaImBP3gsNQdngZeLKPZLpA+db+zyzSa35q3/t8RU/TwY0cHVy/vK5yb0b+pyL3Ocfb1+L26tEN1YAAAAASUVORK5CYII=",
+                "href": "/wiki/Dart_Rifle",
+                "damage": "52",
+                "obtained_by": "Dropped by Corrupt Mimics.",
+                "notes": "Fires darts."
+            },
+            {
+                "name": "Dart Pistol",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAcBAMAAADYXFG+AAAAJFBMVEUAAAAZGRlWISw4ODhyLUBPT0+lJUgzbXHtSU5/f39fur/yfYFs5LpCAAAAAXRSTlMAQObYZgAAAJ5JREFUeNqdklERAyEMRLGwFmIhFrAQC7FwFrAQC7WAuS5HOzfXFhi6/DA82J0kpNQFII00YTA88A9THJtMLuGmFfNSa+FyMbWwCIMGYsVepoQfpivGwunTIDc4E5pplSVTzZrF3RvM7hlm8BVDjmjZvfp3E6Q/GzMUFluEV76bPWF0NLBvwvFusWhnjI8fcTPGueD8hGmLJcy+7ZA9AbVdYCnXxYSqAAAAAElFTkSuQmCC",
+                "href": "/wiki/Dart_Pistol",
+                "damage": "28",
+                "obtained_by": "Dropped by Crimson Mimics.",
+                "notes": "Fires darts."
+            },
+            {
+                "name": "Super Star Shooter",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAWCAMAAACi/q9qAAAAPFBMVEUAAAAZG0ZTVV9LNAA6PEcbHCU1JQAzMnf/+n+SlqUqLDZcWaFydID2wwCooNbY2ud+VwB/dMImJ1+edgBw3UzdAAAAAXRSTlMAQObYZgAAAPRJREFUeNqtlIuOhCAMRS0VCvIS+f9/3b1WdJLNJLM6J0FqwiE3FZymEzph1nn6jH+K1wKiUlqLkTln5+Ivy8K87Ix58EQUKUVVbOEc87p6v67OiWhlDLP3zMaEoKNWa++LRDG2BqkU53r3Ozl775xWveeM+My1QnoqTruqgRF1LEdoBNUqhD9RH4iqqsiMYGhK79gEjcEzpdcRwjfE1kTGxxfReX7Dod0WiUS0QYAZT4Se53QQdmrFqDWls6u3RTCOASoiBBLRYMaImAMRtOdozm3xupet4WLhyFu7baVsm7WvFY4lkbXfEa+fx/X2rsImt8UfPfkbtSrymHsAAAAASUVORK5CYII=",
+                "href": "/wiki/Super_Star_Shooter",
+                "damage": "60",
+                "obtained_by": "Crafted",
+                "notes": "Fires Fallen Stars."
+            },
+            {
+                "name": "Megashark",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAcBAMAAAAuFdQmAAAAMFBMVEUAAAAWFhZEIiUyMjJAPCBTNzpERDFsSEx3UFRgYGCTYmeAgICne3/k46X39s/5+NykAMYsAAAAAXRSTlMAQObYZgAAALNJREFUeNqt00EZwyAMhuFYwMJvAQtYwEItYAELtRALs4AFLMTClrCy9TTSbV8PPfA+LZRCdASNFrlMbQ1/MAR2PMhjKvMKOQxyVsT42ejaLcziNTN2AMg6zJa9sFq4aDJsvlNo3OyW4iufqRlZB+5HhjrXFG4zr5FBRASlsMiYcAr7HuflM33T4a6hcOtdrBROkcvEjbZn+pPpFoQ+Sud98pj3BzdREEOy6FszjuDiGH4wD/Tv7K3mlyapAAAAAElFTkSuQmCC",
+                "href": "/wiki/Megashark",
+                "damage": "25/ 23",
+                "obtained_by": "Crafted",
+                "notes": "Extraordinarily low use time (7)."
+            },
+            {
+                "name": "Flamethrower",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAQCAMAAABqbnzEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA5UExURQAAACsMAE8eACAgIDIyMv0+A6xqAPOvIIQ6AGBgYKWlpf55AoCAgNCNELg6GP3dA0lJSUBAQAAAABocmCgAAAATdFJOU////////////////////////wCyfdwIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAr0lEQVQ4T6WSwQ6EIAxElw4UUFmV///YZSxqYjyx71Kgfcmk+qkXrsEqF8fzAeAbdg6h1nHNRrwXUT1rjKopOcdh74Gcp8m0EOY5hFHNhmIUWRYRq86plmJizkvj1r7fdf1HizE1VLmSlETQ4NngMvjCsNSO1H5cK4VhyP0RCLBt7PRrB2DcUY3Bni2Daz/jnQBcDzCuvUsW0tY/dXjed6D9XINan3mFEZ9YZ0ir9Qfn1iBBc7YUVAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Flamethrower",
+                "damage": "35",
+                "obtained_by": "Crafted",
+                "notes": "Fires Gel."
+            },
+            {
+                "name": "Venus Magnum",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAcBAMAAADcqYGDAAAAJFBMVEUAAAAZGRkILgowMDAyMjInWwBYWFhAlwB/f3+15h3Dw8OM/2bMiBL8AAAAAXRSTlMAQObYZgAAAL5JREFUeNqVkmENAzEIhbHwLGABC1iYhWcBC7VQC1g4c6O925Ylay+jP6D96AsQRH4YxGVhb+TDOz4x0tNvEFp5zwYvS8flR9IOsWsRWpYRxtZSD809ElgoaC16P1oC0D7PHglgBvJhFvQsSWoocYM0WEKcgvAhCeIcwRpVGVU+bAqC1UY1cH5aI5zBS7BuLH3qHmm0Oa9L0ExVC+/RLKK6FtSTDhc91CA3iAe+lmZkvGpfIyMWO7dGMqb5L3oC1B+QgUD9ei0AAAAASUVORK5CYII=",
+                "href": "/wiki/Venus_Magnum",
+                "damage": "50/ 38/ 36",
+                "obtained_by": "Dropped by Plantera.",
+                "notes": "Converts Musket Balls and Silver/Tungsten Bullets to High Velocity Bullets."
+            },
+            {
+                "name": "Tactical Shotgun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAaCAMAAAD/jJ6+AAAAPFBMVEUAAAAgICAyMjIvGhtVVVCIiX9CKSpkZV6VZGVfP0A1AAhERUCjppvAwrq5l5gMEFGIABXtHCQ/SMwAouhEYDkyAAAAAXRSTlMAQObYZgAAANZJREFUeNqtkwkOhCAMRWmxoAKu97/r+K1r4jhi5idiKQ/SBYzZxJP0T2R+Kwtn9l6EiFlkHNv2vzhRURCFgHEYrvBTiI9xvhCCuvLm4swpFbPCLFjMISDxGEUwpkkxej8VOhMngssfhGS/KRc3xloYGhCsEERSEmEuy6raP2vnQmbh1jYNprpJ26Flw9pRy9lZuHMKr22u665DIH1f13pcVTWNc8tNeInvoQBGa3SO9Q3OxuFY0tguMp5IjCt+COUFfhZSRbvWVJ27gbNxbEDaCj/QHf4BKoQOuU3br3UAAAAASUVORK5CYII=",
+                "href": "/wiki/Tactical_Shotgun",
+                "damage": "29",
+                "obtained_by": "Dropped by Tactical Skeletons.",
+                "notes": "Fires a spread of six bullets."
+            },
+            {
+                "name": "Sniper Rifle",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAYCAYAAACiNE5vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGHSURBVFhH7ZUxTsQwEEVzATqUCglRpIECqFLSoUhQ7BW2TUtJT0mRM9BwjpR0cKBlY/1nOUMMjrSsWJyRXuHx2J5nObvFb0Vd15uBqqomUZkP6u2607N7h8r+flgBi8p8hNLhuoMRp/G+7x1t2zq6rhuBGPXkWYdw+fbuOD66dOiY5GB/UHr3wQHZiJcXJ5sBDrDiTdMkwQUgXq+eHXPFbR9ctKZ3FwcrTuM/oXIf5G/XNyPIWzHyMWw9F0Djc+ECLGo/Q3EO7D9eJ3l6eXCsH1cO6uXt1zNPvV0Xm4fUc7kQPiHgE7Ewz5NfxNmQgxhbeMK2EcbhM5/i+u5qRLj3APnYOuqmnvN3IGpZxK2QXrIP8rYh21gqPFkanKoJiT1x1qvN9GDjRVxjTft5BPkkrLDKfZTn2/wW6mkQAX58UhunzqLp+UHji7jGYIV56sxrmy+NIQ7kEebvhby22V8gkL04YhC7EC1PDgRjqGx/gUi24jxpCCUHVP5/ArHsxIlsRG3kJV4Un51UqJz20UicAAAAAElFTkSuQmCC",
+                "href": "/wiki/Sniper_Rifle",
+                "damage": "185/ 128",
+                "obtained_by": "Dropped by Skeleton Snipers.",
+                "notes": "Extraordinarily high base damage (185).Converts Musket Balls and Silver/Tungsten Bullets to High Velocity Bullets."
+            },
+            {
+                "name": "Candy Corn Rifle",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAYCAMAAAC7r5/PAAAAM1BMVEUAAAAyMjJERUCIiX9kZV6tSBXigiFVVVDjZRz9whL+4YuxDhb8VSyjppv6oA9fX1/AwroPyr1UAAAAAXRSTlMAQObYZgAAAKhJREFUeNqdk4sOwyAIRXtRUVtt+/9fuzK22K6PqTdBiDkSUByGnYCjPegvirfEj+PR+lHAbMoZSIl5mmJUY05JU/ShwLIo/CuiErehmpnIe2uN8V69ylopL+d1NeYDN6HOEdlNRHpIvKz7ctpQAZkFFmk7clUSnx6hEgVCmOcQnCsPLE3o2o8WsAxijMwXlTagCn7noUzGxbQ2oOft2wKq0bsPWQleoy+elQhRFx/CgwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Candy_Corn_Rifle",
+                "damage": "44",
+                "obtained_by": "Dropped by Pumpking.",
+                "notes": "Fires Candy Corn."
+            },
+            {
+                "name": "Chain Gun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAgCAMAAABq4atUAAAAM1BMVEUAAAAiCwtpGBs0NDSAHiDEERJYU2TsHBx7e3vmWVzQewulpaW+q4LAwMDS0tL/5q/29vbshFjXAAAAAXRSTlMAQObYZgAAAPFJREFUeNq1lNuOwyAMBSHGjjeGpP//tcuphULbbVVo9zyZy0gTWySEp4kxjGcQiteUMoQNQrgsUoqZiKoIdfkmBCW7BgCQ48iZaK/B6puQai911AAxeyE5AaEJfrDWMLucCBCzUjACkc+hGFMyY75cmH9qiHKGHNpC5G15UJyGUsKWSIPQ7ls51RvFYQgtWGqIti1nDHJdvSbCEP7UG4YApMQ1y9L0fH1iDy2fhJhVcQlI08MuVtv25HsmIQDQDMH1cOTNdkERB7v5TEDtN4Lq1HOV/kncPYopqI/rtXrfX1z9CDr1UKv+H3Sv9xbyLvQLmRYWjZ44tMYAAAAASUVORK5CYII=",
+                "href": "/wiki/Chain_Gun",
+                "damage": "31",
+                "obtained_by": "Dropped by Santa-NK1.",
+                "notes": "Extraordinarily low use time (4).Highly inaccurate."
+            },
+            {
+                "name": "Elf Melter",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAUCAYAAADcHS5uAAACRElEQVR4nOWWQUhUQRjHf8/ntRXvEkEEdjA8aLEtu0metJUOgiRBsBAUdvDQTSgipJuBCHoINIXwUHtSkw7WlmgWW2qhu2JGGgghmXp2mQ4z4+6Mbs+SxfD9L8M337z/9+b7vXnvwSGrIhgWFcGwKJR/JuKKTMQVxYUq8L/p0DaqKb5LjAFwrqZWAHx+O+7krqtzjhu0R8WKkc+nTMQVAE5IXu4jovXVRsdOP18E4IQT2PMC3VFNxCbgJU1odm0NgPaubgB+qtgmODw8CEA02kxuXU/1TQIgYvL2fERUKfSoEoBA2Q8ABs+EZTzUAcBWw20Amj+NC4C4dba8VDa1DMDI8nvDL9B0BYB2NebUAaDow7zhc/dOmxH3DTwB4Fl/r74fmYjJwX2TcYyNHnXtbDRW2gBAnBcAlDTWADBRHQUg2NsJwLdLI8Dus1VZVSV9rl01CkzPL8hx6iEAzuMhAI49aAFgUvmHbt0w5olKopvxhKwrtoAsQa2ZZBLIktTvDDffRo+6ivm6DsD1/qcA1KlE1/17xsKPl5uMWHfSjlutea0SRcT23fHfNS+ZDMwl/lh39UvaUeOevlo+Ippekh+aTgTAaPcFmWl5bSzUZyTFhgOwmUwKyHbUS6tq7NmWdVL1p4DsdzuferYtn33Ws+Ujonk09+osACs3p+VEesPo5F93tvykJNl63phOqXeEfrL+9Y/LSz4iqjodGrsIwPfFX0AuyaWDdXaf/oUiqeUjokoTtS/NzEFJWvLyLxRJLd8Q/Q0ZBuVazM7SsQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Elf_Melter",
+                "damage": "53/ 40",
+                "obtained_by": "Dropped by Santa-NK1.",
+                "notes": "Fires Gel."
+            },
+            {
+                "name": "Xenopopper",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAWCAMAAACBpf6/AAAAPFBMVEUAAAAyMjKlpaUuLGIAUAgIPIt5KrBARGBYU2SzNsl7e3t3u9nS0tIgjajWbejplPhu/n3L9fc6N32/1DRAfie9AAAAAXRSTlMAQObYZgAAALZJREFUeNqdkgEOwyAIAAVBqUXbtf//62SuJt2WbfYSYkIuAQTnTuTK3HHf+FNlzvmcmWdmeHJNBUDMuZSlUoq9peSMD2K8ovoKgCrzdIJZ9VYRUY1xTPW+lBCsAQDm0Nk2gJQQUxJJaUz1fllCsAZitPa50zJSeY41pE6T9/ZZIoiqiEQpHWHl+woGVJNtCGvBZKJ1Jdr39r4sdUA9VmDlRQCInDvijQG1HUsT3S+G1A+3fl29A5dXDoWH0Al/AAAAAElFTkSuQmCC",
+                "href": "/wiki/Xenopopper",
+                "damage": "45",
+                "obtained_by": "Dropped by Martian Saucer.",
+                "notes": "Fires four to five bubbles that pop and fire bullets after a short delay."
+            },
+            {
+                "name": "Vortex Beater",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAcBAMAAAAn/nRcAAAAJ1BMVEUAAAAnGC4cK4RIRk8AbJVsbGxuangAoKqGhoaOi5gA8qqwsLDB/9sHjNvAAAAAAXRSTlMAQObYZgAAAMNJREFUeNqlklENBCEMRLEwFmqhFrCAhVqohVrAQi1gYUVdgb1ks5fsNXdvfkh4gQamlBNQpDzx1UD3CH40aq1EJKIRAd1IGfU4DneFcCDQhS9ih4CUodyaMVgC8BU9aGQMcm7MI5TOPbxmZmNjpmQ5YwkAQui4MSdNGNqmQAVycpm2zW/IGMYGj+d974C17fDIGQWIS3QpwhqBufmYgSWNgsFz0rkSj2AVcpUSSSMEPk/bdf6oYsKwFr//2PLvxuYP4wXkT7zdkUeELgAAAABJRU5ErkJggg==",
+                "href": "/wiki/Vortex_Beater",
+                "damage": "50(bullets)70(rockets)",
+                "obtained_by": "Crafted",
+                "notes": ""
+            },
+            {
+                "name": "S.D.M.G.",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAgCAYAAACmaK65AAADuElEQVR4nO2ZS2hUVxjHf5HBB7hQgoMU0aKihEQiRpGmYDALCaYJGCOIbowPYqG0myx87ApakSmlRTRB22ysmzwUNTArZQRHNEYUlYCgMVKIJA66cGELOl2c85/pOXOvM0l8dHF/EG5u7j33njnnd77vOxP4SFRWN2crq5uzGxq+D/z5WO+dKrHP3YH/Cx98ICqrm7MA+y//AcDaRbOc612/9tvfjBXXkr+Vfeg+TIXICMu0B6Kubkvgej+5qQmA9e37AajZ2ghA+w8tAHTl7jRmZMaeAvDw3sXPYkhkhGXKA1FR8VUW4MoVs+ZHn70BoL/HnKcH0wDc7Op0G4aZkTSHSkyMeffPROB7Z8xcUFL/JmtWZIRlygMxPHyjDKCqqtaJEfH4QgCaGlvNfQ/uAPAkOeQ+wJohljbUAPDo6FUAOjoOANCyzZjTuLkegHVtW4F8zPEZ6hsAoDz55aRiT2SEJTcQyv+i1DUmM/KY2HFpoBfIGzI+OmguJ927C0yxqP3v3SeAwuwj/DplrY09t+19MoRushD+uSIjLLGwSnDv6p3vHcGF8VWOQSsrlgP52KC1vWTxbAB++fkckJ/hiS5jyIIl6wB4dMeNDULZZ+T8Becoeu2x9expp/85U6wZOfPuBX2ayIgcMc145ze7HTPO3P0TyJvho+gtkkcTAJTHzQxqJhPHzd9liND1dMqYkL55C4BnXy8DoO6nU/ZFtU4737SqKnNdseCI7cfhoatOO2WlzFhwLIyMsOQGIjM2Avwnytq1JUOEH6Vv//W3cy4zRNuuHQCUx78I7IBii2Z40TxTOaYOfgtAy/XHznMUY4SfTcKyirKJKloh4yMjLLmBeD5+vwxgsLvPWUP+CArfhLBKT9FascBnfvlcALZt/w6Anvt3AVjs7V3CslF9vds/vx9+P320EiIjLEUHwh/RXAzxCKsQJ2xFqfpA2UJ7kJeZ1865zBD+fYnEscD3ZOcMBfZD9UkYWgmREZaCvYa/u5MBg919TkOtrTC09ve0mRn2TVBF+TJjZkx7knTqmvOcFWs2ArC+3dQBYTMeNvOa8WJERlgKBsI3QXVBqSMrno+bYyLxOrAylQnixau3ADQc6gjsh0zwZ762boN7bitRZZe2XTuyAKnU+ej7iFKIaRepCnK6JvgUa6/YpL2NslTPvh+BQgMUe4Rijn+u7zNKJTLCEtOMHanZ6Kzl6ZpQDN8E/QdM2UlZye+HYk8xhocn15/ICEvBXuNToe8BtPsLM+BTERlh+ReiaatNetAxdAAAAABJRU5ErkJggg==",
+                "href": "/wiki/S.D.M.G.",
+                "damage": "85/77/35",
+                "obtained_by": "Dropped by the Moon Lord.",
+                "notes": "Extraordinarily low use time (5)."
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 8",
+        "contents": [
+            {
+                "name": "Grenade Launcher",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAWBAMAAABnDkJrAAAAMFBMVEUAAABISUQmMhEuLiqIiX9XbDFVVVBZlDKjpptkZV5kpTi4urGD11EmMRFERUDAwrpMk9smAAAAAXRSTlMAQObYZgAAAJNJREFUeNqtkEENwzAMRU3hUzCFUDCFUAgFUzCFUQiFUBiFUiiFzWnSTVureYc+KwfrWdZ3iA4k+sGlEm+ZDjPnkpnhCNIOJoHkrBVmgkdx1rUUWGvNnyGSy7ItEbltwER82Aml8rwg9cWvOD1RIIfjqrnfIcg6iimQwxFrn4IY7nVUJHe69C/3GDyhf+VH98WZfAKammRpYl/i6AAAAABJRU5ErkJggg==",
+                "href": "/wiki/Grenade_Launcher",
+                "damage": "60/ 55",
+                "obtained_by": "Dropped by Plantera.",
+                "notes": ""
+            },
+            {
+                "name": "Proximity Mine Launcher",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAaBAMAAAAK8GKeAAAAJFBMVEUBAAAAAAAbGxuIABUsLCxGRkbtHCRycnIisUyZmZk/2m25ublByA9pAAAAAXRSTlMAQObYZgAAAKNJREFUeNqNkgENwzAMBEOhFEYhFJ7CUxgFUxgFUxiFkdvbURY1Ut1Zclr5ku/bTWtbAGutEdYmOHJ11Eh1N8eMfDPggwqBButKc89UkXmiRKriGRKZCDTdFchTkujS6Q+h1VOB7A2SOCg1HuJyco/4stEss1uGmz+Qwlw+5CYeQr9pXKI258qhy/Pkr9D8pBpFzu30l29QEIwd242qEPYLVKEv1F6Y34DIYZ0AAAAASUVORK5CYII=",
+                "href": "/wiki/Proximity_Mine_Launcher",
+                "damage": "80/ 45",
+                "obtained_by": "Purchased from the Cyborg (35).",
+                "notes": "Fires mines that remain dormant until stepped on."
+            },
+            {
+                "name": "Rocket Launcher",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAWBAMAAAB9MqLlAAAALVBMVEUAAAAsLCyAgIAqGyxgYGDDw8OEVVWpenoqGytqSF/AqJKIABUTYivtHCQisUwakDtGAAAAAXRSTlMAQObYZgAAAKJJREFUeNqNkVERAyEMRLGwFmIhFmIBC7EQC1jAAhbOQi3UQjU0UG4ovYPp5iMzvMyGyYYwxB+FACDMuiCc4qxmpTBAkRpcIwh1ca52hcXfnWKLgBjjKz4jqxVTY/JpAe1RM3zQ0Q31d9c98kZSqxk6/961RN5F4EWsqjlPu1ZoHAr9vDc3vKIAOnoG4i7J0shrh87gpH44aRrhbtA8ktIf6A3UvV/lF2SldQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Rocket_Launcher",
+                "damage": "55/ 50",
+                "obtained_by": "Dropped by Skeleton Commandos.",
+                "notes": ""
+            },
+            {
+                "name": "Nail Gun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAWCAMAAACMu474AAAAM1BMVEUAAAAnJSUyMjI2NjZbMidGRkaGMRpKSkpfX19kZGS4TTB/f3/zg2Sjo6Ovr6/eyL//9O91JmlyAAAAAXRSTlMAQObYZgAAAKpJREFUeNqtk4sOgzAIRUth9D39/68diGSZW4xdPIm20UN6lTaEABs+6uyECRmglJQQVUsp5zGs8A55jJSYAfRy3UsOsSblWplRqLV3/0iLVQWiGB/CP7LGIFJZQRw7iF0gam1Z1nUrmJR1KV2W2QKVHSv/yjwh62OAKPjdYYHo0MHLsv/6nK0NNlrDf2ysKdle5dzaZ9nJRp2QXX8KrXmUe+T3sbpwEq/IL/3fC01OCpHXAAAAAElFTkSuQmCC",
+                "href": "/wiki/Nail_Gun",
+                "damage": "85",
+                "obtained_by": "Dropped by Nailheads.",
+                "notes": "Fires Nails."
+            },
+            {
+                "name": "Jack 'O Lantern Launcher",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAiCAMAAAAuwqolAAAAS1BMVEUAAABSJAoyMjLRXRrigiHqrVPtu3BERUCtSBVkZV6IiX+jppuAW0DjZRxzOQ/6oA+Xa0thRznGx8a/j2//nAz9whL/VAqeoJ7v6+9uXLR7AAAAAXRSTlMAQObYZgAAAQtJREFUeNqtlO2ywiAMRDEBoRSs1s/3f1JZ01h7x+sIdX85ds/MSUkx5utsSkxNnsDp9LmkYXbugVQC55LLJUbv35WZ7ZQQnNtuWwBR8n4cZ0QVrEUJCQFCzG2A1G+3caQpuWS3Q52fEaFWAMj1StT3XUc0lFgLBFIQmkduB4xBve9jfAV05F8ARN7HKEDOOChR+nfoJqDrYgQQQs7DEAKURApKGH8dcDgAQYCgDhEcnnPrAdT3+5SA+BJZvuVqrAGIUjoeAUBLICJdb1VSpA2QekpYbbxcor+fKDPGnm6NBkDr8gIUwO/lNTN9otUAHiCvay7/yDG+uVurgWUEwarPch9TDajirLkKuAM/qBq9UBXwbwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Jack_%27O_Lantern_Launcher",
+                "damage": "65/ 60",
+                "obtained_by": "Dropped by Pumpking.",
+                "notes": "Fires Explosive Jack 'O Lanterns."
+            },
+            {
+                "name": "Snowman Cannon",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAgCAMAAAB0KJvnAAAAM1BMVEUAAAAQICWDpZ5meISYpq/e5+RXd3Ha4ucpWGmFu8/x9PVXiACAtOIWMD++3+jj8vfx/64o1rjfAAAAAXRSTlMAQObYZgAAAQ1JREFUeNq1lQGPgyAMhS32WB3D7f//2tvjrYeakSV295IaLO8jgFCnqUn+NA016AuhP0+lNEZF7ve3vQEUXTmzC08PLoXgut5uPbcZ5iQqO62rCEwIDIgh98LioqiI6vUp1XkWOQZt88x2rXj7Dnp9yWEIbVW3qbIN1CyOArw0bTdCm5BLCTb2p2SWUs7MxVCklwX2y0uYXCmqpRxRYIh2ZIPo0rSdcCmPBwJ22LhNfcJRlEeCcP84mCwnDKOjOZshvoPCCjnoxxBPHn+2zWo180XE0OOl21452GF21cqcl4UYii2nvNDwmr8vsLsCcxLlYQOMRC+o2/awwgZQFu9eSnv+P9HRb+oDeB79BWnMEo3shTG8AAAAAElFTkSuQmCC",
+                "href": "/wiki/Snowman_Cannon",
+                "damage": "67",
+                "obtained_by": "Dropped by Ice Queen.",
+                "notes": "Fires homing rockets."
+            },
+            {
+                "name": "Stynger",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAaCAMAAAD/jJ6+AAAAM1BMVEUAAAATABwEJAAhEhYmECczEQAwJSVfHwBCPDeNOABgVU+WShB4YVZlhCbMZRawhmrG35FJzsV8AAAAAXRSTlMAQObYZgAAANhJREFUeNqdlIEOhCAMQ0GHiEPO///ao2lUUC+5uWQJulctc+LcEVLDXUKEd4fBPZX+xkVUSzkFwLyPMSWRcVzXaeokJtzfItYIISVVkZw/NbbtEJhwERRRUk0JaxFcIWHwYsaEo5RSqEERMgSAMRKf52FYlpzH8Q1eaqgSoymCFN3MmHDvuUG0DRnjbuOxkUYcAhHaoJVSsIKlxyEw4Rwk1f3jc6toLh9waaQJP+H9TRwuthWizswrHDCzHWCMHvCmkWa8tXL+gq2oM2PCWfh1fFDUHRwW/AtqyxixAGQu7AAAAABJRU5ErkJggg==",
+                "href": "/wiki/Stynger",
+                "damage": "45/ 43",
+                "obtained_by": "Dropped by Golem.",
+                "notes": "Fires Stynger Bolts."
+            },
+            {
+                "name": "Electrosphere Launcher",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEoAAAAgCAMAAACCYR5/AAAANlBMVEUAAAAAUAgyMjIIPItYU2ReX29zijZ7e3timrORk6alpaVhyOG/1DS6vdpu/n3S0tK8/sPL9fdHPZBAAAAAAXRSTlMAQObYZgAAASBJREFUeNrNlYuSgjAMRTGk20fAyv//7DZeYleQGR3jjncmQ2jTQx9pGIYndWoafPQiamw6Ap3P0/QCzAU1XrUsInsYNU3T5aIwWrWPuLW5olJS0B5FxBwj0U8TfGYM7IYITxQmpyiRlMaxLwHPGEsThusQ+Dl3Q6s3Ci42vqwKgSgE7dG+uAp92pNzCPMM+wyqlHpVKSIGynmemdWvd1KsogxjqFq9UZh4rctiwRqSM3MHdOmmY4Fmn0IBhuXpG0JsmyFs/DYRLBn8UThykXhTT0gztKq2l+bu4rih4DKnxPw3GBdHF1kr2h6Vl02RcUSZuw+2RCHSy35UrB9QXVDHn7CiooXxW1B20AoTeXtebihLFS3Zb4JcUZsf5v+gfgGxOSD9h25hHgAAAABJRU5ErkJggg==",
+                "href": "/wiki/Electrosphere_Launcher",
+                "damage": "40",
+                "obtained_by": "Dropped by Martian Saucer.",
+                "notes": "Creates stationary energy rings upon impact."
+            },
+            {
+                "name": "Celebration",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAWCAMAAACScr5LAAAAQlBMVEUAAABbAAAqKip7CQlHMw1EMy6bExO7HR1nSxZkTD/bJiZiYmKBYCCDZVCbdCntTk6jfmH/dnbDmHPQnTzZronuxJ/xPZsjAAAAAXRSTlMAQObYZgAAALNJREFUeNqV0l1rg0AQheFHXXQlhfT//8nYoibG1e1NoKE1rZ6bgfk4vMNM8KdaBP8q/Jz51qJyMux2ie5qCUGDpNQLsmI3S1CrRJNFpQC91qf4G/eFSyXrFUZEZIxOOmeTLO1kaRRqo4xF6eJd56zEupNltQgmGUlw0eq8WSxbB3jhkt3N8qP/husjOsBCVolKo9pVxiyIbpLhwL9EjQ/J+pRuJMl8wCU9NlifCsP2Y27rC8r8PPA4s/46AAAAAElFTkSuQmCC",
+                "href": "/wiki/Celebration",
+                "damage": "25/ 65",
+                "obtained_by": " Purchased from the Party Girl (80). Dropped by the Moon Lord.",
+                "notes": ""
+            },
+            {
+                "name": "Celebration Mk2",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAAcCAMAAAD4MnnTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA5UExURQAAAA8NQHNzc1yHqZWmprG+vv7+/oSEhFYrr+Li4ri4uCondoJhxrdL2uSm6uHO4+vr9V5bpgAAABHnSBMAAAATdFJOU////////////////////////wCyfdwIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAABFUlEQVRIS7WU226EIBBAy0XkZtv1/z+2HAZa101W08B5EAnDMeMMfOwvqIbW/dkWbjBbp5Qx1i4F5/rzvnC8bq3oE8Z4H4IvhGAMSb+j2Ybr1tVVQiEeEGGMCJ3TOgSJOyP7unCGTjadSckUWCPZ93ThaB1psDkXtu2zIkVIiUCEJE77CLTPEWulVETP0eXMpIMQHZ8gMN2AXTN0MbKJ4+W9jNuGLueUGJmD/Ajhq/DdYI5hrq4LlVoWKQ06pVo2FyiFZbQOCaCTd2spQghSetKlTaB1SqH1SOWpUYbrjnQZyxwbdNdH7HDIquWX4Tpp37/kkXFhcRG1O+nE0wUlQ2eC7vHoMuaS9hUtfLoO2uQfDNXt+w8Zy03dne76WAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Celebration_Mk2",
+                "damage": "50",
+                "obtained_by": "Dropped by the Moon Lord.",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged weapon 9",
+        "contents": [
+            {
+                "name": "Toxikarp",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAMAAABAUVr7AAAAOVBMVEUAAAAKIw8gFBUyHw8+RDZeTE5DLzF0XmFYaEKSdnmGckq5pX91kUmTpiqqxX/l/l1aTDLu+bTL2XslB2cOAAAAAXRSTlMAQObYZgAAAMdJREFUeNql0YsOwyAIBVBEsajVPv7/YydjbsnSbbS7SdO0nAhBgGfcPePL98B7vhIttjbPzIoQSwmBuVZmG5Gilpnlt3OIRDmHHu9rtRFtFII8gohSj6BSzhFtIyilpWfqIUIE2HcbESCjOccsLZalVqJpEgCwbRaiQAdOqVZtIcPqBVhJa2PpKQ0Q47oOZCGC9I2oIOcYEb2XxdnJAPERbXGFKJCVv1ocnvGTjJUfTHGC6OUrArhCdHGDfIiJyNr/JYIALpIbOWQOvewooLcAAAAASUVORK5CYII=",
+                "href": "/wiki/Toxikarp",
+                "damage": "43",
+                "obtained_by": "Fished in The Corruption.",
+                "notes": "Fires bubbles that inflict the Poisoned debuff.Does not require any ammunition."
+            },
+            {
+                "name": "Piranha Gun",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAaCAMAAAD2Zz7EAAAAOVBMVEUAAAAuAAE7FRAxGi8sLCw9PT1TNkxqSF9XV1eEVVXfMzOXWEt7e3upenq/j2+lpaXAqJLS0tL29va1TwdsAAAAAXRSTlMAQObYZgAAAMJJREFUeNql0ssSgyAMQFEeAaMNjfL/H1tCpNp22gF7Ny44YxA05q1YMz11UkEpraUYvf+PtnGNzaWU5tl7gKs0xnVtw3xNYYxcgr1xKksyDCAEZkQ9rlAiYs552xArHqDeH+MQQ5AFeVq7LNZSKWd5ScEDVN47TYIRiRQzbzXeG6dtAwoBmKkWarKZa1TG62FpSuiZ8NNOO6lcgHO3knNyfwDycfDSfu/dVLAxzt3vAnWB6ONPHaYHbH2Fg/QMf9ZHH34pFQWCpLtsAAAAAElFTkSuQmCC",
+                "href": "/wiki/Piranha_Gun",
+                "damage": "38/ 33",
+                "obtained_by": "Found in the Jungle Chest in the Dungeon.",
+                "notes": "Fires three mechanical piranhas that latch onto enemies and continuously deal damage.Does not require any ammunition."
+            }
+        ]
+    }
+]

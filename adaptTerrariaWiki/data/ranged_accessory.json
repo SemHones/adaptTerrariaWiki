@@ -1,0 +1,144 @@
+[
+    {
+        "tableTitle": "Ranged accessory 11",
+        "contents": [
+            {
+                "name": "Ranger Emblem",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEUAAABAQEAgICChoaEzIQVUVFTf399gOQnnmRzs1jP/+dFv/xg3AAAAAXRSTlMAQObYZgAAAHpJREFUeNpt0VENBDEIBNBaGAtjAQtYwAIWsHAWaqEqD9i7j91l+vUSQpphrQwqXP/cSLi7iJAT4ezIxBRgGhHtgaaffSa2DHp21LInhWY5nG+mlqCg4Mmc2JHKr9BfTOtJ2aU3WZssWxhYrkCwJkK6OnDir3bcr9D8AjnfRKt4it4FAAAAAElFTkSuQmCC",
+                "href": "/wiki/Ranger_Emblem",
+                "boost": "+15% ranged damage"
+            },
+            {
+                "name": "Avenger Emblem",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAJFBMVEUAAAAgICBAQEChoaEyAAhUVFTf399ZAA7tHCS7Dh2IABX/TlUPYjgwAAAAAXRSTlMAQObYZgAAAH9JREFUeNp10UENQzEMA9BSCAVTCAVTCIVQCIVSGIVRGLm53Xb4v5kPkZ5UuWo6hoIVG79caMhMdzfriLQd74isCoXcPvlghEZDFYGTNYlVdqdboF5S/GHUXG3muFMnJFK2PCjzSUBj6aTpkgBbLn+ej9ERvlcH6/hdO66/sPkGls5Jcx+Zu0UAAAAASUVORK5CYII=",
+                "href": "/wiki/Avenger_Emblem",
+                "boost": "+12% damage"
+            },
+            {
+                "name": "Destroyer Emblem",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEUAAAAgICBAQEChoaFgOQkzIQXs1jPf39/nmRyvahH/+dEQqn55AAAAAXRSTlMAQObYZgAAAHtJREFUeNpt0VENxTAIheFaOBawgAUsHAtYwAIWsDCVlza7D9v404Z8T03oWp3ssP49CIkIVQUmSsA66MStdM/bH7auqz2w5WT2dbbfVCat0npMBMutvAiVN/txZrlXEvHhtrn1ORpIEzGO3D6prImiZ3WCiffa5fkLhz+GLVEFSgjVgwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Destroyer_Emblem",
+                "boost": "+10% damage+8%critical strikechance"
+            },
+            {
+                "name": "Rifle Scope",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaBAMAAABbZFH9AAAAJFBMVEUAAAARERElJSU8PDxVVVV/f38CADXDw8MAQpUAguhPyv+q5v+Lmqt5AAAAAXRSTlMAQObYZgAAAGdJREFUeNp10FEJwDAQA9BYiIVYOAtn4SzUQi3UwizMwsytK4Wu45a/B4FAAEpY2cSooT9ZVIJM5RYmm9zVS+a1MxOg6EQq2sO1uImQew0mml2ppCJdVztKovFHa+ePUI4XPkJ5Y+gGNoUoYW49QAMAAAAASUVORK5CYII=",
+                "href": "/wiki/Rifle_Scope",
+                "boost": "When using a gun, creates aBinocularseffect"
+            },
+            {
+                "name": "Recon Scope",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeBAMAAADJHrORAAAAMFBMVEUAAAATBCQnSipMJQAtNFNRS2C5pBduSAB4c5D43piUahiblrBfh1WxrsSLtoDV4KlsZawRAAAAAXRSTlMAQObYZgAAAIJJREFUeNp90UEVxCAMRdFY+Ba+BSxgAQuxEAtYwAIWagELtVALHaAbhkKzu+/kZAEiAGScyfBHxJfDf3jZ94CdWwhnOLBzC3FaGI3Qg5m5tQHvoyXV7FbuF01THXVL14umOZHlCS9DkJW87rJ0S1bNizuLyyyFe7dADu86W9z0cY9/8p5RSeIzvKIAAAAASUVORK5CYII=",
+                "href": "/wiki/Recon_Scope",
+                "boost": "When using a gun, creates aBinocularseffect+10% ranged damage+10% rangedcritical strikechance-400aggro"
+            },
+            {
+                "name": "Sniper Scope",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEUBAAAAAABuSADLlAD/3Tw5OTkkJCRMJQDKysp2AAd9fX24AAv/Chn/Ul1AmW6IAAAAAXRSTlMAQObYZgAAAH1JREFUeNqF0ksRwDAIBFAsrAUsYAELsRALsRALsVALsRAL9VImPTSfCeX4DjAsEAGgqVaAqMIHlj9InAQe2FhOEfQN38AohgwdZANCuDLEAXAXcgA0ywZv3xCnpFawvpGVh4U2QE9KGCfoSWm5iwd2kFqbD1zacqEFDn/wAJ0ULhesYQjUAAAAAElFTkSuQmCC",
+                "href": "/wiki/Sniper_Scope",
+                "boost": "When using a gun, creates aBinocularseffect+10% ranged damage+10% rangedcritical strikechance"
+            },
+            {
+                "name": "Magic Quiver",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAM1BMVEUAAAAbCS8eJxFAImhoPYOgcb0wEhJyRCU8IxO0azpOXDiCS6PFlN57Ly9pmlS5RkbVnXl9DRXEAAAAAXRSTlMAQObYZgAAAItJREFUeNqV0uESgBAQRlEWZUn1/k+bzRg17Krv77nGTFGq25Kn+E05JSEQ2ft1Tek4mEBkQsSSDAKBIa8iYneByAAh7DsA4XlS8Po8ImttTA0QKfD+ca/IhMZY24LuLMsVaTUYnB1yQ3ePgn9ccMtzLsbu5ik31Pr1Gz/zAKdcghgZnDIFZczT5/kCPoELPSyLbugAAAAASUVORK5CYII=",
+                "href": "/wiki/Magic_Quiver",
+                "boost": "Increased arrow velocity+10% arrow damage+20% chance to not consume arrows"
+            },
+            {
+                "name": "Molten Quiver",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAkBAMAAAAeMPXsAAAAMFBMVEUAAABCHBxvNzd+X19/f39MQDP/mzf/24Wampo8IxNyRCXiOx+0azrl2cXVnXmkkH1VaN4ZAAAAAXRSTlMAQObYZgAAAJVJREFUeNqF0FsRxSAMRdFYOBZiIRZiAQu1gAUsYAELtYCFWsDCvdBOX9C0+WMNGxiIznGOunmQxX1JTL+OBokpx3yjQcA5lls3CGbhkkp2toAnUa4DsgQzew0hqJiyNl7rGmTI1uiE86JeWlNJwKYcDYkltWFpDeFFvKwNHQeP0t7f9kNeZGsuLx6E0Ob6ww+yK5nyB7SuXHHKN6ghAAAAAElFTkSuQmCC",
+                "href": "/wiki/Molten_Quiver",
+                "boost": "Increased arrow velocity+10% arrow damage+20% chance to not consume arrowsLights Wooden Arrows ablaze"
+            },
+            {
+                "name": "Stalker's Quiver",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAmBAMAAABe5iSgAAAAMFBMVEUAAAAbCS8oLkdFQVFkYHgwEhJyRCWCfpcnSipfh1U8IxO5RkbVnXk/ZjZ7Ly+0azr4A9tQAAAAAXRSTlMAQObYZgAAAJxJREFUeNqF0H0RwyAMh+FY+FmIhVjAQixgAQtYqAUs1EItYGEWumxjNz66NH8+l7x3QNSNKs1zRQ+9pxL3XW8IJZ5xPF0Jmc94DKcrIefKh5m6xHXbzEpXXwjMnM2GpZlMJJhVOASGhGTWL830OpMUhMfSSO92EoFHrS0g+U/fNggufdpEXX2l1v7dXRGhSf/ClQg29s8gl5qSQ09wB1uDe6KUjQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Stalker%27s_Quiver",
+                "boost": "Increased arrow velocity+10% arrow damage+20% chance to not consume arrows-400aggro"
+            },
+            {
+                "name": "Celestial Stone",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAiBAMAAADMnMbMAAAAJFBMVEUAAAAyMjL/qw+1h7qiZqjohQD/5CjoXABTUIf/k/9FIaWbPgDy1HjHAAAAAXRSTlMAQObYZgAAAKZJREFUeNp10gENxCAMBdBa+BZqoRZqAQtYwAIWZgELM3e/MLLcALIQ+rJ2FCYCSIwx99UCOYjzEbhWQMmY2QtoToHVrwtbECRNWaub2fPKAsrBsAJ7gN5Fi9eGp4EVsmoqbo53638QMbd2zW8u0BP4mPmQBXiEaRS12f0XSHdJsbEmR1AtNXo7AYsWtCgqOABj4RGzO8MOoP0qG5jke5i/w7zKD/wAbfdSnbrwm3EAAAAASUVORK5CYII=",
+                "href": "/wiki/Celestial_Stone",
+                "boost": "+10% damage+2%critical strikechance"
+            },
+            {
+                "name": "Celestial Shell",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAiBAMAAADfS4Y4AAAAJFBMVEUAAAAyMjKbPgColduHbM5cPLXoXADQxux3LWr/qw//5Cj/86HkBTj9AAAAAXRSTlMAQObYZgAAALZJREFUeNql0UsVxDAIBdBYeBawgAUsYAELsYCFWKiFmpuX9HN6ZpJuhgUNtymkbSlXtCi/8YVAt32Pa71CaOUq9o2IqlgirI5rjEGohjUqHifRbDJHaXn2PrIaN06xiI1Jx2E4ZwyaIp/g6VGrKrPebzTBdFM3lmau5rlENCorGu95NqxQUJBOteqeLGSFvUEkXKsjo93/aIKyBSLAYI5NXrCPauMr9jEveLSQMz1iikXu9D9+ADJSYvOUPhbuAAAAAElFTkSuQmCC",
+                "href": "/wiki/Celestial_Shell",
+                "boost": "+10% damage+2%critical strikechance"
+            },
+            {
+                "name": "Putrid Scent",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYBAMAAAAIZcBFAAAAG1BMVEUAAAAyMjJoW4NUSmI/ZjZIPzw4PRlfh1WFeqI+8XdWAAAAAXRSTlMAQObYZgAAAF5JREFUeNpdz1ENwDAIBFAsnIWzcBawgIVaqIXKHs26lZavF8IRMDMDYKs2QQo34YqvuZmpiBWsjBDfmUrmtnYRztFdRCXEMXJCJ71nzPvFNu0tDk5r3Vk4v8R/78sHG24g8QGIp0IAAAAASUVORK5CYII=",
+                "href": "/wiki/Putrid_Scent",
+                "boost": "+5% damage+5%critical strikechance"
+            }
+        ]
+    },
+    {
+        "tableTitle": "Ranged accessory 12",
+        "contents": [
+            {
+                "name": "Well Fed",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFISURBVFhH1ZUhSwRRFIUHf4XVKP4CQbBMtInVatEfYDNZbBZBDP4Ao0Gw2wzW1SZGs7Cio+/KJ3fPvrujwq53L3zhvXfeOYeZZbZx082YsamJpsn32Mbt87txOvhi4WgwEXS/1ZNDbp4C3qzQXr+NoOcYgZ733c9XgEfFhcjYh9aI9PiSk7+AGvwVfOanABegZurZX12eiPrlLYBge6sdoS/w9WTX6G4ODdbnm+sGOl+ikK8AAQQ/Pb4YrDdWFg2Mo+CoCPfJyVsA4eXFmYHB/V5rREG6Rj8/BfRHwgXQIqCBgB7wwT9fAf0Q7aw1hr4a0IAI9PiGH6I0BQgePhwYWiQqFEHwj/+M/q2ABnfDK6OviEIgsJ+/ABcIujteMlh704IPLeg5gaDn+QqoEcE8MsWbFWoaDzpyUhVg/OYsGJuaaJp8TtN8AHOUtPysB/JVAAAAAElFTkSuQmCC",
+                "href": "/wiki/Well_Fed",
+                "boost": "+5% damage+2% critical strike chance"
+            },
+            {
+                "name": "Plenty Satisfied",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVFhH1dUxSgNREMbxxc4r2Fl4iIClNxBsLSw8gq0g2NhZ2noFC8HKA1jYBq+gBwjomrzwk93JPheLJOODfzGzM9/38dhsms5pN8zKGRpaJz+nNF7evwp30yU7N9NfMffXeT588wToii04evrsEZ8TQnw+tp8vgKuyUBO+2m0GOZ5rLIjzdOjyyR8gCjD6OJ0U2uuTHvqC2KPzfwJYwJhxJAaJenkDxEHG1QAPZ30qAexH/XwBvDQWCRF4nhwU9GuYs6ev5pM3QBRwtWoBzUG/tmcubwAvB6EoYFHdvfahK1bToVt9CbcewAfC4PnhEgZqBjUY24sBqh+iNAEYzd4uC/cXewV1LQgDhj5QguQPMGbczh4L6hiEQY3Rv+OtB/DzIPx6u18QRB2NYR8MEZ/nCxCFGLmyWHfFFujXMMcnVQCn29wEK2doaJ3MT9N8A7WW/J2ZPuN+AAAAAElFTkSuQmCC",
+                "href": "/wiki/Plenty_Satisfied",
+                "boost": "+7.5% damage+3% critical strike chance"
+            },
+            {
+                "name": "Exquisitely Stuffed",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVFhHzZUxakJREEU/WYZNyBIshZSp7AKSDVhYZAFa2ttZiVXAzg1EyAKsLGwlpW02IBjjHzny/tXxYaGZB6eYmfvmXr6fb5Gc3Z05OedEt+R4rLH4+TXGqwMPg9VF0F2rxwffOAHSZSUvX9sKOmcR6Dx3P16AdvutAou9voca0ScIP0ncAJ+zD6P5WDO8vkcapoQg8QMwYNG81zLS5SX9et2YvjYq0FcIAHEDIMCIxQShTsOUqCH69ejd0Dk+8QLoS+MZEITaM6RmDszjBsAYIzUEFmKkOmp0Oo8XIPfogUVKbg7o4gXgA0GQznNhEIiaBVorakjNvrgBWLz57huTbs3w6lwQwBifeAGuNd5tZgY19zFSsn/H/x5AX77l8MnA2KvRcx8wBJ3HC8CnGAGLeWRejZ6+Bzp8QgXgpM17cHLOiW7J/hTFH/QLil1uO+h5AAAAAElFTkSuQmCC",
+                "href": "/wiki/Exquisitely_Stuffed",
+                "boost": "+10% damage+4% critical strike chance"
+            },
+            {
+                "name": "Wrath Potion",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtUExURQAAAM3t/pra/gKL2kS7/UIhAPwZGf/gwvzLGfzZWP/RpPyrCPyHGfxOGf/Chatv094AAAHdSURBVFhH7Zc/LENRFMZvvURsjYhBiEo0nSQVLKYKgonEoAYhMYhBOkgag9EkLzE0BjEYxKAGwVSiqMWCaGJqKlEhBhHpJpK22vPnSY88LPQK3/K7vXl9757vnnfueQ71phzxpwTPLoNhCVVYBUR+9pgtIE+AmtxO4sBGSwNuGqG+en1rFSBPjF0fB5YT6ABrI1WcEkMuTJf13o/XPLyL97H7P2vCo5sDZWaiANXZ3Aicb8EVc05w5HvPNUDjJAxkZdr9wJ6KeyBfF7+8A86coyMHF1fAbNAD1NeByGgdUEakdhCqn8iS8+J33+otUH8HXhZ8QHVE7IghRURGxMSBsx7AOfDOCXGf8mmkfg5wHRj31QKtSK6fkMlKZDfCNgf2iSGicGQlhm+FfnWAzwKWt4mcCCDUIO3lJuWEm5xpIGfmEMoU15ETXA9Y+p0F0oFgG65Nvv9GNVbATICynmSEaP6B5mnPuY6Yp8X31/805NofPTwGWu85yaoD6RQg418EsozwFLBrbBbIpyRL39OQOxfpgErfIFkUuSWnCynmpQPcOel/GsoOSDrh8I4AWbn4Gg7IARk5d0i/px+w64iiWxQp65M95y5Y/47ovyv+019GrOJN+37Bs0vsgFKvVBboIxzxaVYAAAAASUVORK5CYII=",
+                "href": "/wiki/Wrath_Potion",
+                "boost": "+10% damage"
+            },
+            {
+                "name": "Cute Fishron Mount",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAATlBMVEUAAAAhKTEmEUBTMZJyn/GJwf9dSr9eZ9tQUFACi9qw5v+a2v5SRGcqSWf4+PigTeuW5+1nwtxEu/11dXW5Fs3N7f4UJDQ5oswAAAB7aJiNxI5DAAAAAXRSTlMAQObYZgAAANhJREFUeF6l09lOwzAUhOGcxXuSrgu8/4sy40gIcQEH8Uu9mk+O3KbLsrz9EOZfAGfV0+l+N0vJTDUhd9XWxng8QALAnaQUDmYFEV6vA8VAzr0fB3dEllLvJK3FQJqV0rvN3DMiiYKc3XkHM0GORGpNKQ7MjkeI7HutJLXuu8hAMeBOcBx8u4nwqoT8qmMAI5oEkZOUovoXwDryWZ6RxABHXvUdEXM6PnFAva4vtK58XfLMLA6on8/z+XLZNv1SazFwvKTbxrl8pjpQDHDO6Pvx/LEC4P//7g9gmym1q6VB6AAAAABJRU5ErkJggg==",
+                "href": "/wiki/Cute_Fishron_Mount",
+                "boost": "+15% damage while below 50% health, underwater, or 6 seconds thereafter"
+            },
+            {
+                "name": "Feral Bite",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAOVBMVEUAAABbTjR0ZUbV08e6uK+qmXePf19EMg7/GwX/cldaRB//pYihoaG7KhKUIg/dLA+BgYHnAAAAAAD7zUa1AAAAAXRSTlMAQObYZgAAANFJREFUeF6lk80SgzAIBgXya9Tavv/Dlm0O3lqc7kXk2xmCTpZleX3B4x8C8Ri91/r80J1Z1dr7GK4EBGIzGrTQr05MYF5KqtVB4KmaEmPjgmopOSNR51wKdVzgUCIoSuiIcMSoQKx6HCKEKCLHoYoSE1isFLN9F1FHhLoUlr4j7PvjwbIMoY4K1yHFWdfsrCv1PGRMmB+K2SjEjJofKiq0xhBWVcds/qrW7gismpJZdcxSYsW40J3mEG7beSLxTj8mjMFCE7NtowAuQUD4/3a/ASwGKD05RhyFAAAAAElFTkSuQmCC",
+                "href": "/wiki/Feral_Bite",
+                "boost": "+20% damage"
+            },
+            {
+                "name": "Damage Nebula",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAGIAAAAgCAYAAADpNa1pAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wgIAygwo7pHKwAAA3VJREFUaN7tmk9oE0EUxr9E70HTQw5ChZRcQqpEwRy0YKBXgxeRggeVqIcqxRJUUA9SCqVYpFSwlqpgLUW8xGuggr3UQ0NFFAlGFEQtNmLwaqOH2bdlXnZ2N3+wEzrvspnMbubH5vvevJndADbjL/5vBBy+27YMQZjQIgKkgJVKDeIoOi7kP7heeC/TI7X9nn8gDOsY7EiGjdvrAIAdw11tZTCO0CR20gdSAEV6f1Rqn+iW0yn9oyp1Pv3snGr5OG59OjCQAyjK3yetseZdGdKxAeGQwhNf4xhH6DZHBMdLkgrHkgHHf44rwOufpvOvFIU6F1fLAIBaLtYRDIVna8IJ05fFtSXZCaHwgDRWNHJJas+8TEkOoYiN35IYjCN0myNUqvJSHw9+vls+9govBlIjqZDyd9ZqF9+mWmaYGY4IhlHhhDQbE+cnxDH/SWLYvB8pyUnZvmUAQCl3EwDQY+YIzR3BKxMeyfiyYxURZSpU/e7iqjeUF4PtBFIj5ee8zECsK1aeboVBNSY5wWZg/WWaQyxH0P2iOQK5BeMILaum+6Waa663nZDZ66gIL2fwPH0uFmyZYX0kBADoul6VVWhVONXKfMsMVO0onWCx0Ji8auL9NFdwBuMI3eYIUh9XTaNOoHYyLk7rTcwBAC7enfKswvwy1DlBxWLl5+P9u5tm4Aq3xwZzgqJ6imJCZlC43ThC93WEKrgi6isV2QnPZ28AAI6dHQQAPFqYahs8sVSnJ6U5gTuhGQaq97kL6yq4H7PiQ+K1dB9CYcHU+3HEF4NxhG6OaGX16bSuQEKo8eev375X2so+D1VSfi5abbtaOjnYNEOSuU6ZGZgT6vec5hwZ+B6VcYRujqAnS7SfbquGrVJpbqDqgCuBq/Hrmiw/tydYKoakNRaNraqaMBpx/N1mGLJN3lBb6aza4gxmZd0pVRM91eJ7LXz/RrWndOrwEQDA0T3i+oNL1wAAffgDANh4cBoA8M4FijMUG3RlOxj6Hx8CABQSr4QL3+yT+r3mhviunGCAPwbjCN3XEapVLhROoBjKLwEA7mSEKq9+Ezn3xZduAMD7Mw+t3BjzhOMMtItqr0oVc0I7Gbgb+feq84cqjTEYR2gSyl1H/gaE1xsU3DmkBJVa/ex8bicG4wjdHGHe9NtaBuMIjRxBYd4G30IG4whN4h+v1h6b8YapfwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Damage_Nebula",
+                "boost": "up to +45% damage for 8 seconds"
+            },
+            {
+                "name": "Ammo Box",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAA2UExURQAAAM3t/pra/gKL2kS7/Tw8PFY6AcPDw+G0XeP0nX9/f7eSSyAzByInLhgmBU39eDBNCkBmDcXkJ4QAAAHJSURBVFhH5Zc/SEJRFIdf5lCQFNZSS/QHA1uMtoaSFIcWh0gIGkMaogaRsoZwyUFaGiIiaI2oIYQG0bChsZAgISmplpaKyCCHsny/ew/qE3vqoFf64PKdQXnv/jj3Hm2QsvxwVws8W4OyhshvgZ1fvKRlZQxJc8e3rCjCtr2fV4xSPz/cDmXM9i5OAjtxlgBx8JDfEo7u3HbJ7oSg5Ai17zsNoiWg8cdlSeOmPjjlHYPLpSt9zivGUuCb+ZIlchq9g9NuA1zzBLTcRfH5fLz6G4/HA/tXZmCN2Qy7bI2w5P1iVlDzBApeQO5WZcdWQjoSwdoI7mLp17RYSsTpAeXNRoRCIV7lY7VaeZVPLPEKG3v1sJxCLvQcpxsS6B6gWUAs2kdhi8UCqxEOh+FVRytM7O2fwHQfEOLNgmIJlEuxm1CJ+NOQpt2krZkVJXIU/OQVY2rEBC8HojAh7jSkc7o+zXaeSuYno0aTju/sYwAejE3A10Z2Gu5nD2FhpmFBAvR74HlTBxNtnXyqqfB41gPTzpVQEombK7h+EiDUknh7Yuf+Pc56qX56QHkPbLlaeFUZHQtJODE/BIt/D/zrf0YEkqgieHaNE5CkX1b0p5DJM917AAAAAElFTkSuQmCC",
+                "href": "/wiki/Ammo_Box",
+                "boost": "20% chance to not consume ammo"
+            },
+            {
+                "name": "Ammo Reservation Potion",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURQAAAM3t/pra/gKL2kS7/Tw8PFY6AcPDw39/f+G0XeP0nbeSSyInLgLPMwGSJAK7LuDMTb0AAAHkSURBVFhH1Zc7SANBFEU3URsLBT9NGuOHgIUQsRPUYIKd2KhYWIoIChYiGi0kVYRgF0EkYCtqI4KFJGKjlb9OCH5ib1oR1KhzZ280E5dVi+x4YDlT7LLz7jxmdl3GJ2+mSwXe7cbQQcQsUPlZNif0YciY2L2WAwvWBlrMkeSn93fUQh+WteuTwHpaJkC27gtbYrjha7t8VkKYHLF7ftynWwLuWFrI6PU3w0+RHvi3eHLH5kgyt/cqfS4TOby8gXOzPtjxBMpNWxKNRuFkMgmHQiFYJRwOw7GFUdgdCMAzfWWwEXmRVnA8gaIJiG5VO1YgKreq/jtyR0e4Vg4SuGqWynGp6JOA2KnU3U0g1p7r/xeYBFHf43gC+X2AZwGZHuiGg8EgbEcqlYIXh6thsrG5D3M/IPqdBUxgqNMPe+qr4N+i7oSn2TZzJNk+uYT1PQ2X+2UCmc0K2ArvyDPMiggTvJt8hF1dsid4//yevF/f09CbGIQzcSjP25WsqHG1ElYrJ0xAfd47JZ0Z24G1OQ1tE2DlrlZZuVEne4NrqmKX3P9LgGuX72omQcxEjIfCRNTKm+IXsHZfREX7AOF+wJnfTrXDVkmovcLk+Lz+X8U//TNij9jBbida/xkRJFFC8G6HEzCMd1K/yEeXwxo0AAAAAElFTkSuQmCC",
+                "href": "/wiki/Ammo_Reservation_Potion",
+                "boost": "20% chance to not consume ammo"
+            },
+            {
+                "name": "Archery",
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABvUlEQVR4nM2XT0sCQRjGf5pfIDoWeCi8BaGHjkEIQRDdhO5hRdesPkL/rtEfvAfeIgii8N5B8Rx2CIpO0SdQO6yPNrOOSunu/kCW2XF2n+d9Z/adgS6tgH8AJAiZBG01la8m3tXruFqdBmBzJW0MKD5UAdi6/zDub9/W+77ocn0OgMwU7Wu8JQGh0hEg52Ly4h2A4s6McV8RUYSun71IyKEovbXohf2e6ERAOVxemAXgOB0DIN/uV87lfH8j6/UvmpGQw1zSG6+cH1S9iJRrr70FhIVTgJ0rOZFTOT/bzRlt9bueM7SAoPAJUO5GjZ5brg0QEDQdAfY6Vs5dDDsX9BzNBb0nX7AEhEVHgK10XNiRjU4ERk1mKt7zvqru2AUMi7Ma/pVK/dNorzUOAbibOAL8kYlOBFQNtU4HRUTrXVVx77xk9Mu53VYkfALCwidAO5n/1gQ5dTl3CggapwD7i+XaLZ/cPAH+HVE+5c1223n89AWAZiHVX0BQOKuh9nDCdq7zge1cZB8bRtueU9Gvht/t88DSfNIYYJ+M9P9BJ6Nc0jwZ+QSERQKIQfesZmN/24Vm+bAo57+ISUCo/ACwUbZXHRuudAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Archery",
+                "boost": "+10% arrow damage and +20% arrow velocity"
+            }
+        ]
+    }
+]
