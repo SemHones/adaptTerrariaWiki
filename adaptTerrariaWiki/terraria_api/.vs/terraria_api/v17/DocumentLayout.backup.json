@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|c:\\users\\shone\\documents\\eigen projecten\\adaptterrariawiki\\adaptterrariawiki\\terraria_api\\terraria_api\\repository\\armorsetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|solutionrelative:terraria_api\\repository\\armorsetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|c:\\users\\shone\\documents\\eigen projecten\\adaptterrariawiki\\adaptterrariawiki\\terraria_api\\terraria_api\\repository\\armorpiecescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|solutionrelative:terraria_api\\repository\\armorpiecescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|c:\\users\\shone\\documents\\eigen projecten\\adaptterrariawiki\\adaptterrariawiki\\terraria_api\\terraria_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|solutionrelative:terraria_api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|c:\\users\\shone\\documents\\eigen projecten\\adaptterrariawiki\\adaptterrariawiki\\terraria_api\\terraria_api\\models\\terrariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|solutionrelative:terraria_api\\models\\terrariacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|c:\\users\\shone\\documents\\eigen projecten\\adaptterrariawiki\\adaptterrariawiki\\terraria_api\\terraria_api\\models\\armorpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|solutionrelative:terraria_api\\models\\armorpiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|c:\\users\\shone\\documents\\eigen projecten\\adaptterrariawiki\\adaptterrariawiki\\terraria_api\\terraria_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{515B6780-DB05-4DD5-BEE2-FE2D672424ED}|terraria_api\\terraria_api.csproj|solutionrelative:terraria_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,32 +43,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArmorSetsController.cs",
+              "DocumentMoniker": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Repository\\ArmorSetsController.cs",
+              "RelativeDocumentMoniker": "terraria_api\\Repository\\ArmorSetsController.cs",
+              "ToolTip": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Repository\\ArmorSetsController.cs",
+              "RelativeToolTip": "terraria_api\\Repository\\ArmorSetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T14:15:48.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArmorPiecesController.cs",
+              "DocumentMoniker": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Repository\\ArmorPiecesController.cs",
+              "RelativeDocumentMoniker": "terraria_api\\Repository\\ArmorPiecesController.cs",
+              "ToolTip": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Repository\\ArmorPiecesController.cs",
+              "RelativeToolTip": "terraria_api\\Repository\\ArmorPiecesController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAADwv0AAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T13:29:58.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "terraria_api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "terraria_api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T13:27:33.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Program.cs",
+              "RelativeDocumentMoniker": "terraria_api\\Program.cs",
+              "ToolTip": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Program.cs",
+              "RelativeToolTip": "terraria_api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T13:04:19.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TerrariaContext.cs",
               "DocumentMoniker": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Models\\TerrariaContext.cs",
               "RelativeDocumentMoniker": "terraria_api\\Models\\TerrariaContext.cs",
               "ToolTip": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Models\\TerrariaContext.cs",
               "RelativeToolTip": "terraria_api\\Models\\TerrariaContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T12:52:42.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ArmorPiece.cs",
               "DocumentMoniker": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Models\\ArmorPiece.cs",
               "RelativeDocumentMoniker": "terraria_api\\Models\\ArmorPiece.cs",
               "ToolTip": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Models\\ArmorPiece.cs",
               "RelativeToolTip": "terraria_api\\Models\\ArmorPiece.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T12:46:32.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ArmorSet.cs",
               "DocumentMoniker": "C:\\Users\\shone\\Documents\\Eigen projecten\\adaptTerrariaWiki\\adaptTerrariaWiki\\terraria_api\\terraria_api\\Models\\ArmorSet.cs",
               "RelativeDocumentMoniker": "terraria_api\\Models\\ArmorSet.cs",

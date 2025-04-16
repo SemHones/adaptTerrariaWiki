@@ -1,0 +1,64 @@
+﻿@model terraria_api.Models.ArmorPiece
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>ArmorPiece</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Href" class="control-label"></label>
+                <input asp-for="Href" class="form-control" />
+                <span asp-validation-for="Href" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ObtainedFrom" class="control-label"></label>
+                <input asp-for="ObtainedFrom" class="form-control" />
+                <span asp-validation-for="ObtainedFrom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Defense" class="control-label"></label>
+                <input asp-for="Defense" class="form-control" />
+                <span asp-validation-for="Defense" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BodySlot" class="control-label"></label>
+                <input asp-for="BodySlot" class="form-control" />
+                <span asp-validation-for="BodySlot" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ToolTip" class="control-label"></label>
+                <input asp-for="ToolTip" class="form-control" />
+                <span asp-validation-for="ToolTip" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
