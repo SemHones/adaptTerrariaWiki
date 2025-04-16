@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("terraria_api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e30f97186338a95a8f66f8a77eef6220dc71a04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92aea5f0a3519431e66c1de1dd496732fc59d342")]
 [assembly: System.Reflection.AssemblyProductAttribute("terraria_api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("terraria_api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
