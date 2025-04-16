@@ -4,9 +4,9 @@ namespace terraria_api.Models
 {
     public class TerrariaContext : DbContext
     {
-
         public string DbPath { get; }
-        public TerrariaContext()
+
+        public TerrariaContext(DbContextOptions<TerrariaContext> options, IConfiguration configuration) : base(options)
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
@@ -16,9 +16,8 @@ namespace terraria_api.Models
         public DbSet<ArmorSet> ArmorSets { get; set; }
         public DbSet<ArmorPiece> ArmorPieces { get; set; }
 
-        // The following configures EF to create a Sqlite database file in the
-        // special "local" folder for your platform.
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite($"Data Source={DbPath}");
     }
+
 }
