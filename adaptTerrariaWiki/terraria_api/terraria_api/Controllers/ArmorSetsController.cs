@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using terraria_api.Models;
 
-namespace terraria_api.Repository
+namespace terraria_api.Controllers
 {
     public class ArmorSetsController : Controller
     {
