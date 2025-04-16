@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using terraria_api.Models;
 
 namespace terraria_api.Controllers
 {
-    public class ArmorSetsController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class ArmorSetsController : ControllerBase
     {
         private readonly TerrariaContext _context;
 
@@ -18,134 +15,81 @@ namespace terraria_api.Controllers
             _context = context;
         }
 
-        // GET: ArmorSets
-        public async Task<IActionResult> Index()
+        // GET: api/ArmorSets
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<ArmorSet>>> GetArmorSets()
         {
-            return View(await _context.ArmorSets.ToListAsync());
+            return await _context.ArmorSets.ToListAsync();
         }
 
-        // GET: ArmorSets/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: api/ArmorSets/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ArmorSet>> GetArmorSet(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var armorSet = await _context.ArmorSets
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (armorSet == null)
-            {
-                return NotFound();
-            }
-
-            return View(armorSet);
-        }
-
-        // GET: ArmorSets/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: ArmorSets/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Image,Href,SetBonus")] ArmorSet armorSet)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(armorSet);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(armorSet);
-        }
-
-        // GET: ArmorSets/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
             var armorSet = await _context.ArmorSets.FindAsync(id);
+
             if (armorSet == null)
             {
                 return NotFound();
             }
-            return View(armorSet);
+
+            return armorSet;
         }
 
-        // POST: ArmorSets/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: api/ArmorSets
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Image,Href,SetBonus")] ArmorSet armorSet)
+        public async Task<ActionResult<ArmorSet>> PostArmorSet(ArmorSet armorSet)
+        {
+            _context.ArmorSets.Add(armorSet);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetArmorSet), new { id = armorSet.Id }, armorSet);
+        }
+
+        // PUT: api/ArmorSets/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutArmorSet(int id, ArmorSet armorSet)
         {
             if (id != armorSet.Id)
             {
-                return NotFound();
+                return BadRequest();
             }
 
-            if (ModelState.IsValid)
+            _context.Entry(armorSet).State = EntityState.Modified;
+
+            try
             {
-                try
-                {
-                    _context.Update(armorSet);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ArmorSetExists(armorSet.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                await _context.SaveChangesAsync();
             }
-            return View(armorSet);
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!ArmorSetExists(id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
+            return NoContent();
         }
 
-        // GET: ArmorSets/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        // DELETE: api/ArmorSets/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteArmorSet(int id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var armorSet = await _context.ArmorSets
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var armorSet = await _context.ArmorSets.FindAsync(id);
             if (armorSet == null)
             {
                 return NotFound();
             }
 
-            return View(armorSet);
-        }
-
-        // POST: ArmorSets/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var armorSet = await _context.ArmorSets.FindAsync(id);
-            if (armorSet != null)
-            {
-                _context.ArmorSets.Remove(armorSet);
-            }
-
+            _context.ArmorSets.Remove(armorSet);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+
+            return NoContent();
         }
 
         private bool ArmorSetExists(int id)
