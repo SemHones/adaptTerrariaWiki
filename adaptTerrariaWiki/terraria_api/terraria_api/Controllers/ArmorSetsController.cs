@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using terraria_api.Models;
+using terraria_api.Services;
 
 namespace terraria_api.Controllers
 {
@@ -8,40 +9,49 @@ namespace terraria_api.Controllers
     [Route("api/[controller]")]
     public class ArmorSetsController : ControllerBase
     {
-        private readonly TerrariaContext _context;
+        private readonly ArmorSetsService _armorSetsService;
 
         public ArmorSetsController(TerrariaContext context)
         {
-            _context = context;
+            _armorSetsService = new ArmorSetsService(context);
         }
 
         // GET: api/ArmorSets
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ArmorSet>>> GetArmorSets()
         {
-            return await _context.ArmorSets.ToListAsync();
+            return await _armorSetsService.GetArmorSets();
         }
 
         // GET: api/ArmorSets/5
         [HttpGet("{id}")]
         public async Task<ActionResult<ArmorSet>> GetArmorSet(int id)
         {
-            var armorSet = await _context.ArmorSets.FindAsync(id);
-
-            if (armorSet == null)
+            try
+            {
+                return await _armorSetsService.GetArmorSet(id);
+            }
+            catch (Exception)
             {
                 return NotFound();
             }
-
-            return armorSet;
         }
 
         // POST: api/ArmorSets
         [HttpPost]
         public async Task<ActionResult<ArmorSet>> PostArmorSet(ArmorSet armorSet)
         {
-            _context.ArmorSets.Add(armorSet);
-            await _context.SaveChangesAsync();
+            if (armorSet == null)
+            {
+                return BadRequest("ArmorSet is null");
+            }
+
+            var status = await _armorSetsService.PostArmorSet(armorSet);
+
+            if (!status)
+            {
+                return NotFound();
+            }
 
             return CreatedAtAction(nameof(GetArmorSet), new { id = armorSet.Id }, armorSet);
         }
@@ -52,25 +62,14 @@ namespace terraria_api.Controllers
         {
             if (id != armorSet.Id)
             {
-                return BadRequest();
+                return BadRequest("Id does not match the ArmorSet object");
             }
 
-            _context.Entry(armorSet).State = EntityState.Modified;
+            var status = await _armorSetsService.PutArmorSet(armorSet);
 
-            try
+            if (!status)
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ArmorSetExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound();
             }
 
             return NoContent();
@@ -80,21 +79,14 @@ namespace terraria_api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteArmorSet(int id)
         {
-            var armorSet = await _context.ArmorSets.FindAsync(id);
-            if (armorSet == null)
+            var status = await _armorSetsService.DeleteArmorSet(id);
+
+            if (!status)
             {
                 return NotFound();
             }
 
-            _context.ArmorSets.Remove(armorSet);
-            await _context.SaveChangesAsync();
-
             return NoContent();
-        }
-
-        private bool ArmorSetExists(int id)
-        {
-            return _context.ArmorSets.Any(e => e.Id == id);
         }
     }
 }
