@@ -9,11 +9,11 @@ namespace terraria_api.Controllers
     [Route("api/[controller]")]
     public class ArmorPiecesController : ControllerBase
     {
-        private readonly ArmorPiecesServices _armorPiecesServices;
+        private readonly ArmorPiecesService _armorPiecesServices;
 
         public ArmorPiecesController(TerrariaContext context)
         {
-            _armorPiecesServices = new ArmorPiecesServices(context);
+            _armorPiecesServices = new ArmorPiecesService(context);
         }
 
         // GET: api/ArmorPieces

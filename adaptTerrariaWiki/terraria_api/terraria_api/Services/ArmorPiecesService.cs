@@ -6,12 +6,12 @@ using terraria_api.Repository;
 
 namespace terraria_api.Services
 {
-    public class ArmorPiecesServices
+    public class ArmorPiecesService
     {
 
         private readonly ArmorPiecesRepository _armorPiecesRepository;
 
-        public ArmorPiecesServices(TerrariaContext context)
+        public ArmorPiecesService(TerrariaContext context)
         {
             _armorPiecesRepository = new ArmorPiecesRepository(context);
         }
