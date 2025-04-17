@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using terraria_api.Models;
+using terraria_api.Services;
 
 namespace terraria_api.Controllers
 {
@@ -8,40 +9,54 @@ namespace terraria_api.Controllers
     [Route("api/[controller]")]
     public class ArmorPiecesController : ControllerBase
     {
-        private readonly TerrariaContext _context;
+        private readonly ArmorPiecesServices _armorPiecesServices;
 
         public ArmorPiecesController(TerrariaContext context)
         {
-            _context = context;
+            _armorPiecesServices = new ArmorPiecesServices(context);
         }
 
         // GET: api/ArmorPieces
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ArmorPiece>>> GetArmorPieces()
         {
-            return await _context.ArmorPieces.ToListAsync();
+            return await _armorPiecesServices.GetArmorPieces();
         }
 
         // GET: api/ArmorPieces/5
         [HttpGet("{id}")]
         public async Task<ActionResult<ArmorPiece>> GetArmorPiece(int id)
         {
-            var armorPiece = await _context.ArmorPieces.FindAsync(id);
-
-            if (armorPiece == null)
+            if (id <= 0)
             {
-                return NotFound();
+                return BadRequest("Id is not valid");
             }
 
-            return armorPiece;
+            return await _armorPiecesServices.GetArmorPiece(id);
         }
 
         // POST: api/ArmorPieces
         [HttpPost]
         public async Task<ActionResult<ArmorPiece>> PostArmorPiece(ArmorPiece armorPiece)
         {
-            _context.ArmorPieces.Add(armorPiece);
-            await _context.SaveChangesAsync();
+            //check if armorPiece is null
+            if (armorPiece == null)
+            {
+                return BadRequest("ArmorPiece is null");
+            }
+
+            if (armorPiece.Id <= 0)
+            {
+                return BadRequest("Id is not valid");
+            }
+
+            var status = await _armorPiecesServices.PostArmorPiece(armorPiece);
+
+            if (!status)
+            {
+                return NotFound();
+            }
+
 
             return CreatedAtAction(nameof(GetArmorPiece), new { id = armorPiece.Id }, armorPiece);
         }
@@ -50,27 +65,21 @@ namespace terraria_api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutArmorPiece(int id, ArmorPiece armorPiece)
         {
+            if (armorPiece.Id <= 0 && id <= 0)
+            {
+                return BadRequest("One of the Id's are not valid (probably both). Go fuck yourself.");
+            }
+
             if (id != armorPiece.Id)
             {
-                return BadRequest();
+                return BadRequest("Id does not match the ArmorPiece object.");
             }
 
-            _context.Entry(armorPiece).State = EntityState.Modified;
+            var status = await _armorPiecesServices.PutArmorPiece(armorPiece);
 
-            try
+            if (!status)
             {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ArmorPieceExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return NotFound();
             }
 
             return NoContent();
@@ -80,21 +89,19 @@ namespace terraria_api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteArmorPiece(int id)
         {
-            var armorPiece = await _context.ArmorPieces.FindAsync(id);
-            if (armorPiece == null)
+            if ( id <= 0)
+            {
+                return BadRequest("Id is not valid");
+            }
+
+            var status = await _armorPiecesServices.DeleteArmorPiece(id);
+
+            if (!status)
             {
                 return NotFound();
             }
 
-            _context.ArmorPieces.Remove(armorPiece);
-            await _context.SaveChangesAsync();
-
             return NoContent();
-        }
-
-        private bool ArmorPieceExists(int id)
-        {
-            return _context.ArmorPieces.Any(e => e.Id == id);
         }
     }
 }
