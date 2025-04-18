@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using terraria_api.DTO;
 
 namespace terraria_api.Models
 {
@@ -14,6 +15,7 @@ namespace terraria_api.Models
         }
 
         public DbSet<ArmorSet> ArmorSets { get; set; }
+        public DbSet<ArmorSetDTO> ArmorSetDTOs { get; set; }
         public DbSet<ArmorPiece> ArmorPieces { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using terraria_api.DTO;
 using terraria_api.Models;
 using terraria_api.Services;
 
@@ -39,7 +40,7 @@ namespace terraria_api.Controllers
 
         // POST: api/ArmorSets
         [HttpPost]
-        public async Task<ActionResult<ArmorSet>> PostArmorSet(ArmorSet armorSet)
+        public async Task<ActionResult<ArmorSet>> PostArmorSet(ArmorSetDTO armorSet)
         {
             if (armorSet == null)
             {
@@ -58,7 +59,7 @@ namespace terraria_api.Controllers
 
         // PUT: api/ArmorSets/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutArmorSet(int id, ArmorSet armorSet)
+        public async Task<IActionResult> PutArmorSet(int id, ArmorSetDTO armorSet)
         {
             if (id != armorSet.Id)
             {

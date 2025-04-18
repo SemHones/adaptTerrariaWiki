@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using terraria_api.DTO;
 using terraria_api.Models;
 
 namespace terraria_api.Repository
@@ -13,33 +14,33 @@ namespace terraria_api.Repository
             _context = context;
         }
 
-        public async Task<ActionResult<IEnumerable<ArmorSet>>> GetArmorSets()
+        public async Task<ActionResult<IEnumerable<ArmorSetDTO>>> GetArmorSets()
         {
-            return await _context.ArmorSets.ToListAsync();
+            return await _context.ArmorSetDTOs.ToListAsync();
         }
 
-        public async Task<ActionResult<ArmorSet>> GetArmorSet(int id)
+        public async Task<ActionResult<ArmorSetDTO>> GetArmorSet(int id)
         {
-            var armorSet = await _context.ArmorSets.FindAsync(id);
+            var armorSetDTO = await _context.ArmorSetDTOs.FindAsync(id);
 
-            if (armorSet == null)
+            if (armorSetDTO == null)
             {
                 throw new Exception("ArmorSet not found");
             }
 
-            return armorSet;
+            return armorSetDTO;
         }
 
-        public async Task<bool> PostArmorSet(ArmorSet armorSet)
+        public async Task<bool> PostArmorSet(ArmorSetDTO armorSetDTO)
         {
-            _context.ArmorSets.Add(armorSet);
+            _context.ArmorSetDTOs.Add(armorSetDTO);
             await _context.SaveChangesAsync();
             return true;
         }
 
-        public async Task<bool> PutArmorSet(ArmorSet armorSet)
+        public async Task<bool> PutArmorSet(ArmorSetDTO armorSetDTO)
         {
-            _context.Entry(armorSet).State = EntityState.Modified;
+            _context.Entry(armorSetDTO).State = EntityState.Modified;
 
             try
             {
@@ -48,9 +49,9 @@ namespace terraria_api.Repository
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ArmorSetExists(armorSet.Id))
+                if (!ArmorSetExists(armorSetDTO.Id))
                 {
-                    throw new KeyNotFoundException($"ArmorSet with id {armorSet.Id} not found.");
+                    throw new KeyNotFoundException($"ArmorSet with id {armorSetDTO.Id} not found.");
                 }
 
                 throw;
@@ -59,13 +60,13 @@ namespace terraria_api.Repository
 
         public async Task<bool> DeleteArmorSet(int id)
         {
-            var armorSet = await _context.ArmorSets.FindAsync(id);
+            var armorSet = await _context.ArmorSetDTOs.FindAsync(id);
             if (armorSet == null)
             {
                 throw new Exception("ArmorSet not found");
             }
 
-            _context.ArmorSets.Remove(armorSet);
+            _context.ArmorSetDTOs.Remove(armorSet);
             await _context.SaveChangesAsync();
             return true;
         }
