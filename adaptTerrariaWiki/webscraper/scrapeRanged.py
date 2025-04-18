@@ -1,79 +1,10 @@
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
-import json
 import base64
 import requests
-import re
 
-from scrapeRanged import ScrapeRanged
+class ScrapeRanged:
 
-class ScrapeData:
-    def ScrapeAllTablesFromTerSite(self, url, tableTitle):
-        page = urlopen(url)
-        html = page.read().decode("utf-8")
-        soup = BeautifulSoup(html, "html.parser")
-        tables = soup.find_all("table", class_=["sortable", "lined"])
-
-        jsonTables = []
-
-        count = 1
-        for table in tables:
-            if table:
-                
-                newTitle = tableTitle + " " + str(count)
-                
-                tempJson = self.loadingTables(table, newTitle)
-                if tempJson["contents"]:
-                    jsonTables.append(tempJson)
-                
-                count += 1
-
-                if(tempJson["tableTitle"] == "Empty"):
-                    break # This is a temporary fix, but it works for now, i promise... :)
-            else:
-                print("Table not found.")
-        print(json.dumps(jsonTables, indent=4))
-
-    def loadingTables(self, table, tableTitle):
-        # Extract text from table
-        table = (table.encode('utf-8'))
-        soup = BeautifulSoup(table, "html.parser")
-        table = soup.find('table')
-
-        data = {
-            "tableTitle": tableTitle,
-            "contents": []
-        }
-        # Indexes are purely for debugging purposes
-        armorIndex = 0
-        weaponIndex = 0
-        accessoryIndex = 0
-        for row in table.find_all('tr')[1:]:  
-            
-            row_data = {}
-            
-            link_tag = row.find('a')
-            cells = row.find_all(['th', 'td'])
-            if(link_tag):
-
-                if "armor" in tableTitle:
-                    data = self.returnJsonOfArmorTable(link_tag, row_data, cells, data, armorIndex)
-                    armorIndex += 1
-                elif "weapon" in tableTitle:
-                    data = self.returnJsonOfWeaponTable(link_tag, row_data, cells, data, weaponIndex)
-                    # This only works for weapons, since they are the first tables displayed and the next table found this way is armor an it crashes on accessories.
-                    # This is a temporary fix, but it works for now. :)
-                    if(data["contents"] == []):
-                        print("All weapons scraped... probably, fix your code if it wasn't all weapons")
-                        print("no weapon found, stopping")
-                        data['tableTitle'] = "Empty" # This makes sure the next tables are not scraped
-                    weaponIndex += 1
-                elif "accessory" in tableTitle:
-                    data = self.returnJsonOfAccessoryTable(link_tag, row_data, cells, data, accessoryIndex)
-                    accessoryIndex += 1
-        return data
-
-    # also loads buffs and debuffs 
     def returnJsonOfAccessoryTable(self, link_tag, row_data, cells, data, accessoryIndex):
         if cells is None:
             return data
