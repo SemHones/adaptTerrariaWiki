@@ -25,6 +25,9 @@ class ScrapeData:
                     jsonTables.append(tempJson)
                 
                 count += 1
+
+                if(tempJson["tableTitle"] == "Empty"):
+                    break # This is a temporary fix, but it works for now, i promise... :)
             else:
                 print("Table not found.")
         print(json.dumps(jsonTables, indent=4))
@@ -50,14 +53,20 @@ class ScrapeData:
             link_tag = row.find('a')
             cells = row.find_all(['th', 'td'])
             if(link_tag):
-                print("data")
-                print(data)
+                # print("data")
+                # print(data)
 
                 if "armor" in tableTitle:
                     data = self.returnJsonOfArmorTable(link_tag, row_data, cells, data, armorIndex)
                     armorIndex += 1
                 elif "weapon" in tableTitle:
                     data = self.returnJsonOfWeaponTable(link_tag, row_data, cells, data, weaponIndex)
+                    # This only works for weapons, since they are the first tables displayed and the next table found this way is armor an it crashes on accessories.
+                    # This is a temporary fix, but it works for now. :)
+                    if(data["contents"] == []):
+                        print("All weapons scraped... probably, fix your code if it wasn't all weapons")
+                        print("no weapon found, stopping")
+                        data['tableTitle'] = "Empty" # This makes sure the next tables are not scraped
                     weaponIndex += 1
                 elif "accessory" in tableTitle:
                     data = self.returnJsonOfAccessoryTable(link_tag, row_data, cells, data, accessoryIndex)
@@ -94,10 +103,15 @@ class ScrapeData:
         if link_tag:
             first_image = link_tag.find('img')
             if first_image:
-                # check to make sure only armors are being scraped
-                if not "armor" in first_image['data-src']:
-                    print("Not an armor")
-                    return data
+                # melee should work with just data-src, but ranged for some reason doesn't have the data-src attribute (make the insanity stop)
+                if 'data-src' not in first_image:
+                    if not "armor" in first_image['alt']:
+                        print("Not an armor")
+                        return data
+                else:
+                    if not "armor" in first_image['data-src']:
+                        print("Not an armor")
+                        return data
                 # make the print work
                 print("Armor found " + str(armorIndex))
 

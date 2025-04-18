@@ -30,3 +30,4 @@ adaptTerrariaWiki/terraria_api/terraria_api/obj/Debug/net8.0/terraria_api.source
 adaptTerrariaWiki/terraria_api/terraria_api/obj/Debug/net8.0/EndpointInfo/terraria_api.json
 adaptTerrariaWiki/terraria_api/terraria_api/obj/Debug/net8.0/ApiEndpoints.json
 adaptTerrariaWiki/terraria_api/.vs/terraria_api/v17/DocumentLayout.json
+*.pyc
