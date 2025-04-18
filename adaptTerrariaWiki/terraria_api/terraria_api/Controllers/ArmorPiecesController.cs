@@ -82,7 +82,7 @@ namespace terraria_api.Controllers
                 return NotFound();
             }
 
-            return NoContent();
+            return Ok();
         }
 
         // DELETE: api/ArmorPieces/5
@@ -101,7 +101,7 @@ namespace terraria_api.Controllers
                 return NotFound();
             }
 
-            return NoContent();
+            return Ok();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using terraria_api.DTO;
 using terraria_api.Models;
@@ -40,40 +41,40 @@ namespace terraria_api.Controllers
 
         // POST: api/ArmorSets
         [HttpPost]
-        public async Task<ActionResult<ArmorSet>> PostArmorSet(ArmorSetDTO armorSet)
+        public async Task<ActionResult<ArmorSet>> PostArmorSet(ArmorSetDTO armorSetDTO)
         {
-            if (armorSet == null)
+            if (armorSetDTO == null)
             {
                 return BadRequest("ArmorSet is null");
             }
 
-            var status = await _armorSetsService.PostArmorSet(armorSet);
+            var status = await _armorSetsService.PostArmorSet(armorSetDTO);
 
             if (!status)
             {
                 return NotFound();
             }
 
-            return CreatedAtAction(nameof(GetArmorSet), new { id = armorSet.Id }, armorSet);
+            return CreatedAtAction(nameof(GetArmorSet), new { id = armorSetDTO.Id }, armorSetDTO);
         }
 
         // PUT: api/ArmorSets/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutArmorSet(int id, ArmorSetDTO armorSet)
+        public async Task<IActionResult> PutArmorSet(int id, ArmorSetDTO armorSetDTO)
         {
-            if (id != armorSet.Id)
+            if (id != armorSetDTO.Id)
             {
                 return BadRequest("Id does not match the ArmorSet object");
             }
 
-            var status = await _armorSetsService.PutArmorSet(armorSet);
+            var status = await _armorSetsService.PutArmorSet(armorSetDTO);
 
             if (!status)
             {
                 return NotFound();
             }
 
-            return NoContent();
+            return Ok();
         }
 
         // DELETE: api/ArmorSets/5
@@ -87,7 +88,7 @@ namespace terraria_api.Controllers
                 return NotFound();
             }
 
-            return NoContent();
+            return Ok();
         }
     }
 }

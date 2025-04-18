@@ -63,14 +63,11 @@ namespace terraria_api.Services
 
         public async Task<bool> PostArmorSet(ArmorSetDTO armorSetDTO)
         {
-
             return await _armorSetsRepository.PostArmorSet(armorSetDTO);
         }
 
         public async Task<bool> PutArmorSet(ArmorSetDTO armorSetDTO)
         {
-            
-
             return await _armorSetsRepository.PutArmorSet(armorSetDTO);
         }
 
