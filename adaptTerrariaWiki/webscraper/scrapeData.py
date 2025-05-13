@@ -35,10 +35,19 @@ class ScrapeData:
                     break # This is a temporary fix, but it works for now, i promise... :)
             else:
                 print("Table not found.")
-        with open('output.json', 'w', encoding='utf-8') as json_file:
-            json.dump(jsonTables, json_file, indent=4, ensure_ascii=False)
-            print("Great success! JSON file created.")
-        # print(json.dumps(jsonTables, indent=4)) old
+        print("*insert Borat voice*")
+        if "weapon" in tableTitle:
+            with open('outputWeapons.json', 'w', encoding='utf-8') as json_file:
+                json.dump(jsonTables, json_file, indent=4, ensure_ascii=False)
+                print("Great success! JSON weapon file created, high five!")
+        elif "armor" in tableTitle:
+            with open('outputArmor.json', 'w', encoding='utf-8') as json_file:
+                json.dump(jsonTables, json_file, indent=4, ensure_ascii=False)
+                print("Great success! JSON armor file created, high five!")
+        elif "accessory" in tableTitle:
+            with open('outputAccessories.json', 'w', encoding='utf-8') as json_file:
+                json.dump(jsonTables, json_file, indent=4, ensure_ascii=False)
+                print("Great success! JSON accessory file created, high five!")
 
     def loadingTables(self, table, tableTitle):
         # Extract text from table
@@ -103,7 +112,7 @@ class ScrapeData:
             # return something
             # return ScrapeRanged().returnJsonOfWeaponTable(link_tag, row_data, cells, data, weaponIndex)
 
-    # ---------------------------------------------------------------------- #
+    '''# ---------------------------------------------------------------------- #
     # Old code for scraping, only use for reference 
 
     
@@ -250,4 +259,4 @@ class ScrapeData:
             line = ''.join(part.strip() for part in li.stripped_strings)
             result.append(line)
 
-        return "\n".join(result)
+        return "\n".join(result)'''

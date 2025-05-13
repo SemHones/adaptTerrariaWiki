@@ -35,14 +35,12 @@ class ScrapeRanged:
                 # melee should work with just data-src, but ranged for some reason doesn't have the data-src attribute (make the insanity stop)
                 if 'data-src' not in first_image:
                     if not "armor" in first_image['alt']:
-                        print("Not an armor")
+                        # print("Not an armor") # this stays here for debugging
                         return data
                 else:
                     if not "armor" in first_image['data-src']:
-                        print("Not an armor")
+                        # print("Not an armor") # this stays here for debugging
                         return data
-                # make the print work
-                print("Armor found " + str(armorIndex))
 
                 if "http" in first_image['src']:
                     row_data['image'] = self.convertUrlTobase64(first_image['src'])
@@ -72,7 +70,6 @@ class ScrapeRanged:
                 if "armor" in first_image['alt']:
                     print("Not an weapon")
                     return data
-                # print("Weapon found " + str(weaponIndex))
                 row_data['name'] = first_image['alt']
                 if "http" in first_image['src']:
                     row_data['image'] = self.convertUrlTobase64(first_image['src'])

@@ -1,0 +1,167 @@
+[
+    {
+        "tableTitle": "Ranged armor 10",
+        "contents": [
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAsCAYAAAB2d9g5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHWSURBVFhHzdUxThxBEIXhCQjIQI7I4AAgIYcmQiASS05syYnJHDpzYMeWQw7CAYghQVyExJIPsWib+ph27Y5mMZpmn/Qkqrvq/a1mZrYb0une5myZY/tpP8qXq4bUju3pgLP738UXX46Krd9d/ipW/zzoljrixiWoGZAywAHY+s23rnh2e/joP1fFzwZPBhSc7Sr58sdZ8dABABxg/YAGBQLsbm0U55rzAfTJDUyv5kDS4Aoz2Lo+D0kGs76IX5SGZkDSCCQg1/rYej6A/YhflIbJgPXQ3AbUrhIwgznv539B4BoC/TH2OugTwPaHanPcHkgWgOqmuQWNrQ/1BaaXjcmBFsau1Lo+9nFW6zMXmF7NgQQMlB8C6wL9/PihVeuTF/GLag4UrJG/fv5Q/Gl/u9hBnq4yPt5q++blBqbXqwHfH78rBro+Pyl+u/Om2JVmsFqOeXVgetloBhT49/vHf5yBrhY4vw7AeS4wvWysLZAB1a5w/YCkIdvDVL8yc7vKvG4uYodVQ2pPBsxyRR5zga5yqI7x56sZcAiUP+LWcx0xq6s50CB7obPzvjpiVpdBriG18746YlZXDspX6SHJD0uuI25cBpoDX+qIG9ey4f9xxIW67gHoTTAqYgC0ZAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Fossil_armor",
+                "name": "Fossil armor",
+                "head": "4",
+                "chest": "5",
+                "legs": "4",
+                "bonus": "+8% critical strike chance, +5% damage",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA0CAYAAACZ8ljPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGrSURBVFhH1ZIxTsNAEEV9Ahfu3VKCUtBGluhokdJwCSLOkLNR5xxUPkGQl3la8+PR2uCsly/9YmZn/luvXKGmaS6D27YNtrYr5rG154vF7MDD4SkYsHcBnae247Q0IBtwv78PJgivDmYwGxCxgAk6Hl+DAXNOzTl9i0uLBbw6cLw02NpXT+WBvdoFbwIcB7NIX38iAj2zjw0TtRlQgzHn2gdwOr0Fe/0rcHYgIhh7F8AaSO2dGyYqOxClgBr0+f4STM0cORbrq3hg3/fBz91jMH1+niQ4OxAtBSuIuXKBGoS9C3guD0gwT8aiPiFgz4u/7OZAD9R1Dz/MOYGedc4wUdmB4+Ep6wUIxNpnnn3DRI3Dp7w6ENV1fRnMwm53F+z18fn8EUzNXLlAFnkifiqejkDO9UmZLxfIIsEEEsSFsD4pIL2AYaI2AypIFzmnr3P/B6jBLKbM07LPBQwTlR2IAGsQT6cXIVBrbLG+sgNVLC4F2vpyEXBzIIsKUjOntcXMF4vFAOnrHLXFzJcGZQemrPPUFpeWBqSs89QWlxYLf7XFpTW1/Bt/p1XVFytl0bmZ4H8xAAAAAElFTkSuQmCC",
+                "href": "/wiki/Necro_armor",
+                "name": "Necro armor",
+                "head": "6",
+                "chest": "7",
+                "legs": "6",
+                "bonus": "+15% ranged damage",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAsCAMAAABMt1hMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAwUExURQASQQBetRuN6wBGnICAgF5eXiUlJQAoV/Hx8UpANetzUwA3egR21AA9g4Tq/wAAAHYGwjIAAAAQdFJOU////////////////////wDgI10ZAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAyUlEQVQ4T5XSCw6EIAwEUBAsiiL3v61Ma1fdhI+TmGCfqRQ1+Rdz5brNI2SMLZlKFPtkjCsBggV7JIB4P8+4iEYoBABKmj7lTBSC90TLsq4xvnZYJSJ5dYxfSI5125yTlQzdJiytlTJGeBxUlZ6g2Xdu2CQNPso0ScMeYWB8CKLEOY6UrB0hHJM0xIYAI4QlCilhEGyDt9IkGRp0Nxwj+aHvgNsERNAKD8hDpdoh5E1c4XpJlfSYZISvhB8BF9dYeqRRHKH/NCjnE2QqGcH5R4lRAAAAAElFTkSuQmCC",
+                "href": "/wiki/Cobalt_armor",
+                "name": "Cobalt armor(with Mask)",
+                "head": "5",
+                "chest": "10",
+                "legs": "8",
+                "bonus": "+10% movement speed\n+13% /+10% ranged damage\n+15% /+9% ranged critical strike chance",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAyCAYAAAA9ZNlkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIcSURBVFhH3ZatS0NhGMVXZCAYNIhBwaJdRRBBMYpRi+x/EAUNIojNZrUYLf4DMpPJbDBoH7YFWdraZI/Pb/d6ttd94X2vHjjh/Trnt/uxrRDS5vpiM22fzk7RACh8r7yaX57L5sxAogGEiq8u982HC8Vv9mNt6XrIvr1TuQXgYL28Ym7UTs3p0G7ratbZ77WJcgNAsV56DaicjJl1nsLQGHttotwAUPz4cG1WkJu5cTNjQO7XZs0AKSBjznltotwA6C1gfneyaAaAQgKxFmO9FV6bKBpAr2LfVggBYIrSMD/ZY3MAgCjUYhQC0OJarWbe2Vo1V4/3zMszU2aP61R0gJAoVgOgD9f/AaCoujFtrh9tm9MQLYdAKMbN85K5bxAKMgcgmEIKPkpL5jaQP3zs7wVAsX4Qr03EQjQA1A6+PTMDgnkdAaEYU4gB5Hz+AZCCcAkVgDEF3DLmAQDQ43srNwAh68+vAlDM+t8FIPhgfsLMPIGYIop1nXMe31sciA5Qf3syN+4uzMwTzK1Il6Xn2c8HYew1YbExOoBaC7n0zGPmu2W07DVhdTvUMgW/DqAFPFwUsK5fOJh5CvWc14TFxmgAiANqCni4+KqmUMec89j+lS5NOzMAFYGDAvjx0UVg5gAEabH++HCpdewxwys6AEG8Tvp6AgSojj1meEUH0GDMw4b5C8d+HXvc4CIgOsCo9rjB1S1sGH+lFQqfPdHCLRsqwV8AAAAASUVORK5CYII=",
+                "href": "/wiki/Palladium_armor",
+                "name": "Palladium armor(with Helmet)",
+                "head": "5",
+                "chest": "10",
+                "legs": "8",
+                "bonus": "+14% ranged damage\n+12% ranged critical strike chance",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAuCAYAAAA7v3kyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHISURBVFhH1ZWhTsRAFEVrkEhQ8BMIEBgkAoFdCxaBIwiSDXIVCgUKvV9AsmLd2g1/geoXlHR4J529nWFaoFN4yREz8949zdCyRaq2j/eqPtjY9ysU+hU21r22Dk8rH4Ke1w9B3qrFBr3F2YQIJsuV4+jpJUjXB0iKswspxAoBF/Op4/711sE+9BaHZDUM/lhIYOwqNQjYZw60vyXOLqQQAw1cIbCPQOdUrJguo1AbY1cK9DFXlqVjcnbiYJ/53Zs7B/v5hRQbCgP+Q9RwrsL32aXDz/Ax3QhCrVCzD8Exqscrx8H+jsNi4xWS+IQkPp2FvBx8sAoBi+tzR0hWkxRR2YSI+JfEh65rFcegj1zTNDWaMAY/RyqOwYMyb5qm/PAQvy6keO354BHExOyrQM8tvl3ZhTqAgP0YKlQsvl00jCYkiJeBc36muHr2WfOn0TnTNMXBaEKuVAcJVjHr/yfkajknMIXOmaYpDrIJKRoUfQC9Ml2DxcZLB2AwoRaDfYU23r8IGFzIIC8RotlyugF9uraY7sXgnxGyr32sLaZ7adDgQj5g/nXx0gACzrWftcWlSwOyCYGrUrRPsbh06WBIVqN9ymdaUXwAWV4igav6HDQAAAAASUVORK5CYII=",
+                "href": "/wiki/Mythril_armor",
+                "name": "Mythril armor(with Hat)",
+                "head": "6",
+                "chest": "12",
+                "legs": "9",
+                "bonus": "+19% /+17% ranged damage\n+17% /+10% ranged critical strike chance",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAA0CAYAAACZ8ljPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIHSURBVFhH1ZatTgNBFIWboDAIDEgegISEQGoJhgSBIUGQEDSaBIcAg6BvgUBg4CHKCyCxONQGVVXC5X6729OZ7KZ0pstJjrhzf77tbadtr636awfjkD09f4VgP/b036WDhw9vE365fTWT97ZSsfOoaMDJgBS+Dz/MAAZHj2by2NtKcU5/rK6UNiQDaiErU5CXT0n7cbRPG7IDY6Ctpf64bvKsHncHyAEFsVUCeN54MnMO4GTzwkx8tT8wU+e4DgDbgvTBug+kUIGARjtfZs6p0/qYHdcBIDGrBFTcjMzkFfR5eTzh7fVVs2Mq0ZANiGj0sLzggDAPQH1RFObDvV1zd4EqgHxoFFg+0L8FIgaXgAgYEB5fn5pnfqU4GZBBDFYAqyZW4MyvLDmQAQB0hQrCADD1Z8vnZh8/LQbQkB2IAfEzxsXnnJ8rYkDEzHVMpWxABtDIYL7UOadOH4h6YoDa57gFABGJmO9X7sysChB/KYi1z8dPSwvVcwfy5jKQFRGTZ9WAyBMD0h9qx1TKDiRBIw3ayIcBMKsk1jpix1QikR3IAKyNumrqOGf13QMiCtQxEHmNsY+NSxtwMqCKRlYUG9x6hU3SgcmA9WEhK0DtY9orNKTuZEAuPgCsq9WL72Pai8bsQP2qA8Q14c8WF15jH9eshQFjZmCTfVyzQpC6Q8ND/p3W630DApdGTGkLR10AAAAASUVORK5CYII=",
+                "href": "/wiki/Orichalcum_armor",
+                "name": "Orichalcum armor(with Helmet)",
+                "head": "7",
+                "chest": "13",
+                "legs": "10",
+                "bonus": "+21% ranged critical strike chance\n+19% movement speed",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAwCAYAAAACYxrZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHZSURBVFhHzZYxSgNREIYDIoIiokcwfcBSyA08TipBvEPqVClESJMTpPMAaSy22y5tWkFQMs7H7v7ZIbuRfZsfvuLtm5kvPF/cDMhoNPo5Bm9vn7phTfD29mFAnufGZrMxttutwZo6XfuY5qExmZAwYLFYVHg4O2+FjzuczoUIIhjwcXtXy+fjuEL2/GKE4jpJmc6E0WVRYfnDtMF1PQgJG9FlWa/XBnXT6dRYLpcVVquVkWWZQb1rirCRTEgo4IgR6pEOh2Pj+/3eYA1fTxcG9T5+PxQkExIKEUZHOp/PjehoqfexcShMJkT0dn1TQYWz2cyIxKcrpBD0A/AcMUIo9+7wsXG0oTMhBVwSRPpPWcUKdT42Dg2dCylUEV94UHGE1rmmSG9CKDfveL28MiIxz6O1a4okFxIKuBTA8wi+6HV7O3z8fihIJuRIeYFyiXjO0bLmi87rCDH7pyekgKPkj6+XJBKrSPtcU4SN3oX80GUfoYpZU6d9rinCRm9CFbPfFO1zTRE2kglJuamMfgC9FLoGHxtHG6AzoYbGtkJvbx8GdC7kujMAkaL7rH1M8/QmnEwmBoOa4mOap3chP3z1BzCvM+p17eMOh4bkwv/i4w6nrvkY/qYNBr8FijOeRR8qSAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Adamantite_armor",
+                "name": "Adamantite armor(with Mask)",
+                "head": "8",
+                "chest": "16",
+                "legs": "12",
+                "bonus": "+5% movement speed\n+22% /+20% ranged damage\n+17% /+12% ranged critical strike chance",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAuCAYAAAA/SqkPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIGSURBVFhH3dWhbhRRFMbxfQayYrcKiSEhJHgUaTAIXF0TFIKEYCqowzRNqrE4PAZD0mdA1PEEqH2CIXtzfrvbM3szU8LeafiST9y553z/k7tzZ2d0NH/crT1/8mivo2yj5eJht8+xPV7NwYCXH78Xv/lyUXzTdcVff34rzoNc//h1y1eXn4tHDzIZmAyg4fjFq+LT95+KDWCgd2/PitVZ1wYJTF+TgbM0CAJgg9QGuP9gR+3l2YWsLSiDDOAnyJYXmL6agwGHrhOgATwXXHNg+poMTAbwMjjK2nUSvFqtil8+f1b8+8Pr4qeLB8URX9dk4CwDOGKDGOD/AQPWbJB85IDcnZ8Ujx5gH2zX/xws2JECuD4+nerykWcwoH4vb+C2ag72IH9ABBtEgLUBgIFYjn35mwEmA5MHCr08BhDkgwJsP9fnuh6QJgNTHiA7H5mjB7Rm4IivazKwQo2ulecZaN9PkeuXy0VxxNeloRnYUToyL4tA+wIzIO+zPPuB28pGczApyM4gNhhAbVAOTF+7sF0fHKwAyKcy/0l4uRjQWp1+68D0paA5mBRmCxY4BOKIHVZu5IODswTkn8A671tH+98rBx8MrJEdqWDXx4fG9fHcOuLGqzkYyPXJR5qDWZ8664gdlobmYNLIPhBAAAYzqPq8jthhaeBmYAJiQXd1xI3XYcCz2R9NJQ+5tzxAoQAAAABJRU5ErkJggg==",
+                "href": "/wiki/Titanium_armor",
+                "name": "Titanium armor(with Helmet)",
+                "head": "8",
+                "chest": "15",
+                "legs": "11",
+                "bonus": "+6% movement speed\n+23% ranged damage\n+13% ranged critical strike chance",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAuCAMAAAAMYYkAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABvUExURQAAAD0rAPeuAPfdAL6GAGOFMXhVAJttACgyE3rATDIZEtubAOtzVv99WlpAAL5dQ+tzU/Hx8UpANTYPEJJGJ38pDmYzL1MdEZTXY8pjR1wjGNm7QWuqP+fRfF0+LHJtEUgsKzIcH5i0tSJEUAAAAJ9YkncAAAAldFJOU////////////////////////////////////////////////wA/z0JPAAAACXBIWXMAAA7CAAAOwgEVKEqAAAABLUlEQVQ4T5WTfXODIAyHh0WJMJXWoZ1i3/T7f8bxI/a2v4Q9d7Y2Ty6XBPqxRUTk/Y03kJZCFMXpJGUZqaqi4ISUFEJKpYjqAJGUSEOyECmpIyhIxKKqjEHpY6n1Z6BptCYyBs20rVJQoaFDibJdoGmEMKZthbCWB0lLbslatHE+Xy7Wao1oWvYBIqWqSqn/yq+AMWjDRjBYjoR2gWHoOpZ/yh5KLGEYxtE5jASQmJY45OsVxzyO3zvOEeXIspwmHPQ8e78st9uyeH+/pyUPMk19731d48HnXjZT4pL5CBF+50jQdVpzUYyF1LTEFbEWEuufZ+c4NS35gmn9eGAh/LfgQ0tL8HyyrGtIjuXI34IMR3Nk3087eMPqQL7EEl6vdcWDaJ58s+4geiC37Qe2HGHl+krfjAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Huntress_armor",
+                "name": "Huntress armor",
+                "head": "7",
+                "chest": "17",
+                "legs": "12",
+                "bonus": "+1 sentry capacity\n+30% minion damage\n+20% ranged damage\n+10% ranged critical strike chance\n+20% movement speed\n10% chance to not consume ammo",
+                "obtained_by": ""
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAwCAYAAAAGlsrkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOVSURBVFhH1ZhbSFRRGIWnjFITs7wbjZlCjpdUHAgJIiuVNMjEELS0SKkU6UZZD1pZdCEsyDTEwDR6EMpStELFLhS+pGJammCFEipTdqFUsChY/6wHd03ZS+e0HuY7mzNnhrX/y977zDBMUzlp9t+tl1DJtYlpP/srzbTyn+uvHZ8vOorx2oRDoGUsCgwODgep69cv/fa3/1/H8ZuugCEhIaDRGAiWnXEDbeWC/hwnJ++aksWecyrA8EA7MCMrH1SdD3btBI/lzgVTo13AxvH+Kf+lP8cmUxQcV1c3YUwVFh4A48KqwI0x9mBSzjtwS6I45Yx8yHoAbm7uA+lcv1lN5xkZOzCOj08GVed0SFWWHwdnlweD1ywyI/p1zLptaY/AmJ3JbF4O0rnPmC94pPgL2NU7AVL2z/1B3WT1LCttqvPeBuuV6JyU609OT5aOgDvT5PsXVorTuOI60DAooLR3vDLSMKVTMVbsTDUlruC+rZLNleVyX43pdKV9VtMxnTkvFmdUWHQtuC/1KXj1lsT2Rsp20JbcnBzAyFPVYPugRWd1rHYqrrPd3d1gZWUZSJXEeYKhPjJTqpjVTh4WkNKP4zzDUjiuMy3AmHX86fVZ8PL9IjDKeBncm/cCtCU65d7M3bEV1J/jcvePGHv5BoDzXeaBPZ1t4MH9p0E6D17SA7Ia1BlSc0N7x2psR96+Aul4WXgk2Fgr9VhVUQ9yV9mxfjW4Lkyy+06nrL8R9S1gSkoM2NPTqpM6puPWSMnS5gaJIWN1s0l6MjuWh98uMDepC2wdyAS9S0vBoexskDmQX/QIfNgm/6kfxwkrQjHeMfoG5C5zYKAXVDsYO5ya3c9emkA65b6bz2nm2OYOhB0m0OMi6DMmsR6alFi7O0qso4xysiiukZkqKLgLFtdIPVvGvoGckdu66VxqjBP7JDYe3gtBJ2fpXAGBcp/1HGIcBrmOs1NlrtoP8oThE7Eb5HPaOabTIKM48ltkBE+0d4BPnCSWqtQebve+AWT9c6/WPeAFUqOWYY3rWI1tw2PpRB0OX0FVnAHVMcXVyxQmvZ1j82c5RWp+dvrjSYJSnaYnS29W332sWiP3D+85BqZvWw+q0s4xY5mAT9vydPMD6dR1MgeMNfNc3IxP1nWseerYYD01Utp3rlgHf2R3xLiEXc3qiaB+kO84+O6DnUqNNXccXN30twOh6Jxi3amnSYr75elKY8cGww+XCFwwTAp8FgAAAABJRU5ErkJggg==",
+                "href": "/wiki/Hallowed_armor",
+                "name": "Hallowed armor(with Helmet)",
+                "head": "9",
+                "chest": "15",
+                "legs": "11",
+                "bonus": "+8% movement speed\n+22% ranged damage\n+15% ranged critical strike chance\nSet Bonus:Become immune after striking an enemy25% chance to not consume ammo",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAwCAMAAAA1verrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAqUExURQAAAAIeNCDK7g44QAyFnjhybVOqpN7v7glfcetzU/Hx8UpANQIjPgAAAG771KIAAAAOdFJOU/////////////////8ARcDcyAAAAAlwSFlzAAAOwgAADsIBFShKgAAAAORJREFUOE+dk+EOwiAMBgU6xpS9/+va8xM3/TEaLzGsPVNL7W77i+ScTxGTOZMep7iWKlSKWTkRkzmXsiykFqfW1ZGeSTP0QXWkryXtm7VmTnZSorz0XKIoyLU2R3omh1K4bff74yE9l2Z8YWgkPwEzqcGDNGP4TOhCMmClSXAONZdn9aru8BSRIqVa9XfziUgtZGsprSvt/FxlIls7VmU8RaQC2teymPVOFJG6QinNYd16J4pIrkD7/QPRXI6WKMlaa7XfV5lI+JZkYrIUWkBrWclFpYbwjxwDPHRUCl4PcSn3/QkZ2SD5Nb2v5AAAAABJRU5ErkJggg==",
+                "href": "/wiki/Frost_armor",
+                "name": "Frost armor",
+                "head": "10",
+                "chest": "20",
+                "legs": "13",
+                "bonus": "+16% melee and ranged damage\n+11% melee and ranged critical strike chance\n+8% movement speed\n+7% melee speed",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAwCAYAAAAGlsrkAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIBSURBVFhH1dQ9jhNBFARgh4hgA0SAL7EBEhGBiUk3gtgJMRIZ8iW4AAEHQuIWkPgERm7e5x3VaGiv5Z2Bkiro91P19KZ7Vj2s1+vDkBU+oZe/GD3hXv7BeHL79HDkbrdrTGHnqfzFmN2Y4bfv7xq3221jCqvrscpH9RW+h8Rixq+/PG/cbDaNuVL5Dz9WjV9//aGBhyZHZrzs7iGxmPHNp1Uj41y5/LkD/LvGoICwAXLlBshBkOH/Y0yQsZXnAOqTOZB42YyRjbMZg0KNBmC43+8b37551fjz413jyxfPGvUbwLnkp6Hw6sYEsPxOyEYDiPeMS+akg8sb9y6L+NQADPHw+X1jDnACwcWMPRNCfoEefl6q3gCThrCYMWj0k09hA+SASYbqDFo2Y2hczLjHHMClRHF1+spmjKH433h1Y1CYqxbP1fs0jMWzr+SnoXA2YwWYBuI5kNV6fuJDrSPLZowsJPBoxhIaXH8/DGQgbwCrVidOV1xf2S5oDAoVaGDo8sgzUGfVaZwDi5ftgsYgQcgqneUxBZPZVzZjZMNsxjBsHtIqXcZ8bnnGku0jG/HRjRMEGLs0PeNqvxyEZjN2eTwbz8qq85nluWQeDgKzGVsVWq1VG8RZXZ5L7nxoxNmMwcoY5QB+EH40DPNccudjdmMNaADMfI8l20c2Xtd4tfoNY4/vawMcAUAAAAAASUVORK5CYII=",
+                "href": "/wiki/Chlorophyte_armor",
+                "name": "Chlorophyte armor(with Helmet)",
+                "head": "13",
+                "chest": "18",
+                "legs": "13",
+                "bonus": "+21% ranged damage\n+20% critical strike chance\n+5% movement speed\n20% chance to not consume ammo",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAuCAYAAACoGw7VAAAABmJLR0QA9wB3APmWiANfAAAE20lEQVR42u2bXWgcVRTHf2lFqYUUsUFKhUjwIULSRqiNIGrVBk1NgiWyGNAYI/i1KpiqkRYlKFktYgU1+OZHFVKWhA02tZVIbXwQYgWjWWofJChagiZFCMSoWMaHe4/pHWb2c3buPtzzsszsZM6Zvb977v+cO4E8Vt+w3atv2O7hrCxb536CeKwmF8kA4+lJALoTHQD8PP9dTdxBXkJTzhm1tWE9AOfmLwDwL9kaW7GF+XZExzYgEdNVDk3+tUAI3dszB4B3Z7DrF5rOAfBadisAE33bvItJj2IWhj33ltr9xvHCcsoL+h0c0dVC9JkzPwDQsuMmADYsDxnfN7fVGceZ0WavWLL964H4fHHoOYPkms/ULTvbp3x3uA6ArnWfA3Bak/zK0OtyH69UsoXkez743jg/8/QRAIbf2WycTw2cBODHpduN38ERXS2qQ0j+6tgmAN549zYA9j3+hXH9rq4UAKc+UTnrj5WjlEq2kDiTPQvA7788ZZAspIeZ5PZycnQYydlnlwBY+UfNnq7H1PHIQRVjY92iEI0jupqIlhG9drPKOXf0HzFG7vBHZp4UwoV4oa4UmoTsna2zgSTf8NK3AIw9aN763g9VLp9OHgBgceXVktWGn2ghef+hWTNX61kn1trUGPj8juhq09HpkQUAkrytTuiR632gTRGur5Pj+qHSg5IcS2swNbFOea10JCfPZJd8M9u8Puz5HdHVQvT51TcNVZEe0ZVQUn8MnjUITw4q4icjCG5ualHHoGZTIvmwuvfL1wNQl9xjXD+tP0XxVNJkjTrw5JJ5Hr2euF5HlaiOsJr+io2dAFy54Rlj9ZX8KTlc7PKrPi1adYT5FuUjeVLsxrt7jMpRlIFo2FJ0dFgM0m+RWSaxtL51X2DFuLCccjraao7OVwmt1qrV9PxvogS2GCTfOjJs/N1E31GKpSif72FdMa5VpT2ByuDR5x8B4KHEXgC6Ex15ex35Yvh6pgWAnW2zmuzdhm+ZVTLLMqMpl6OtEB02kjJS0p3rbFc09fcOqJV/bL2+co9xfRT9hDDfsh5I/s+Mhs0aRbR0AaOMob+32bzB1En9ibE+4FSHJdXh72nICMrqKuoiNdBifC85aaJvW04Hubp3xfqWXC29Dsmf/phOa50tVkhujur5ZWbIeac64s7R8ouv1rZ5AIP79C5Hu7nL8eeqVGGpQH0tlWOhpF882oX63qVXfA/PqFr9MRWzGx758+O5HF0VlaHkKtnV3XjpbmMVlfN/XZgr6MbF7LDY9B1XDI7ouCtD6QuMp2/WGlTlw/HJWwCY/eag6nUsTwV296QHIgS8d/iQ5Li8VZlN33HF4IiOm2ix99OZnH8gutK/C76mADCquGLMpu9Kx+CItkW0dLykT/DrT+bIiK48Pq305v13XQbAxyf+1p0y1YeQ3eDJscKDsem70jE4ouPW0WJhb/fLG0vH0l8aFdHx6Sf0SHYYVVkpuxs2fVc6Bke0rRztp0BG+OprGvVIbjJq++6E3nnQbxVl5ptLpsmm70rH4Ii2RbR/JCU3hZn/raIozKbvSsXgiLZNtJjkJtntlpr+//8nGSXwOAqz6TvqGBzRtnT0GuqqP+t/Q8m/ZyYmOyphe2bFTTN7visVgyO6Wogu18oh2obvSsXgiI7J/gPkmhoDZ8uciwAAAABJRU5ErkJggg==",
+                "href": "/wiki/Shroomite_armor",
+                "name": "Shroomite armor",
+                "head": "11",
+                "chest": "24",
+                "legs": "16",
+                "bonus": "+13% ranged damage\n+25% ranged critical strike chance\n+12% movement speed\n20% chance to not consume ammo\nShroomite Headgear: ×1.15 arrow damage\nShroomite Mask: ×1.15 bullet damage\nShroomite Helmet: ×1.15 rocket damage",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAyCAMAAAAKuilWAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB1UExURQAAADQACmQAFJIEIMAbPNGAAPPIAJdLAPTcbDEhGj0rAHhVANubAPeuAFpAAJttAOtzU/Hx8UpANTIZEv99WjYZJ5qCjtO4xb5dQ+zs7D45NyZWUD98cV62pQkjIGUnHI9EN0YbEycMB19bWZNlHqZmWwAAANnu34EAAAAndFJOU///////////////////////////////////////////////////AINWl9kAAAAJcEhZcwAADsIAAA7CARUoSoAAAAFHSURBVDhPnZOBkoIgFEU3UFmo1LJniWmF5f9/4r4rVrPNzgh7ZlDm3TMiT/waX6x+MRfHUAElIaRMZqR8SmECwjl5kaZZBiVE+CtW6ntC62VhtXq+mmT8DLFmjAkTUMIWfaxUliFerzeb7daYEEGId5ukTFM8PM+LAjFvM0B4tgqLIM5zY8rSMEiWBR8jFAyE3W6/L8uqQhIuvBcoiv8IUIBSaG85cTh4JVQgquvjkUjr08kLH0ssCIgbBko1g2MbJ1imromEaNvzuevaNkbwzcZnT5K+77qewRVJuIDjBg0hjg7uSMKEvofgF7lcrtfbDT+e1kQxghC+2f7wKiZJnAsX/MdqGiIpjwxeuWnCBUAT0BwDGXGMAMVahMNAhLuvxgrWDoO1mKFJIEZw7sLc71nmHIavxgpX5sE4h4FqnPAJqgvCOP4AXyiB7Ttro3MAAAAASUVORK5CYII=",
+                "href": "/wiki/Red_Riding_armor",
+                "name": "Red Riding armor",
+                "head": "8",
+                "chest": "24",
+                "legs": "16",
+                "bonus": "+2 sentry capacity\n+60% minion damage\n+25% ranged damage\n+20% /+10% ranged critical strike chance\n+20% movement speed\n20% chance to not consume ammo",
+                "obtained_by": ""
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAyCAYAAABCtcuVAAABM0lEQVR4nN2XsQ3CQAxFM0oaBkiJxBY0iCWQaFiAkoIaiYaCjgkYgDUo6VJSBnSSJfLh85MAvguRfnHizs/5cYyTZS2vohhWj2p7Pj4IA++O55q+Bvw5iAW+lNea0gfZwcliG4QWKaULQsBoPAvCBDpb+XMQWqbWCEQwBbqD0CoLgEC0khWPP4hZhCBmDWtR8UAIZFZiIpssC6rmdckX2A2kyr1/PS/PB9U7IahcTl+qOqyC7iFNziALpJol7mNA20fvxA2kWopJWWznnoDuIHUQgfjC2hoT8gchUFmFxWIATCgdEDvAhhO2v78gs1CVfzwQ+wtvaiEWTTog9ZCV4oNUS7IEWEL4OwW4g/BqOiLjujHADaQ+wP4HxAZKOdwnA7LA6/0piI1jtr/z17kb6FO5g257BApdmcb+vAAAAABJRU5ErkJggg==",
+                "href": "/wiki/Titan_armor",
+                "name": "Titan armor",
+                "head": "14",
+                "chest": "18",
+                "legs": "13",
+                "bonus": "+30% ranged damage\n20% chance to not consume ammo\n+10% movement speed\n+20% ranged critical strike chance\nSet Bonus: 28% chance to not consume ammo (48% total)",
+                "obtained_by": "Crafted"
+            },
+            {
+                "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAsCAYAAABygggEAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHaSURBVFhH3dYtTgNRFIbhWUaxGBysAWgIjhWwAdKg8SQ1JFgqcSSoSjaDQlajS7g5DwxnGKb83Qa+5BP3/L0nk5nbNllbo+3le470S37n7vxDR/nqasPajvTvg2ezWfFkMinOwN3lsng/nPXpBdYOHo/HxRYwCKgPmLXyAmsDkwU8agPo/4I98j5w3wLifwdMFjg8OCoeWiBbvTkxdli/BhboJELiXrK+BQjQBaO+zXj2+sGb91fF7WTbBlxezIqdeT6fv7H46clZcZ63PjAJWKC5vi0eHe8VyxsEkOMsnusC9yqJ6mBS4OKwgDhnQJ9zXWC6UlANLAHo59A5553Z58U5H5iuFBhcHTydTou9FM7tIe06IHKB5AUC01UeWB08ZI86P3LAJiy+sTEqDkxXCof842DScPP4UOxCEWdgL2HOc14wMF0pqAaW8NK4KllcnZ9J8cXisdgigOr0Be5VEgZVA1Me7LMyUD4vkg2c6wLTlYLqYGoP+cj5oshnjrHDyo19/nEwafRXxmAXhYtDXT7HmM/LgGpgjX7I/ckDlh9yjFtdGquBNWSgRy3vc+Ecd46xw9JQHUwa+4AuGBeEi0ZdPsfYYWmoDiaN33WMW13vDfmKY1yoaZ4A99oSnTcWQ8gAAAAASUVORK5CYII=",
+                "href": "/wiki/Vortex_armor",
+                "name": "Vortex armor",
+                "head": "14",
+                "chest": "28",
+                "legs": "20",
+                "bonus": "+36% ranged damage\n+27% ranged critical strike chance\n+10% movement speed\n25% chance to not consume ammo",
+                "obtained_by": "Crafted"
+            }
+        ]
+    }
+]
