@@ -6,6 +6,9 @@ import requests
 import re
 
 from scrapeRanged import ScrapeRanged
+from scrapeMelee import ScrapeMelee
+from scrapeMagic import ScrapeMagic
+from scrapeSummon import ScrapeSummon
 
 class ScrapeData:
     def ScrapeAllTablesFromTerSite(self, url, tableTitle):
@@ -32,7 +35,10 @@ class ScrapeData:
                     break # This is a temporary fix, but it works for now, i promise... :)
             else:
                 print("Table not found.")
-        print(json.dumps(jsonTables, indent=4))
+        with open('output.json', 'w', encoding='utf-8') as json_file:
+            json.dump(jsonTables, json_file, indent=4, ensure_ascii=False)
+            print("Great success! JSON file created.")
+        # print(json.dumps(jsonTables, indent=4)) old
 
     def loadingTables(self, table, tableTitle):
         # Extract text from table
@@ -56,10 +62,10 @@ class ScrapeData:
             cells = row.find_all(['th', 'td'])
             if(link_tag):
 
-                if "armor" in tableTitle:
+                if "armor" in data['tableTitle']:
                     data = self.returnJsonOfArmorTable(link_tag, row_data, cells, data, armorIndex)
                     armorIndex += 1
-                elif "weapon" in tableTitle:
+                elif "weapon" in data['tableTitle']:
                     data = self.returnJsonOfWeaponTable(link_tag, row_data, cells, data, weaponIndex)
                     # This only works for weapons, since they are the first tables displayed and the next table found this way is armor an it crashes on accessories.
                     # This is a temporary fix, but it works for now. :)
@@ -68,13 +74,41 @@ class ScrapeData:
                         print("no weapon found, stopping")
                         data['tableTitle'] = "Empty" # This makes sure the next tables are not scraped
                     weaponIndex += 1
-                elif "accessory" in tableTitle:
+                elif "accessory" in data['tableTitle']:
                     data = self.returnJsonOfAccessoryTable(link_tag, row_data, cells, data, accessoryIndex)
                     accessoryIndex += 1
         return data
 
+    def returnJsonOfAccessoryTable(self, link_tag, row_data, cells, data, accessoryIndex): 
+        if "Melee" in data["tableTitle"]:
+            return "" # implement this later, but for now melee is not supported
+            # return ScrapMelee().returnJsonOfAccessoryTable(link_tag, row_data, cells, data, accessoryIndex)
+        elif "Ranged" in data["tableTitle"]:
+            return ScrapeRanged().returnJsonOfAccessoryTable(link_tag, row_data, cells, data, accessoryIndex)
+
+    def returnJsonOfArmorTable(self, link_tag, row_data, cells, data, armorIndex):
+        if "Melee" in data["tableTitle"]:
+            return "" # implement this later, but for now melee is not supported
+            # return ScrapeMelee().returnJsonOfArmorTable(link_tag, row_data, cells, data, armorIndex)
+        elif "Ranged" in data["tableTitle"]:
+            return ScrapeRanged().returnJsonOfArmorTable(link_tag, row_data, cells, data, armorIndex)
+
+    def returnJsonOfWeaponTable(self, link_tag, row_data, cells, data, weaponIndex):
+        if "Melee" in data["tableTitle"]:
+            return "" # implement this later, but for now melee is not supported
+            # return ScrapeMelee().returnJsonOfWeaponTable(link_tag, row_data, cells, data, weaponIndex)
+        elif "Ranged" in data["tableTitle"]:
+            return ScrapeRanged().returnJsonOfWeaponTable(link_tag, row_data, cells, data, weaponIndex)
+            # print(something)
+            # return something
+            # return ScrapeRanged().returnJsonOfWeaponTable(link_tag, row_data, cells, data, weaponIndex)
+
+    # ---------------------------------------------------------------------- #
+    # Old code for scraping, only use for reference 
+
+    
     # also loads buffs and debuffs 
-    def returnJsonOfAccessoryTable(self, link_tag, row_data, cells, data, accessoryIndex):
+    def old_returnJsonOfAccessoryTable(self, link_tag, row_data, cells, data, accessoryIndex):
         if cells is None:
             return data
         
@@ -89,17 +123,17 @@ class ScrapeData:
             if first_image:
                 row_data['name'] = first_image['alt']
                 if "http" in first_image['src']:
-                    row_data['image'] = self.convertUrlTobase64(first_image['src'])
+                    row_data['image'] = self.old_convertUrlTobase64(first_image['src'])
                 elif "http" in first_image['data-src']:
-                    row_data['image'] = self.convertUrlTobase64(first_image['data-src'])
+                    row_data['image'] = self.old_convertUrlTobase64(first_image['data-src'])
             row_data['href'] = link_tag['href']
-        row_data['boost'] = self.filterString(cells[2].get_text(strip=True))
+        row_data['boost'] = self.old_filterString(cells[2].get_text(strip=True))
 
         # Append the row data to the list
         data["contents"].append(row_data)
         return data
     
-    def returnJsonOfArmorTable(self, link_tag, row_data, cells, data, armorIndex):
+    def old_returnJsonOfArmorTable(self, link_tag, row_data, cells, data, armorIndex):
         if link_tag:
             first_image = link_tag.find('img')
             if first_image:
@@ -116,27 +150,26 @@ class ScrapeData:
                 print("Armor found " + str(armorIndex))
 
                 if "http" in first_image['src']:
-                    row_data['image'] = self.convertUrlTobase64(first_image['src'])
+                    row_data['image'] = self.old_convertUrlTobase64(first_image['src'])
                 elif "http" in first_image['data-src']:
-                    row_data['image'] = self.convertUrlTobase64(first_image['data-src'])
+                    row_data['image'] = self.old_convertUrlTobase64(first_image['data-src'])
             row_data['href'] = link_tag['href']
             
         row_data['name'] = cells[1].get_text(strip=True)
         row_data['head'] = cells[2].get_text(strip=True)
         row_data['chest'] = cells[3].get_text(strip=True)
         row_data['legs'] = cells[4].get_text(strip=True)
-        row_data['bonus'] = self.extract_bonus_text(cells[6])
+        row_data['bonus'] = self.old_extract_bonus_text(cells[6])
         if("Head:" in cells[7].get_text(strip=True)):
             row_data['obtained_by'] = "Crafted"
         else:
-            row_data['obtained_by'] = self.extract_obtained_by(cells[7])
+            row_data['obtained_by'] = self.old_extract_obtained_by(cells[7])
 
         # Append the row data to the list
         data["contents"].append(row_data)
         return data
             
-    def returnJsonOfWeaponTable(self, link_tag, row_data, cells, data, weaponIndex):
-        
+    def old_returnJsonOfWeaponTable(self, link_tag, row_data, cells, data, weaponIndex):
         if link_tag:
             first_image = link_tag.find('img')
             if first_image:
@@ -147,29 +180,29 @@ class ScrapeData:
                 # print("Weapon found " + str(weaponIndex))
                 row_data['name'] = first_image['alt']
                 if "http" in first_image['src']:
-                    row_data['image'] = self.convertUrlTobase64(first_image['src'])
+                    row_data['image'] = self.old_convertUrlTobase64(first_image['src'])
                 elif "http" in first_image['data-src']:
-                    row_data['image'] = self.convertUrlTobase64(first_image['data-src'])
+                    row_data['image'] = self.old_convertUrlTobase64(first_image['data-src'])
             row_data['href'] = link_tag['href']
         row_data['damage'] = cells[3].get_text(strip=True)
         if("Crafted" in cells[4].get_text(strip=True)):
             row_data['obtained_by'] = "Crafted"
         else:
-            row_data['obtained_by'] = self.extract_obtained_by(cells[4])
-        row_data['notes'] = self.filterString(cells[5].get_text())
+            row_data['obtained_by'] = self.old_extract_obtained_by(cells[4])
+        row_data['notes'] = self.old_filterString(cells[5].get_text())
 
         # Append the row data to the list
         data["contents"].append(row_data)
         return data
     
-    def filterString(self, string):
+    def old_filterString(self, string):
         arrayExceptions = ["\u00a0", "\n"]
         for exception in arrayExceptions:
             string = string.replace(exception, "")
         return string
     
     # slow af yo
-    def convertUrlTobase64(self, url):
+    def old_convertUrlTobase64(self, url):
         try:
             response = requests.get(url)
             if response.status_code == 200:
@@ -186,7 +219,7 @@ class ScrapeData:
             print("Error:", e)
             return url
         
-    def extract_bonus_text(self, cell):
+    def old_extract_bonus_text(self, cell):
         soup = BeautifulSoup(str(cell), 'html.parser')
         bonuses = []
 
@@ -204,7 +237,7 @@ class ScrapeData:
 
         return "\n".join(bonuses)
     
-    def extract_obtained_by(self, html):
+    def old_extract_obtained_by(self, html):
         soup = BeautifulSoup(str(html), 'html.parser')
         result = []
 
