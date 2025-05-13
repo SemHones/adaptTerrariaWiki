@@ -119,6 +119,11 @@ class ScrapeRanged:
             span = li.find('span')
             
             # Als er geen <span> is, of de span heeft GEEN title met "PC", skip
+            if "Set Bonus:" in li.get_text(strip=True):
+                # Dit is de set bonus, dus we willen deze wel
+                bonuses.append(li.get_text(strip=True))
+                continue
+            
             if span and "PC" not in span.get("title", ""):
                 continue
 
