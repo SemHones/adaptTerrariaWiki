@@ -15,8 +15,6 @@ class ScrapeRanged:
 
         if link_tag:
             first_image = link_tag.find('img')
-            print("first_image")
-            print(first_image)
             if first_image:
                 row_data['name'] = first_image['alt']
                 if "http" in first_image['src']:
@@ -24,7 +22,7 @@ class ScrapeRanged:
                 elif "http" in first_image['data-src']:
                     row_data['image'] = self.convertUrlTobase64(first_image['data-src'])
             row_data['href'] = link_tag['href']
-        row_data['boost'] = self.filterString(cells[2].get_text(strip=True))
+        row_data['boost'] = self.extract_bonus_text(cells[2])
 
         # Append the row data to the list
         data["contents"].append(row_data)
@@ -53,21 +51,20 @@ class ScrapeRanged:
             row_data['href'] = link_tag['href']
             
         row_data['name'] = cells[1].get_text(strip=True)
-        row_data['head'] = cells[2].get_text(strip=True)
-        row_data['chest'] = cells[3].get_text(strip=True)
-        row_data['legs'] = cells[4].get_text(strip=True)
-        row_data['bonus'] = self.extract_bonus_text(cells[6])
-        if("Head:" in cells[7].get_text(strip=True)):
+        row_data['head'] = cells[3].get_text(strip=True)
+        row_data['chest'] = cells[4].get_text(strip=True)
+        row_data['legs'] = cells[5].get_text(strip=True)
+        row_data['bonus'] = self.extract_bonus_text(cells[7])
+        if("Head:" in cells[2].get_text(strip=True)):
             row_data['obtained_by'] = "Crafted"
         else:
-            row_data['obtained_by'] = self.extract_obtained_by(cells[7])
+            row_data['obtained_by'] = self.extract_obtained_by(cells[2])
 
         # Append the row data to the list
         data["contents"].append(row_data)
         return data
             
     def returnJsonOfWeaponTable(self, link_tag, row_data, cells, data, weaponIndex):
-        
         if link_tag:
             first_image = link_tag.find('img')
             if first_image:
