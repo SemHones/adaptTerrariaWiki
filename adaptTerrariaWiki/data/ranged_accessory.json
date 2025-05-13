@@ -18,7 +18,7 @@
                 "name": "Destroyer Emblem",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAAIVBMVEUAAAAgICBAQEChoaFgOQkzIQXs1jPf39/nmRyvahH/+dEQqn55AAAAAXRSTlMAQObYZgAAAHtJREFUeNpt0VENxTAIheFaOBawgAUsHAtYwAIWsDCVlza7D9v404Z8T03oWp3ssP49CIkIVQUmSsA66MStdM/bH7auqz2w5WT2dbbfVCat0npMBMutvAiVN/txZrlXEvHhtrn1ORpIEzGO3D6prImiZ3WCiffa5fkLhz+GLVEFSgjVgwAAAABJRU5ErkJggg==",
                 "href": "/wiki/Destroyer_Emblem",
-                "boost": "+10% damage+8%critical strikechance"
+                "boost": "+10% damage\n+8%critical strikechance"
             },
             {
                 "name": "Rifle Scope",
@@ -30,49 +30,49 @@
                 "name": "Recon Scope",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeBAMAAADJHrORAAAAMFBMVEUAAAATBCQnSipMJQAtNFNRS2C5pBduSAB4c5D43piUahiblrBfh1WxrsSLtoDV4KlsZawRAAAAAXRSTlMAQObYZgAAAIJJREFUeNp90UEVxCAMRdFY+Ba+BSxgAQuxEAtYwAIWagELtVALHaAbhkKzu+/kZAEiAGScyfBHxJfDf3jZ94CdWwhnOLBzC3FaGI3Qg5m5tQHvoyXV7FbuF01THXVL14umOZHlCS9DkJW87rJ0S1bNizuLyyyFe7dADu86W9z0cY9/8p5RSeIzvKIAAAAASUVORK5CYII=",
                 "href": "/wiki/Recon_Scope",
-                "boost": "When using a gun, creates aBinocularseffect+10% ranged damage+10% rangedcritical strikechance-400aggro"
+                "boost": "When using a gun, creates aBinocularseffect\n+10% ranged damage\n+10% rangedcritical strikechance\n-400aggro"
             },
             {
                 "name": "Sniper Scope",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAAKlBMVEUBAAAAAABuSADLlAD/3Tw5OTkkJCRMJQDKysp2AAd9fX24AAv/Chn/Ul1AmW6IAAAAAXRSTlMAQObYZgAAAH1JREFUeNqF0ksRwDAIBFAsrAUsYAELsRALsRALsVALsRAL9VImPTSfCeX4DjAsEAGgqVaAqMIHlj9InAQe2FhOEfQN38AohgwdZANCuDLEAXAXcgA0ywZv3xCnpFawvpGVh4U2QE9KGCfoSWm5iwd2kFqbD1zacqEFDn/wAJ0ULhesYQjUAAAAAElFTkSuQmCC",
                 "href": "/wiki/Sniper_Scope",
-                "boost": "When using a gun, creates aBinocularseffect+10% ranged damage+10% rangedcritical strikechance"
+                "boost": "When using a gun, creates aBinocularseffect\n+10% ranged damage\n+10% rangedcritical strikechance"
             },
             {
                 "name": "Magic Quiver",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAM1BMVEUAAAAbCS8eJxFAImhoPYOgcb0wEhJyRCU8IxO0azpOXDiCS6PFlN57Ly9pmlS5RkbVnXl9DRXEAAAAAXRSTlMAQObYZgAAAItJREFUeNqV0uESgBAQRlEWZUn1/k+bzRg17Krv77nGTFGq25Kn+E05JSEQ2ft1Tek4mEBkQsSSDAKBIa8iYneByAAh7DsA4XlS8Po8ImttTA0QKfD+ca/IhMZY24LuLMsVaTUYnB1yQ3ePgn9ccMtzLsbu5ik31Pr1Gz/zAKdcghgZnDIFZczT5/kCPoELPSyLbugAAAAASUVORK5CYII=",
                 "href": "/wiki/Magic_Quiver",
-                "boost": "Increased arrow velocity+10% arrow damage+20% chance to not consume arrows"
+                "boost": "Increased arrow velocity\n+10% arrow damage\n+20% chance to not consume arrows"
             },
             {
                 "name": "Molten Quiver",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAkBAMAAAAeMPXsAAAAMFBMVEUAAABCHBxvNzd+X19/f39MQDP/mzf/24Wampo8IxNyRCXiOx+0azrl2cXVnXmkkH1VaN4ZAAAAAXRSTlMAQObYZgAAAJVJREFUeNqF0FsRxSAMRdFYOBZiIRZiAQu1gAUsYAELtYCFWsDCvdBOX9C0+WMNGxiIznGOunmQxX1JTL+OBokpx3yjQcA5lls3CGbhkkp2toAnUa4DsgQzew0hqJiyNl7rGmTI1uiE86JeWlNJwKYcDYkltWFpDeFFvKwNHQeP0t7f9kNeZGsuLx6E0Ob6ww+yK5nyB7SuXHHKN6ghAAAAAElFTkSuQmCC",
                 "href": "/wiki/Molten_Quiver",
-                "boost": "Increased arrow velocity+10% arrow damage+20% chance to not consume arrowsLights Wooden Arrows ablaze"
+                "boost": "Increased arrow velocity\n+10% arrow damage\n+20% chance to not consume arrows\nLights Wooden Arrows ablaze"
             },
             {
                 "name": "Stalker's Quiver",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAmBAMAAABe5iSgAAAAMFBMVEUAAAAbCS8oLkdFQVFkYHgwEhJyRCWCfpcnSipfh1U8IxO5RkbVnXk/ZjZ7Ly+0azr4A9tQAAAAAXRSTlMAQObYZgAAAJxJREFUeNqF0H0RwyAMh+FY+FmIhVjAQixgAQtYqAUs1EItYGEWumxjNz66NH8+l7x3QNSNKs1zRQ+9pxL3XW8IJZ5xPF0Jmc94DKcrIefKh5m6xHXbzEpXXwjMnM2GpZlMJJhVOASGhGTWL830OpMUhMfSSO92EoFHrS0g+U/fNggufdpEXX2l1v7dXRGhSf/ClQg29s8gl5qSQ09wB1uDe6KUjQAAAABJRU5ErkJggg==",
                 "href": "/wiki/Stalker%27s_Quiver",
-                "boost": "Increased arrow velocity+10% arrow damage+20% chance to not consume arrows-400aggro"
+                "boost": "Increased arrow velocity\n+10% arrow damage\n+20% chance to not consume arrows\n-400aggro"
             },
             {
                 "name": "Celestial Stone",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAiBAMAAADMnMbMAAAAJFBMVEUAAAAyMjL/qw+1h7qiZqjohQD/5CjoXABTUIf/k/9FIaWbPgDy1HjHAAAAAXRSTlMAQObYZgAAAKZJREFUeNp10gENxCAMBdBa+BZqoRZqAQtYwAIWZgELM3e/MLLcALIQ+rJ2FCYCSIwx99UCOYjzEbhWQMmY2QtoToHVrwtbECRNWaub2fPKAsrBsAJ7gN5Fi9eGp4EVsmoqbo53638QMbd2zW8u0BP4mPmQBXiEaRS12f0XSHdJsbEmR1AtNXo7AYsWtCgqOABj4RGzO8MOoP0qG5jke5i/w7zKD/wAbfdSnbrwm3EAAAAASUVORK5CYII=",
                 "href": "/wiki/Celestial_Stone",
-                "boost": "+10% damage+2%critical strikechance"
+                "boost": "+10% damage\n+2%critical strikechance"
             },
             {
                 "name": "Celestial Shell",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAiBAMAAADfS4Y4AAAAJFBMVEUAAAAyMjKbPgColduHbM5cPLXoXADQxux3LWr/qw//5Cj/86HkBTj9AAAAAXRSTlMAQObYZgAAALZJREFUeNql0UsVxDAIBdBYeBawgAUsYAELsYCFWKiFmpuX9HN6ZpJuhgUNtymkbSlXtCi/8YVAt32Pa71CaOUq9o2IqlgirI5rjEGohjUqHifRbDJHaXn2PrIaN06xiI1Jx2E4ZwyaIp/g6VGrKrPebzTBdFM3lmau5rlENCorGu95NqxQUJBOteqeLGSFvUEkXKsjo93/aIKyBSLAYI5NXrCPauMr9jEveLSQMz1iikXu9D9+ADJSYvOUPhbuAAAAAElFTkSuQmCC",
                 "href": "/wiki/Celestial_Shell",
-                "boost": "+10% damage+2%critical strikechance"
+                "boost": "+10% damage\n+2%critical strikechance"
             },
             {
                 "name": "Putrid Scent",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAYBAMAAAAIZcBFAAAAG1BMVEUAAAAyMjJoW4NUSmI/ZjZIPzw4PRlfh1WFeqI+8XdWAAAAAXRSTlMAQObYZgAAAF5JREFUeNpdz1ENwDAIBFAsnIWzcBawgIVaqIXKHs26lZavF8IRMDMDYKs2QQo34YqvuZmpiBWsjBDfmUrmtnYRztFdRCXEMXJCJ71nzPvFNu0tDk5r3Vk4v8R/78sHG24g8QGIp0IAAAAASUVORK5CYII=",
                 "href": "/wiki/Putrid_Scent",
-                "boost": "+5% damage+5%critical strikechance"
+                "boost": "+5% damage\n+5%critical strikechance"
             }
         ]
     },
@@ -83,19 +83,19 @@
                 "name": "Well Fed",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFISURBVFhH1ZUhSwRRFIUHf4XVKP4CQbBMtInVatEfYDNZbBZBDP4Ao0Gw2wzW1SZGs7Cio+/KJ3fPvrujwq53L3zhvXfeOYeZZbZx082YsamJpsn32Mbt87txOvhi4WgwEXS/1ZNDbp4C3qzQXr+NoOcYgZ733c9XgEfFhcjYh9aI9PiSk7+AGvwVfOanABegZurZX12eiPrlLYBge6sdoS/w9WTX6G4ODdbnm+sGOl+ikK8AAQQ/Pb4YrDdWFg2Mo+CoCPfJyVsA4eXFmYHB/V5rREG6Rj8/BfRHwgXQIqCBgB7wwT9fAf0Q7aw1hr4a0IAI9PiGH6I0BQgePhwYWiQqFEHwj/+M/q2ABnfDK6OviEIgsJ+/ABcIujteMlh704IPLeg5gaDn+QqoEcE8MsWbFWoaDzpyUhVg/OYsGJuaaJp8TtN8AHOUtPysB/JVAAAAAElFTkSuQmCC",
                 "href": "/wiki/Well_Fed",
-                "boost": "+5% damage+2% critical strike chance"
+                "boost": "+5% damage\n+2% critical strike chance"
             },
             {
                 "name": "Plenty Satisfied",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFRSURBVFhH1dUxSgNREMbxxc4r2Fl4iIClNxBsLSw8gq0g2NhZ2noFC8HKA1jYBq+gBwjomrzwk93JPheLJOODfzGzM9/38dhsms5pN8zKGRpaJz+nNF7evwp30yU7N9NfMffXeT588wToii04evrsEZ8TQnw+tp8vgKuyUBO+2m0GOZ5rLIjzdOjyyR8gCjD6OJ0U2uuTHvqC2KPzfwJYwJhxJAaJenkDxEHG1QAPZ30qAexH/XwBvDQWCRF4nhwU9GuYs6ev5pM3QBRwtWoBzUG/tmcubwAvB6EoYFHdvfahK1bToVt9CbcewAfC4PnhEgZqBjUY24sBqh+iNAEYzd4uC/cXewV1LQgDhj5QguQPMGbczh4L6hiEQY3Rv+OtB/DzIPx6u18QRB2NYR8MEZ/nCxCFGLmyWHfFFujXMMcnVQCn29wEK2doaJ3MT9N8A7WW/J2ZPuN+AAAAAElFTkSuQmCC",
                 "href": "/wiki/Plenty_Satisfied",
-                "boost": "+7.5% damage+3% critical strike chance"
+                "boost": "+7.5% damage\n+3% critical strike chance"
             },
             {
                 "name": "Exquisitely Stuffed",
                 "image": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVFhHzZUxakJREEU/WYZNyBIshZSp7AKSDVhYZAFa2ttZiVXAzg1EyAKsLGwlpW02IBjjHzny/tXxYaGZB6eYmfvmXr6fb5Gc3Z05OedEt+R4rLH4+TXGqwMPg9VF0F2rxwffOAHSZSUvX9sKOmcR6Dx3P16AdvutAou9voca0ScIP0ncAJ+zD6P5WDO8vkcapoQg8QMwYNG81zLS5SX9et2YvjYq0FcIAHEDIMCIxQShTsOUqCH69ejd0Dk+8QLoS+MZEITaM6RmDszjBsAYIzUEFmKkOmp0Oo8XIPfogUVKbg7o4gXgA0GQznNhEIiaBVorakjNvrgBWLz57huTbs3w6lwQwBifeAGuNd5tZgY19zFSsn/H/x5AX77l8MnA2KvRcx8wBJ3HC8CnGAGLeWRejZ6+Bzp8QgXgpM17cHLOiW7J/hTFH/QLil1uO+h5AAAAAElFTkSuQmCC",
                 "href": "/wiki/Exquisitely_Stuffed",
-                "boost": "+10% damage+4% critical strike chance"
+                "boost": "+10% damage\n+4% critical strike chance"
             },
             {
                 "name": "Wrath Potion",
